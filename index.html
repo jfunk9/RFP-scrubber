@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MN A/E Bid Dashboard</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #334155;
+    --border: #475569;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --accent: #3b82f6;
+    --flag: #f59e0b;
+    --flag-bg: rgba(245, 158, 11, 0.08);
+    --error: #ef4444;
+    --green: #22c55e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+  }
+  .header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .header .subtitle {
+    color: var(--text-dim);
+    font-size: 13px;
+  }
+  .stats {
+    display: flex;
+    gap: 24px;
+    padding: 16px 32px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+  .stat-value {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .stat-value.flag { color: var(--flag); }
+  .stat-value.green { color: var(--green); }
+  .stat-value.error { color: var(--error); }
+  .stat-label {
+    font-size: 11px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .controls {
+    display: flex;
+    gap: 12px;
+    padding: 16px 32px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls input, .controls select {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .controls input { flex: 1; min-width: 200px; }
+  .controls select { min-width: 150px; }
+  .controls label {
+    font-size: 13px;
+    color: var(--text-dim);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  .controls input[type="checkbox"] {
+    flex: unset;
+    min-width: unset;
+    width: 16px;
+    height: 16px;
+    accent-color: var(--flag);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  thead th {
+    background: var(--surface);
+    padding: 10px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-dim);
+    border-bottom: 2px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:hover { color: var(--text); }
+  thead th .arrow { margin-left: 4px; opacity: 0.4; }
+  thead th.sorted .arrow { opacity: 1; color: var(--accent); }
+  tbody td {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--surface2);
+    vertical-align: top;
+  }
+  tbody tr:hover { background: var(--surface); }
+  tbody tr.flagged { background: var(--flag-bg); }
+  tbody tr.flagged td:first-child {
+    border-left: 3px solid var(--flag);
+    padding-left: 13px;
+  }
+  tbody tr.error-row td { color: var(--error); opacity: 0.7; }
+  tbody tr.empty-row td { color: var(--text-dim); font-style: italic; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .tag-flag { background: rgba(245,158,11,0.15); color: var(--flag); }
+  .detail { color: var(--text-dim); font-size: 12px; margin-top: 2px; }
+  .manual-check {
+    padding: 12px 32px;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .manual-check a { margin: 0 8px; }
+  .count-info {
+    padding: 0 32px 8px;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MN Architecture &amp; Engineering Bid Dashboard</h1>
+  <div class="subtitle">Last updated: 2026-04-08 22:41 (demo — run scraper for live data) &nbsp;|&nbsp; The Adkins Association</div>
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <span class="stat-value flag">0</span>
+    <span class="stat-label">A/E Flagged</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">0</span>
+    <span class="stat-label">Total Listings</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value green">22</span>
+    <span class="stat-label">Sites OK</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value error">0</span>
+    <span class="stat-label">Sites Error</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">22</span>
+    <span class="stat-label">Sites Checked</span>
+  </div>
+</div>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Filter by keyword..." />
+  <select id="siteFilter">
+    <option value="">All sites</option>
+  </select>
+  <label><input type="checkbox" id="flaggedOnly" /> Flagged only</label>
+</div>
+<div class="count-info" id="countInfo"></div>
+
+<table>
+  <thead>
+    <tr>
+      <th data-col="site">Site <span class="arrow">&#x25B4;</span></th>
+      <th data-col="title">Title <span class="arrow">&#x25B4;</span></th>
+      <th data-col="detail">Detail <span class="arrow">&#x25B4;</span></th>
+    </tr>
+  </thead>
+  <tbody id="tbody"></tbody>
+</table>
+
+<div class="manual-check">
+  Manual check (403 blocked): <a href="https://www.stlouisparkmn.gov/government/legal-notices-248" target="_blank" rel="noopener">St. Louis Park, MN</a><a href="https://www.carvercountymn.gov/government/requests-for-bids-and-proposals" target="_blank" rel="noopener">Carver County, MN</a>
+</div>
+
+<script>
+const DATA = [{"site": "Maplewood, MN", "title": "(no open bids)", "detail": "", "url": "https://maplewoodmn.gov/Bids.aspx", "flagged": false, "error": false}, {"site": "Golden Valley, MN", "title": "(no open bids)", "detail": "", "url": "https://www.goldenvalleymn.gov/bids.aspx", "flagged": false, "error": false}, {"site": "Elk River, MN", "title": "(no open bids)", "detail": "", "url": "https://www.elkrivermn.gov/bids.aspx", "flagged": false, "error": false}, {"site": "Lino Lakes, MN", "title": "(no open bids)", "detail": "", "url": "https://linolakes.us/bids.aspx", "flagged": false, "error": false}, {"site": "Hibbing, MN", "title": "(no open bids)", "detail": "", "url": "https://hibbingmn.gov/Bids.aspx", "flagged": false, "error": false}, {"site": "Faribault, MN", "title": "(no open bids)", "detail": "", "url": "https://www.ci.faribault.mn.us/Bids.aspx", "flagged": false, "error": false}, {"site": "Forest Lake, MN", "title": "(no open bids)", "detail": "", "url": "https://ci.forest-lake.mn.us/Bids.aspx", "flagged": false, "error": false}, {"site": "Anoka County (QuestCDN)", "title": "(no open bids)", "detail": "", "url": "https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all", "flagged": false, "error": false}, {"site": "Eagan, MN (QuestCDN)", "title": "(no open bids)", "detail": "", "url": "https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193", "flagged": false, "error": false}, {"site": "Moorhead, MN (QuestCDN)", "title": "(no open bids)", "detail": "", "url": "https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465", "flagged": false, "error": false}, {"site": "MN State (QuestCDN)", "title": "(no open bids)", "detail": "", "url": "https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464", "flagged": false, "error": false}, {"site": "MN OSP (State Solicitations)", "title": "(no open bids)", "detail": "", "url": "https://osp.admin.mn.gov/PT-auto", "flagged": false, "error": false}, {"site": "MBID (UMN / Public Agencies)", "title": "(no open bids)", "detail": "", "url": "https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1", "flagged": false, "error": false}, {"site": "Lino Lakes RFPs", "title": "(no open bids)", "detail": "", "url": "https://linolakes.us/556/Request-for-Proposals", "flagged": false, "error": false}, {"site": "Saint Paul Public Schools", "title": "(no open bids)", "detail": "", "url": "https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD", "flagged": false, "error": false}, {"site": "Roseville ISD 623", "title": "(no open bids)", "detail": "", "url": "https://www.isd623.org/services/business-services", "flagged": false, "error": false}, {"site": "Anoka-Hennepin Schools", "title": "(no open bids)", "detail": "", "url": "https://www.ahschools.us/services/purchasing", "flagged": false, "error": false}, {"site": "Mounds View Schools", "title": "(no open bids)", "detail": "", "url": "https://www.mvpschools.org/about/finance/bids", "flagged": false, "error": false}, {"site": "Stillwater ISD 834", "title": "(no open bids)", "detail": "", "url": "https://www.stillwaterschools.org/our-district/departments/business-finance", "flagged": false, "error": false}, {"site": "Hudson Schools (WI)", "title": "(no open bids)", "detail": "", "url": "https://www.hudsonraiders.org/district/departments", "flagged": false, "error": false}, {"site": "St. Cloud ISD 742", "title": "(no open bids)", "detail": "", "url": "https://www.isd742.org/departments/business-services/call-for-bids", "flagged": false, "error": false}, {"site": "Rochester Public Schools (Bonfire)", "title": "(no open bids)", "detail": "", "url": "https://rochesterschools.bonfirehub.com/portal/?tab=openOpportunities", "flagged": false, "error": false}];
+
+// Populate site filter dropdown
+const sites = [...new Set(DATA.map(r => r.site))].sort();
+const sel = document.getElementById("siteFilter");
+sites.forEach(s => {
+  const o = document.createElement("option");
+  o.value = s; o.textContent = s;
+  sel.appendChild(o);
+});
+
+let sortCol = "site", sortAsc = true;
+
+function render() {
+  const q = document.getElementById("search").value.toLowerCase();
+  const site = sel.value;
+  const flagOnly = document.getElementById("flaggedOnly").checked;
+
+  let rows = DATA.filter(r => {
+    if (flagOnly && !r.flagged) return false;
+    if (site && r.site !== site) return false;
+    if (q) {
+      const hay = (r.site + " " + r.title + " " + r.detail).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  rows.sort((a, b) => {
+    let va = a[sortCol] || "", vb = b[sortCol] || "";
+    // Flagged items always first
+    if (a.flagged !== b.flagged) return a.flagged ? -1 : 1;
+    if (typeof va === "string") va = va.toLowerCase();
+    if (typeof vb === "string") vb = vb.toLowerCase();
+    if (va < vb) return sortAsc ? -1 : 1;
+    if (va > vb) return sortAsc ? 1 : -1;
+    return 0;
+  });
+
+  const tbody = document.getElementById("tbody");
+  tbody.innerHTML = rows.map(r => {
+    const cls = r.error ? "error-row" :
+                r.title === "(no open bids)" ? "empty-row" :
+                r.flagged ? "flagged" : "";
+    const tag = r.flagged ? ' <span class="tag tag-flag">A/E</span>' : "";
+    const titleCell = r.url && !r.error && r.title !== "(no open bids)"
+      ? `<a href="${r.url}" target="_blank" rel="noopener">${esc(r.title)}</a>${tag}`
+      : esc(r.title) + tag;
+    const detailHtml = r.detail ? `<div class="detail">${esc(r.detail)}</div>` : "";
+    return `<tr class="${cls}"><td>${esc(r.site)}</td><td>${titleCell}</td><td>${detailHtml || "&mdash;"}</td></tr>`;
+  }).join("");
+
+  const flagCount = rows.filter(r => r.flagged).length;
+  document.getElementById("countInfo").textContent =
+    `Showing ${rows.length} of ${DATA.length} listings` +
+    (flagCount ? ` (${flagCount} flagged)` : "");
+}
+
+function esc(s) {
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// Sort on header click
+document.querySelectorAll("thead th").forEach(th => {
+  th.addEventListener("click", () => {
+    const col = th.dataset.col;
+    if (sortCol === col) sortAsc = !sortAsc;
+    else { sortCol = col; sortAsc = true; }
+    document.querySelectorAll("thead th").forEach(h => h.classList.remove("sorted"));
+    th.classList.add("sorted");
+    th.querySelector(".arrow").innerHTML = sortAsc ? "&#x25B4;" : "&#x25BE;";
+    render();
+  });
+});
+
+document.getElementById("search").addEventListener("input", render);
+sel.addEventListener("change", render);
+document.getElementById("flaggedOnly").addEventListener("change", render);
+
+render();
+</script>
+</body>
+</html>
