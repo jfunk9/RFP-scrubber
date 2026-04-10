@@ -8,7 +8,8 @@ Usage:
     python3 mn_bid_scraper.py
 
 Requirements:
-    pip install requests beautifulsoup4 lxml
+    pip install requests beautifulsoup4 lxml playwright
+    playwright install chromium
 """
 
 import requests
@@ -17,6 +18,58 @@ from datetime import datetime
 import time
 import os
 import re
+
+# ── Playwright helper for JS-heavy sites ──────────────────────────────────────
+
+_browser = None
+
+def get_browser():
+    """Lazy-load a Playwright browser instance (shared across all JS scrapes)."""
+    global _browser
+    if _browser is None:
+        try:
+            from playwright.sync_api import sync_playwright
+            pw = sync_playwright().start()
+            _browser = pw.chromium.launch(headless=True)
+            print("  [✓] Playwright browser launched successfully")
+        except ImportError:
+            print("  [!] Playwright not installed — run: pip install playwright && playwright install chromium")
+            return None
+        except Exception as e:
+            print(f"  [!] Could not launch browser: {e}")
+            return None
+    return _browser
+
+
+def fetch_js(url, wait_selector=None, wait_ms=3000):
+    """
+    Fetch a page using a headless browser (for JS-rendered content).
+    Returns BeautifulSoup, or (None, error_string) on failure.
+    """
+    browser = get_browser()
+    if browser is None:
+        return None, "Playwright not available"
+    try:
+        page = browser.new_page()
+        page.goto(url, timeout=20000)
+        if wait_selector:
+            try:
+                page.wait_for_selector(wait_selector, timeout=8000)
+                print(f"    [JS] Found selector '{wait_selector}'")
+            except:
+                print(f"    [JS] Selector '{wait_selector}' not found, using page as-is")
+        else:
+            page.wait_for_timeout(wait_ms)
+        html = page.content()
+        page.close()
+        return BeautifulSoup(html, "lxml")
+    except Exception as e:
+        print(f"    [JS] Error: {e}")
+        try:
+            page.close()
+        except:
+            pass
+        return None, str(e)
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
@@ -54,6 +107,18 @@ AE_KEYWORDS_STRONG = [
     "ada compliance", "ada upgrade", "accessibility improvement",
     "architect (design)",     # MBID bid type label
     "designer selection",     # SDSB-style postings
+    # Facility/infrastructure keywords for Met Council, MnDOT, Hennepin
+    "hvac",
+    "boiler replacement", "boiler upgrade",
+    "elevator replacement", "elevator upgrade",
+    "engineering services", "engineering and project management",
+    "construction contract administration",
+    "design-build", "design build",
+    "facility renovation", "station renovation",
+    "clinic renovation",
+    "fire system upgrade", "fire alarm",
+    "lighting upgrade",
+    "envelope restoration",
 ]
 
 # Secondary keywords — only flag if ALSO paired with a strong keyword OR
@@ -104,23 +169,8 @@ EXCLUDE_KEYWORDS = [
 # GitHub repo folder — the HTML dashboard goes here for GitHub Pages
 GITHUB_REPO_DIR = r"W:\AI\GitHub\RFP scrubber"
 
-# Text report — saved next to this script as a local backup
-def get_output_path():
-    onedrive = os.environ.get("OneDrive", "")
-    candidates = [
-        os.path.join(onedrive, "Desktop", "mn_bids_report.txt") if onedrive else "",
-        os.path.expanduser("~/Desktop/mn_bids_report.txt"),
-        os.path.expanduser("~/OneDrive/Desktop/mn_bids_report.txt"),
-    ]
-    for path in candidates:
-        if not path:
-            continue
-        folder = os.path.dirname(path)
-        if os.path.isdir(folder):
-            return path
-    return os.path.join(os.path.dirname(os.path.abspath(__file__)), "mn_bids_report.txt")
-
-OUTPUT_FILE = get_output_path()
+# Text report — saved next to this script
+OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mn_bids_report.txt")
 
 # Full browser headers — fixes most 403 blocks
 HEADERS = {
@@ -149,6 +199,11 @@ SITES = [
     ("Hibbing, MN",         "https://hibbingmn.gov/Bids.aspx",                      "civicengage"),
     ("Faribault, MN",       "https://www.ci.faribault.mn.us/Bids.aspx",             "civicengage"),
     ("Forest Lake, MN",     "https://ci.forest-lake.mn.us/Bids.aspx",               "civicengage"),
+    ("Woodbury, MN",        "https://woodburywithin.woodburymn.gov/Bids.aspx",       "civicengage"),
+    ("St. Cloud, MN",       "https://www.ci.stcloud.mn.us/Bids.aspx",               "civicengage"),
+    ("Northfield, MN",      "https://www.northfieldmn.gov/Bids.aspx",               "civicengage"),
+    ("Washington County",   "https://www.washingtoncountymn.gov/Bids.aspx",          "civicengage"),
+    ("Scott County",        "https://www.scottcountymn.gov/Bids.aspx",               "civicengage"),
 
     # --- QuestCDN agency portals (same platform, same scraper) ---
     ("Anoka County (QuestCDN)",     "https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all",   "questcdn"),
@@ -186,6 +241,17 @@ SITES = [
     ("Rochester Public Schools (Bonfire)",
      "https://rochesterschools.bonfirehub.com/portal/?tab=openOpportunities",
      "bonfire"),
+
+    # --- High-value regional sources ---
+    ("Metropolitan Council",
+     "https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx",
+     "metcouncil"),
+    ("MnDOT P/T Consultant Notices",
+     "https://www.dot.state.mn.us/consult/notices.html",
+     "mndot_pt"),
+    ("Hennepin County (ProcureWare)",
+     "https://hennepin.procureware.com/Bids",
+     "procureware"),
 ]
 
 # Sites removed due to persistent 403 blocks — check these manually:
@@ -279,37 +345,37 @@ def scrape_civicengage(url):
 def scrape_questcdn(url):
     """
     QuestCDN agency portal pages (?group=XXXX).
-    Uses a session to handle cookies. Visits the base site first,
-    then the agency-specific listing page.
+    Uses Playwright (headless browser) because the DataTables content
+    is loaded via JavaScript AJAX after page load.
 
     Structure (confirmed via browser inspection):
       table#table_id.datatable (DataTables jQuery plugin)
-        thead > tr > th  (22 columns, many hidden)
+        thead > tr > th  (columns vary by portal)
         tbody > tr
           td[0]  Post Date
           td[1]  Quest Number
           td[2]  Category Code
-          td[3]  Bid/Request Name      ← title (contains <a onclick="prevnext(ID)">)
+          td[3]  Bid/Request Name      ← title (contains <a> link)
           td[4]  Bid Closing Date
           td[5]  City
-          td[6]  County
-          td[7]  State
-          td[8]  Owner
-          td[9]  Solicitor
-          td[10] Posting Type
-    Links use onclick="prevnext(questID)" — detail URL is the base page with id param.
+          ...more columns...
     """
-    try:
-        session = requests.Session()
-        session.headers.update(HEADERS)
-        # Prime the session with a cookie from the main site
-        session.get("https://qcpi.questcdn.com/", timeout=TIMEOUT)
-        time.sleep(0.5)
-        r = session.get(url, timeout=TIMEOUT)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "lxml")
-    except Exception as e:
-        return [], str(e)
+    # Use Playwright to render JS-loaded DataTable
+    result = fetch_js(url, wait_selector="table#table_id tbody tr", wait_ms=5000)
+    if isinstance(result, tuple):
+        # Fallback to requests if Playwright unavailable
+        try:
+            session = requests.Session()
+            session.headers.update(HEADERS)
+            session.get("https://qcpi.questcdn.com/", timeout=TIMEOUT)
+            time.sleep(0.5)
+            r = session.get(url, timeout=TIMEOUT)
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, "lxml")
+        except Exception as e:
+            return [], str(e)
+    else:
+        soup = result
 
     bids = []
 
@@ -388,6 +454,7 @@ def scrape_mn_osp(url):
               (and other fields: swift event id, version, contact phone, etc.)
     No per-listing detail links — the portal link is generic (mn.gov/supplier).
     """
+    # Try requests first (Drupal should render server-side)
     result = fetch(url)
     if isinstance(result, tuple):
         return [], result[1]
@@ -397,6 +464,13 @@ def scrape_mn_osp(url):
 
     # Find all listing items in the Drupal views list
     items = soup.select(".item-list ul li")
+
+    # If requests returned no items, try Playwright
+    if not items:
+        result2 = fetch_js(url, wait_selector=".item-list ul li", wait_ms=4000)
+        if not isinstance(result2, tuple):
+            soup = result2
+            items = soup.select(".item-list ul li")
     if not items:
         # Fallback: try views-row divs
         items = soup.select(".views-row")
@@ -429,13 +503,14 @@ def scrape_mbid(url):
     """
     MBID / Ionwave — UMN and other public agency bids.
     Public current-bids page: SourcingEvents.aspx?SourceType=1
+    Uses Playwright because the Telerik RadGrid is rendered via ASP.NET postbacks.
 
     Structure (confirmed via browser inspection):
       Telerik RadGrid (ASP.NET) rendered as a standard HTML table
       table#ctl00_mainContent_rgBidList_ctl00
         thead > tr > th   (columns: [template], BidNumber, Title, TypeTitle,
                            WorkGroupName(hidden), OpenDate, CloseDate)
-        tbody > tr         ← one per bid
+        tbody > tr.rgRow / tr.rgAltRow  ← data rows (skip pager rows)
           td[0]  (empty template column)
           td[1]  Bid Number
           td[2]  Bid Title
@@ -443,12 +518,17 @@ def scrape_mbid(url):
           td[4]  Organization
           td[5]  Open Date
           td[6]  Close Date/Time
-    Rows are clickable (PostBackOnRowClick) — no direct <a> href per row.
     """
-    result = fetch(url)
+    # Use Playwright to render ASP.NET content
+    result = fetch_js(url, wait_selector="tr.rgRow", wait_ms=5000)
     if isinstance(result, tuple):
-        return [], result[1]
-    soup = result
+        # Fallback to requests
+        result2 = fetch(url)
+        if isinstance(result2, tuple):
+            return [], result2[1]
+        soup = result2
+    else:
+        soup = result
 
     bids = []
 
@@ -469,14 +549,29 @@ def scrape_mbid(url):
     if not table:
         return [], None
 
-    tbody = table.find("tbody")
+    # IMPORTANT: use recursive=False to get the direct-child <tbody>, not a
+    # nested tbody buried inside the TFOOT pager controls.
+    tbody = table.find("tbody", recursive=False)
+    if not tbody:
+        tbody = table.find("tbody")
     if not tbody:
         return [], None
 
-    for row in tbody.find_all("tr"):
+    for row in tbody.find_all("tr", recursive=False):
+        # Only process actual data rows (rgRow / rgAltRow), skip pager and control rows
+        row_class = row.get("class", [])
         cells = row.find_all("td")
+
+        # Skip rows with too few cells (pager rows, control rows)
         if len(cells) < 5:
             continue
+
+        # Skip pager/control rows that don't have rgRow or rgAltRow class
+        # (if Playwright rendered the page, data rows have these classes)
+        if row_class and not any(c in ["rgRow", "rgAltRow"] for c in row_class):
+            # But if no rows have rgRow class (requests fallback), process all 7-cell rows
+            if tbody.find("tr", class_="rgRow"):
+                continue
 
         # Extract fields — column order: [template], BidNumber, Title, Type, Org, OpenDate, CloseDate
         bid_number = cells[1].get_text(strip=True) if len(cells) > 1 else ""
@@ -879,6 +974,155 @@ def scrape_generic(url):
     return bids, None
 
 
+def scrape_metcouncil(url):
+    """
+    Metropolitan Council contracting opportunities.
+    Structure: table.table-sort with columns:
+      Division | Number | Title/General Description | Issue Date | Due Date | Type
+    Multiple tables on page (with/without small-biz goals); we scrape all.
+    """
+    result = fetch(url)
+    if isinstance(result, tuple):
+        return [], result[1]
+    soup = result
+
+    bids = []
+    for table in soup.find_all("table", class_="table-sort"):
+        rows = table.find_all("tr")
+        for row in rows[1:]:  # skip header
+            cells = row.find_all("td")
+            if len(cells) < 4:
+                continue
+            # Single-cell "no opportunities" placeholder row
+            if len(cells) == 1:
+                continue
+            division = cells[0].get_text(strip=True) if len(cells) > 0 else ""
+            number = cells[1].get_text(strip=True) if len(cells) > 1 else ""
+            title = cells[2].get_text(strip=True) if len(cells) > 2 else ""
+            issue_date = cells[3].get_text(strip=True) if len(cells) > 3 else ""
+            due_date = cells[4].get_text(strip=True) if len(cells) > 4 else ""
+            bid_type = cells[5].get_text(strip=True) if len(cells) > 5 else ""
+
+            if not title or len(title) < 3:
+                continue
+
+            detail_parts = [p for p in [number, bid_type, division, f"Due: {due_date}"] if p]
+            detail = " | ".join(detail_parts)
+
+            bids.append({"title": title, "detail": detail[:200], "url": url})
+
+    return bids, None
+
+
+def scrape_mndot_pt(url):
+    """
+    MnDOT Professional/Technical Consultant Notices.
+    Structure: h3 headings for each notice under the
+    'Notices Open To All Consultants' section, followed by <p> with description
+    and <p> with dates. Also scrapes 'pre-qualified' section.
+    """
+    result = fetch(url)
+    if isinstance(result, tuple):
+        return [], result[1]
+    soup = result
+
+    bids = []
+    # Find all h2 sections that contain notices
+    target_sections = [
+        "Notices Open To All Consultants",
+        "Notices open only to pre-qualified consultants",
+    ]
+
+    for h2 in soup.find_all("h2"):
+        h2_text = h2.get_text(strip=True)
+        if not any(target.lower() in h2_text.lower() for target in target_sections):
+            continue
+
+        # Walk siblings until next h2
+        el = h2.find_next_sibling()
+        while el and el.name != "h2":
+            if el.name == "h3":
+                title = el.get_text(strip=True)
+                # Gather description and dates from following <p> elements
+                detail_parts = []
+                sib = el.find_next_sibling()
+                while sib and sib.name not in ("h2", "h3"):
+                    if sib.name == "p":
+                        text = sib.get_text(strip=True)
+                        if text and len(text) > 5:
+                            detail_parts.append(text)
+                    sib = sib.find_next_sibling()
+
+                detail = " | ".join(detail_parts)
+                if title and len(title) > 3:
+                    bids.append({"title": title, "detail": detail[:300], "url": url})
+
+            el = el.find_next_sibling()
+
+    return bids, None
+
+
+def scrape_procureware(url):
+    """
+    Hennepin County ProcureWare — JS-rendered grid of bids.
+    Uses Playwright because the grid is loaded via AJAX.
+    We look for rows in the grid table that are 'Open for Bidding'.
+    """
+    # ProcureWare uses a Kendo UI grid — the data table is inside .k-grid-content,
+    # separate from the header table in .k-grid-header-wrap.
+    result = fetch_js(url, wait_selector=".k-grid-content table tr", wait_ms=8000)
+    if isinstance(result, tuple):
+        # Fallback to requests (will likely get empty grid)
+        result2 = fetch(url)
+        if isinstance(result2, tuple):
+            return [], result2[1]
+        soup = result2
+    else:
+        soup = result
+
+    bids = []
+    # Find the Kendo data table (inside .k-grid-content), not the header table
+    grid = soup.select_one(".k-grid-content table")
+    if not grid:
+        # Fallback: largest table on the page
+        for t in soup.find_all("table"):
+            if len(t.find_all("tr")) > 5:
+                grid = t
+                break
+    if not grid:
+        return [], None
+
+    rows = grid.find_all("tr")
+    for row in rows[1:]:  # skip header
+        cells = row.find_all("td")
+        if len(cells) < 8:
+            continue
+
+        # Column order from page: Id, Guid, Number, Title, Description, Status,
+        #   Bid Type, Contact, Available Date, Clarification Deadline,
+        #   Due Date, Cancel Date, Award Date, Awardee, Process, Categories, Plans, Location
+        number = cells[2].get_text(strip=True) if len(cells) > 2 else ""
+        title = cells[3].get_text(strip=True) if len(cells) > 3 else ""
+        status = cells[5].get_text(strip=True) if len(cells) > 5 else ""
+        bid_type = cells[6].get_text(strip=True) if len(cells) > 6 else ""
+        due_date = cells[10].get_text(strip=True) if len(cells) > 10 else ""
+
+        if not title or len(title) < 3:
+            continue
+
+        # Only include open bids (skip awarded, cancelled, closed)
+        if status.lower() not in ("open for bidding", ""):
+            continue
+
+        detail_parts = [p for p in [number, bid_type, f"Due: {due_date}"] if p]
+        detail = " | ".join(detail_parts)
+
+        bid_url = url  # ProcureWare doesn't have simple per-bid URLs
+        bids.append({"title": title, "detail": detail[:200], "url": bid_url})
+
+    return bids, None
+
+
 SCRAPER_MAP = {
     "civicengage":      scrape_civicengage,
     "questcdn":         scrape_questcdn,
@@ -889,6 +1133,9 @@ SCRAPER_MAP = {
     "finalsite_boards": scrape_finalsite_boards,
     "finalsite_posts":  scrape_finalsite_posts,
     "bonfire":          scrape_bonfire,
+    "metcouncil":       scrape_metcouncil,
+    "mndot_pt":         scrape_mndot_pt,
+    "procureware":      scrape_procureware,
     "generic":          scrape_generic,
 }
 
@@ -1416,4 +1663,12 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    try:
+        run()
+    finally:
+        # Clean up Playwright browser if it was started
+        if _browser is not None:
+            try:
+                _browser.close()
+            except:
+                pass
