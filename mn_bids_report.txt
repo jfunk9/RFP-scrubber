@@ -1,11 +1,11 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-04-09 20:20
+  Generated: 2026-04-09 20:57
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (12 total)
+FLAGGED AS LIKELY RELEVANT (19 total)
 ----------------------------------------------------------------------
-  [Faribault, MN]
+  [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
   2026-07 Bid Advertisement    2026-07 Project Bid Link | Status: Closes: Open Upon Contract
   --> https://www.ci.faribault.mn.us/bids.aspx?bidID=22
@@ -65,15 +65,50 @@ FLAGGED AS LIKELY RELEVANT (12 total)
   Brief Description:ÂMnDOT requests proposals for assistance in performing tasks necessary to verify that the Blatnik Brid
   --> https://www.dot.state.mn.us/consult/notices.html
 
+  [Iowa DAS (State Bids)]
+  Iowa Veterans Home Dack and Malloy Building Roof Replacement
+  RFB948300-01 | Administrative Services, Dept | Expires: 4/23/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a7ff30d9-fdaa-425f-9b14-fc74b7c1e888
+
+  [Nebraska DAS (State Bids)]
+  02/26/26
+  123895 O5 REBID | Request for Proposal | State Purchasing Bureau | Opens: Architectural and Engineering Services, Non-Pr
+  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+
+  [Nebraska DAS (State Bids)]
+  01/07/26
+  123895 O5 | Request for Proposal | State Purchasing Bureau | Opens: Architectural and Engineering Services, Non-Professi
+  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+
+  [Nebraska DAS (State Bids)]
+  08/05/25
+  122255 O5 | Request for Proposal | State Purchasing Bureau | Opens: HVAC Systems Maintenance and Repair, Power Plant - 9
+  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+
+  [Nebraska DAS (State Bids)]
+  08/14/24
+  RFP DS2401 | Request for Proposal | Department of Natural Resources | Opens: Engineering Services, Professional-92500
+  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+
+  [Nebraska DAS (State Bids)]
+  07/31/24
+  6903 Z1 REBID | Request for Proposal | State Purchasing Bureau | Opens: Towers - Architectural Services
+  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+
+  [Nebraska DAS (State Bids)]
+  07/17/24
+  6903 Z1 | Request for Proposal | State Purchasing Bureau | Opens: Towers - Architectural Services
+  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+
 
 ALL LISTINGS BY SITE
 ======================================================================
 
-[ Maplewood, MN ]
+[ Maplewood ]
   https://maplewoodmn.gov/Bids.aspx
   No open bids found (site may require login or be empty)
 
-[ Golden Valley, MN ]
+[ Golden Valley ]
   https://www.goldenvalleymn.gov/bids.aspx
     Current Engineering Project Bid Information
       https://www.goldenvalleymn.gov/bids.aspx?bidID=5
@@ -88,20 +123,20 @@ ALL LISTINGS BY SITE
     RFQ: 2026 Pavement Preservation Project
       https://www.goldenvalleymn.gov/bids.aspx?bidID=132
 
-[ Elk River, MN ]
+[ Elk River ]
   https://www.elkrivermn.gov/bids.aspx
     City of Elk River - Advertisement for Bids - 2026 Parking Lot Improvements
       https://www.elkrivermn.gov/bids.aspx?bidID=120
 
-[ Lino Lakes, MN ]
+[ Lino Lakes ]
   https://linolakes.us/bids.aspx
   No open bids found (site may require login or be empty)
 
-[ Hibbing, MN ]
+[ Hibbing ]
   https://hibbingmn.gov/Bids.aspx
   No open bids found (site may require login or be empty)
 
-[ Faribault, MN ]
+[ Faribault ]
   https://www.ci.faribault.mn.us/Bids.aspx
     Contract 2026-01 Miscellaneous Concrete
       https://www.ci.faribault.mn.us/bids.aspx?bidID=17
@@ -120,22 +155,22 @@ ALL LISTINGS BY SITE
     Contract 2026-11 Viaduct Park Resurfacer Garage
       https://www.ci.faribault.mn.us/bids.aspx?bidID=23
 
-[ Forest Lake, MN ]
+[ Forest Lake ]
   https://ci.forest-lake.mn.us/Bids.aspx
   No open bids found (site may require login or be empty)
 
-[ Woodbury, MN ]
+[ Woodbury ]
   https://woodburywithin.woodburymn.gov/Bids.aspx
   No open bids found (site may require login or be empty)
 
-[ St. Cloud, MN ]
+[ St. Cloud ]
   https://www.ci.stcloud.mn.us/Bids.aspx
     St. Cloud Fire Station 6 Project
       https://www.ci.stcloud.mn.us/bids.aspx?bidID=268
     St. Cloud Fire Station 6 Project
       https://www.ci.stcloud.mn.us/bids.aspx?bidID=268
 
-[ Northfield, MN ]
+[ Northfield ]
   https://www.northfieldmn.gov/Bids.aspx
     Bids & Request For Proposals
 
@@ -163,11 +198,11 @@ ALL LISTINGS BY SITE
   https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all
   No open bids found (site may require login or be empty)
 
-[ Eagan, MN (QuestCDN) ]
+[ Eagan (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193
   No open bids found (site may require login or be empty)
 
-[ Moorhead, MN (QuestCDN) ]
+[ Moorhead (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465
     JKJ Moorhead Municipal - Runway 12-30 PAPI Replace...
       https://qcpi.questcdn.com/cdn/posting/?id=10122614
@@ -248,38 +283,6 @@ ALL LISTINGS BY SITE
   https://linolakes.us/556/Request-for-Proposals
     Request for Proposals
 
-[ Saint Paul Public Schools ]
-  https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD
-  No open bids found (site may require login or be empty)
-
-[ Roseville ISD 623 ]
-  https://www.isd623.org/services/business-services
-  No open bids found (site may require login or be empty)
-
-[ Anoka-Hennepin Schools ]
-  https://www.ahschools.us/services/purchasing
-  No open bids found (site may require login or be empty)
-
-[ Mounds View Schools ]
-  https://www.mvpschools.org/about/finance/bids
-  No open bids found (site may require login or be empty)
-
-[ Stillwater ISD 834 ]
-  https://www.stillwaterschools.org/our-district/departments/business-finance
-  No open bids found (site may require login or be empty)
-
-[ Hudson Schools (WI) ]
-  https://www.hudsonraiders.org/district/departments
-  No open bids found (site may require login or be empty)
-
-[ St. Cloud ISD 742 ]
-  https://www.isd742.org/departments/business-services/call-for-bids
-  No open bids found (site may require login or be empty)
-
-[ Rochester Public Schools (Bonfire) ]
-  https://rochesterschools.bonfirehub.com/portal/?tab=openOpportunities
-  No open bids found (site may require login or be empty)
-
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
     Orono Forcemain 7113 Improvements
@@ -306,7 +309,559 @@ ALL LISTINGS BY SITE
   https://hennepin.procureware.com/Bids
   No open bids found (site may require login or be empty)
 
+[ Saint Paul Public Schools ]
+  https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD
+  No open bids found (site may require login or be empty)
+
+[ Roseville ISD 623 ]
+  https://www.isd623.org/services/business-services
+  No open bids found (site may require login or be empty)
+
+[ Anoka-Hennepin Schools ]
+  https://www.ahschools.us/services/purchasing
+  No open bids found (site may require login or be empty)
+
+[ Mounds View Schools ]
+  https://www.mvpschools.org/about/finance/bids
+  No open bids found (site may require login or be empty)
+
+[ Stillwater ISD 834 ]
+  https://www.stillwaterschools.org/our-district/departments/business-finance
+  No open bids found (site may require login or be empty)
+
+[ St. Cloud ISD 742 ]
+  https://www.isd742.org/departments/business-services/call-for-bids
+  No open bids found (site may require login or be empty)
+
+[ Rochester Public Schools (Bonfire) ]
+  https://rochesterschools.bonfirehub.com/portal/?tab=openOpportunities
+  No open bids found (site may require login or be empty)
+
+[ Superior ]
+  https://www.superiorwi.gov/Bids.aspx
+  No open bids found (site may require login or be empty)
+
+[ Douglas County ]
+  https://www.douglascountywi.gov/Bids.aspx
+    Bids/ Contracts
+      https://www.douglascountywi.gov/1193/Bids-Contracts
+    3rd Party Bidding Qualifications
+      https://www.douglascountywi.gov/DocumentCenter/View/9429/3rd-Party-Bidding-Qualifications
+
+[ Hudson Schools ]
+  https://www.hudsonraiders.org/district/departments
+  No open bids found (site may require login or be empty)
+
+[ Iowa DAS (State Bids) ]
+  https://bidopportunities.iowa.gov/
+    Heartland Middle Iowa 25-26 Batch and Build Project
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7d4ffcc1-d6f6-441a-8e33-eab1f623476e
+    Heartland Lower Cedar 25-26 Batch and Build Project
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4388fbb1-ddb9-4518-9c8e-03e959e3be82
+    IDR Incoming Mailroom Modernization
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d6e036fb-23eb-44cb-8d82-bd348622bd03
+    Lawn Care, Landscaping, & Snow Removal for Ames & Ankeny DOT Campuses
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3684c1fd-9b21-4807-84b2-be032f4dd70d
+    Psychiatric Medication Consultation
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d690574b-8ceb-45b8-8d99-6e8dcec36842
+    After Hour Medication Order Verification
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f97584e3-db55-4b44-abc5-c3931ff7d516
+    Remove and replace 200 feet of 18” dual wall
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=dcf0f0ce-e17e-4b7c-8006-41211e90a6f8
+    Milk & Dairy Products for Fort Dodge Residential Correctional Facility
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=9a68f3c1-b381-4c4c-8835-60d1607534da
+    Preventative Maintenance and Calibration of Lab Pipettes
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=57d55bc3-7345-4bcd-aff8-a330b893531f
+    Milk for Davenport Work Release Center
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=58b1c864-6c31-41ed-b202-a5b3e255633b
+ ** Iowa Veterans Home Dack and Malloy Building Roof Replacement
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a7ff30d9-fdaa-425f-9b14-fc74b7c1e888
+    Milk for Burlington Residential Facility
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a7be8a06-ed39-4796-9fca-8e19f660c056
+    Above Ground Fuel Tank
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=07471bac-942a-4426-8e51-8a21fab0eefe
+    Keokuk RC Modernize Lighting
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0a7eae7e-8d6b-4035-9924-4ce8a7fce25d
+    Estherville RC Lighting Retrofit
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cc98f452-8ac2-40e0-b1bd-d7fcb675fdd0
+
+[ Dubuque ]
+  https://www.cityofdubuque.org/Bids.aspx
+    Public Works Concrete Banding and Crack Sealing Project
+      https://www.cityofdubuque.org/bids.aspx?bidID=1853
+    Addendum 1- City of Dubuque Pay-by-Plate Multi-Space Parking Meter (PbP MSM) System Procurement RFP
+      https://www.cityofdubuque.org/bids.aspx?bidID=1842
+    Addendum 1- Mobile License Plate Recognition Enforcement (Mobile LPR) System Procurement
+      https://www.cityofdubuque.org/bids.aspx?bidID=1841
+    Addendum 1- Questions and Answers- City of Dubuque Grass Mowing Services Bid
+      https://www.cityofdubuque.org/bids.aspx?bidID=1851
+    Addendum 1: Request for Qualifications- Campground Manager 2026
+      https://www.cityofdubuque.org/bids.aspx?bidID=1848
+    City of Dubuque Healthy Homes Project for 2060 Washington
+      https://www.cityofdubuque.org/bids.aspx?bidID=1854
+    City of Dubuque Lead and Healthy Homes Project for 418 Almond St.
+      https://www.cityofdubuque.org/bids.aspx?bidID=1852
+    Radon Testing and Mitigation System Installation
+      https://www.cityofdubuque.org/bids.aspx?bidID=1850
+    Addendum 1- City of Dubuque Pay-by-Plate Multi-Space Parking Meter (PbP MSM) System Procurement RFP
+      https://www.cityofdubuque.org/bids.aspx?bidID=1842
+    Addendum 1- Mobile License Plate Recognition Enforcement (Mobile LPR) System Procurement
+      https://www.cityofdubuque.org/bids.aspx?bidID=1841
+    Public Works Concrete Banding and Crack Sealing Project
+      https://www.cityofdubuque.org/bids.aspx?bidID=1853
+    Addendum 1- City of Dubuque Pay-by-Plate Multi-Space Parking Meter (PbP MSM) System Procurement RFP
+      https://www.cityofdubuque.org/bids.aspx?bidID=1842
+    Addendum 1- Mobile License Plate Recognition Enforcement (Mobile LPR) System Procurement
+      https://www.cityofdubuque.org/bids.aspx?bidID=1841
+
+[ Dallas County ]
+  https://www.dallascountyiowa.gov/Bids.aspx
+    Notice of Intent to Enter into a Guaranteed Maximum Price Contract - Auditor Office Renovations
+      https://www.dallascountyiowa.gov/bids.aspx?bidID=20
+    RFQ Construction Manager at Risk (CMaR) Services - Dallas County Auditor Office Renovations
+      https://www.dallascountyiowa.gov/bids.aspx?bidID=21
+
+[ Bismarck ]
+  https://www.bismarcknd.gov/bids.aspx
+    Bismarck Parking Authority Advertisement for Bids - Main Parking Ramp Elevator Controls
+      https://www.bismarcknd.gov/bids.aspx?bidID=1335
+    Bismarck Parking Authority Advertisement for Bids - Parking Ramp Video Surveillance Upgrade Project
+      https://www.bismarcknd.gov/bids.aspx?bidID=1336
+    2026 Facility Improvement
+      https://www.bismarcknd.gov/bids.aspx?bidID=1339
+    Construction of Concrete Sidewalks, Driveways, and Curb and Gutter - 2026
+      https://www.bismarcknd.gov/bids.aspx?bidID=1340
+    Street Improvement District No. 599
+      https://www.bismarcknd.gov/bids.aspx?bidID=1344
+    Request for Proposal for Administrative Services & Stop Loss
+      https://www.bismarcknd.gov/bids.aspx?bidID=1343
+    RFP for PERMIT, LICENSE, & ASSET MANAGEMENT SYSTEM
+      https://www.bismarcknd.gov/bids.aspx?bidID=1324
+    Call for Artists for an Art and Heritage Discovery Trail
+      https://www.bismarcknd.gov/bids.aspx?bidID=1341
+    RFQ - LSLR Contractors
+      https://www.bismarcknd.gov/bids.aspx?bidID=1342
+
+[ Minot ]
+  https://www.minotnd.gov/Bids.aspx
+    BID NOTICE: 2026 AIRFIELD DITCH STABILIZATION
+      https://www.minotnd.gov/bids.aspx?bidID=650
+    BID NOTICE: 2026 ALLEY WATERMAIN REPLACEMENT
+      https://www.minotnd.gov/bids.aspx?bidID=645
+    BID NOTICE: PERKETT DITCH IMPROVEMENTS-PHASE 2
+      https://www.minotnd.gov/bids.aspx?bidID=646
+    BID NOTICE: SINGLE-SORT RECYCLING SERVICE
+      https://www.minotnd.gov/bids.aspx?bidID=647
+    NOTICE OF SALE - PUBLIC AUCTION: RETAIL LIQUOR, BEER, & WINE LICENSE
+      https://www.minotnd.gov/bids.aspx?bidID=644
+    Request for Proposals and Qualifications: Special Assistant City Attorney (Legislative Affairs)
+      https://www.minotnd.gov/bids.aspx?bidID=648
+    RFP: HAY HARVESTING SERVICES OF AIRPORT PROPERTY
+      https://www.minotnd.gov/bids.aspx?bidID=649
+
+[ Aberdeen ]
+  https://www.aberdeen.sd.us/Bids.aspx
+    2026 Watermain Pipe, Sewer Pipe, and Castings
+      https://www.aberdeen.sd.us/bids.aspx?bidID=464
+
+[ Nebraska DAS (State Bids) ]
+  https://das.nebraska.gov/materiel/bid-opportunities.html
+    Radio Studio Equipment
+      https://das.nebraska.gov/materiel/purchasing/124677 OR/124677 OR.html
+    Emergency Services IP Network (ESInet) and Next Generation Core  Services (NGCS) to Enable Statewide Delivery of Next Generation 911 (NG911)
+      https://das.nebraska.gov/materiel/purchasing/RFP 202691101/RFP 202691101.html
+    Nebraska Technology Initiative
+      https://das.nebraska.gov/materiel/purchasing/NDERFP260105/NDERFP260105.html
+    Sixpence Evaluation
+      https://das.nebraska.gov/materiel/purchasing/NDERFP260202/NDERFP260202.html
+    Nebraska Tobacco Quitline Services
+      https://das.nebraska.gov/materiel/purchasing/124316 O3/124316 O3.html
+    Chargemaster Review Services
+      https://das.nebraska.gov/materiel/purchasing/124273 O3/124273 O3.html
+    Trauma or General Surgeons and Trauma Coordinator or Manager Registered Nurses
+      https://das.nebraska.gov/materiel/purchasing/109205/109205.html
+    CTE Standards Revision
+      https://das.nebraska.gov/materiel/purchasing/NDERFP260106/NDERFP260106.html
+    Nebraska Literacy Project
+      https://das.nebraska.gov/materiel/purchasing/NDERFP260213/NDERFP260213.html
+    Printing of Annual and  Duplicate Park Permits for the State of Nebraska and Non-Nebraska Licensed  Vehicles
+      https://das.nebraska.gov/materiel/purchasing/124023 OR/124023 OR.html
+    Disaster Mitigation, Preparedness, Response, and Recovery Programs
+      https://das.nebraska.gov/materiel/purchasing/124469 O5/124469 O5.html
+    2026 Nebraska VR Summer Transition Program
+      https://das.nebraska.gov/materiel/purchasing/Nebraska VR 2026/Nebraska VR RFP 2026.html
+    Grant Writing Implementation Providers
+      https://das.nebraska.gov/materiel/purchasing/NDERFI250707/NDERFI250707.html
+    Assist the Housing & Recreational Vehicle Director of the Commission identify qualified candidates for appointment as a   modular housing, manufactured housing, and/or recreational vehicle plan reviewer/inspector
+      https://das.nebraska.gov/materiel/purchasing/RFQ 25-1/RFQ 25-1.html
+    Professional Learning and Material Implementation Providers  for inclusion on the NDE  Comprehensive Literacy State Development (CLSD) Grant
+      https://das.nebraska.gov/materiel/purchasing/NDERFI250409/NDERFI250409.html
+    Contractor to establish the Workers'  Compensation Court's medical services fee schedule
+      https://das.nebraska.gov/materiel/purchasing/RFP WCC0009/RFP WCC0009.html
+    2025 Nebraska VR Summer Transition Programs
+      https://das.nebraska.gov/materiel/purchasing/RFP Nebraska VR/Nebraska VR RFP.html
+    Gathering information to assess timelines and interest   in an NDCS Non-Custody Staffing Analysis and Behavioral Health Staffing Analysis
+      https://das.nebraska.gov/materiel/purchasing/RFI NDCS 012024/RFI NDCS 012024.html
+    Contractor to provide analysis of equine urine and blood samples for identification of substances and residues that may be seized or otherwise acquired
+      https://das.nebraska.gov/materiel/purchasing/6915Z1/6915Z1.html
+    Contractor to provide, at a competitive and reasonable cost, professional consulting services for natural gas rate cases and other matters related to the regulation of natural gas public utilities
+      https://das.nebraska.gov/materiel/purchasing/PSC-GAS-2024-1/PSC-GAS-2024-1.html
+    04/08/26
+    03/25/26
+    03/25/26
+    03/17/26
+ ** 02/26/26
+    02/25/26
+    02/23/26
+    02/20/26
+    02/20/26
+    02/19/26
+    01/22/26
+    01/16/26
+    01/14/26
+    01/13/26
+    01/09/26
+ ** 01/07/26
+    01/06/26
+    12/30/25
+    12/17/25
+    12/11/25
+    12/09/25
+    12/09/25
+    12/09/25
+    12/09/25
+    12/09/25
+    12/04/25
+    11/21/25
+    11/21/25
+    11/19/25
+    11/19/25
+    10/30/25
+    10/23/25
+    10/20/25
+    10/17/25
+    10/15/25
+    10/10/25
+    10/10/25
+    10/07/25
+    09/11/25
+    09/10/25
+    09/09/25
+    09/05/2508/11/25
+    09/04/25
+    08/25/25
+    08/19/25
+    08/15/25
+    08/14/25
+    08/13/25
+    08/12/25
+    08/08/25
+ ** 08/05/25
+    08/04/25
+    07/22/25
+    07/16/25
+    07/08/25
+    06/23/25
+    06/20/25
+    06/10/25
+    06/10/25
+    06/06/25
+    06/06/25
+    05/23/25
+    05/23/25
+    05/22/25
+    05/19/25
+    05/16/25
+    05/13/25
+    04/30/25
+    04/29/25
+    04/29/25
+    04/23/25
+    04/22/25
+    04/21/25
+    04/18/25
+    04/11/25
+    04/08/25
+    03/26/25
+    03/11/25
+    03/10/25
+    03/07/25
+    03/07/25
+    03/05/25
+    03/05/25
+    03/04/25
+    02/24/25
+    02/21/25
+    02/12/25
+    02/05/25
+    01/30/25
+    01/27/25
+    01/22/25
+    01/21/25
+    01/17/25
+    01/17/25
+    01/16/25
+    09/16/25
+    12/27/24
+    12/12/24
+    12/10/24
+    12/06/24
+    11/18/24
+    11/14/24
+    11/05/24
+    10/30/24
+    10/29/24
+    10/24/24
+    10/24/24
+    10/22/24
+    10/21/24
+    10/16/24
+    10/15/24
+    10/07/24
+    10/07/24
+    10/03/24
+    09/30/24
+    09/16/24
+    09/06/24
+    09/03/24
+    08/27/24
+    08/27/24
+    08/26/24
+    08/15/24
+ ** 08/14/24
+    08/13/24
+    08/12/24
+    08/09/24
+    08/06/24
+    08/05/24
+    08/02/24
+    08/01/24
+    08/01/24
+ ** 07/31/24
+    07/31/24
+    07/30/24
+    07/22/24
+    07/17/24
+ ** 07/17/24
+    07/10/24
+    07/01/2024
+    06/26/2024
+    06/24/2024
+    06/24/2024
+    06/20/2024
+    06/17/2024
+    06/11/2024
+    06/06/24
+    05/30/2024
+    05/17/2024
+    05/16/2024
+    05/15/2024
+    05/13/2024
+    05/10/2024
+    05/10/2024
+    05/10/2024
+    05/10/2024
+    04/29/2024
+    04/18/2024
+    04/18/2024
+    04/18/2024
+    04/10/2024
+    04/05/2024
+    04/02/2024
+    03/25/2024
+    03/25/2024
+    03/22/2024
+    03/22/2024
+    03/21/2024
+    03/21/2024
+    03/14/2024
+    03/13/2024
+    03/12/2024
+    03/08/2024
+    03/08/2024
+    03/08/2024
+    03/07/2024
+    03/07/2024
+    03/07/2024
+    03/06/2024
+    03/05/2024
+    03/05/2024
+    03/05/2024
+    02/29/2024
+    02/28/2024
+    02/28/2024
+    02/23/2024
+    02/22/2024
+    02/20/2024
+    02/16/2024
+    02/15/2024
+    02/13/2024
+    02/08/2024
+    02/06/2024
+    02/02/2024
+    01/26/2024
+    01/23/2024
+    1/23/2024
+    01/12/2024
+    01/13/2024
+    01/12/2024
+    01/10/2024
+    01/10/2024
+    01/09/2024
+    01/09/2024
+    01/04/2024
+    01/03/2024
+    01/03/2024
+    12/22/2023
+    12/18/2023
+    12/14/2023
+    12/11/2023
+    12/07/2023
+    12/06/2023
+    12/04/2023
+    12/04/2023
+    11/22/2024
+    11/17/2024
+    11/16/2023
+    11/15/2023
+    11/14/2023
+    11/14/2023
+    11/14/2023
+    11/08/2023
+    01/06/2023
+    11/06/2023
+    10/31/2023
+    10/31/2023
+    10/26/2023
+    10/25/2023
+    10/24/2023
+    10/24/2023
+    10/24/2023
+    10/19/2023
+    10/15/2023
+    10/13/2023
+    10/13/2023
+    10/12/2023
+    10/12/2023
+    10/05/2023
+    10/03/2023
+    10/03/2023
+    10/02/2024
+    10/02/2023
+    10/02/2023
+    09/30/2023
+    09/26/2023
+    09/22/2023
+    09/22/2023
+    09/21/2023
+    09/21/2023
+    09/20/2023
+    09/19/2023
+    09/18/2023
+    09/18/2023
+    09/12/2023
+    09/11/2023
+    09/07/2023
+    09/06/2023
+    08/31/2023
+    09/29/2023
+    08/31/2023
+    08/29/2023
+    08/25/2023
+    08/23/2023
+    08/17/2023
+    08/16/2023
+    08/03/2023
+    08/03/2023
+    07/27/2023
+    07/25/2023
+    07/24/2023
+    07/20/2023
+    07/14/2023
+    07/10/2023
+    07/07/2023
+    07/07/2023
+    06/23/2023
+    06/16/2023
+    06/15/2023
+    06/12/2023
+    06/05/2023
+    06/05/2023
+    05/26/2023
+    05/26/2023
+    05/25/2023
+    05/25/2023
+    05/24/2023
+    05/22/2023
+    05/19/2023
+    05/18/2023
+    05/15/2023
+    05/15/2023
+    05/10/2023
+    05/10/2023
+    05/09/2023
+    05/09/2023
+    05/05/2023
+    05/04/2023
+    05/02/2023
+    04/20/2023
+    04/13/2023
+    04/13/2023
+    04/12/2023
+    04/12/2023
+    04/11/2023
+    04/11/2023
+    04/06/2023
+    04/06/2023
+    04/06/2023
+    04/04/2023
+    04/04/2023
+    04/03/2023
+    03/29/2023
+    03/28/2023
+    03/27/2023
+    03/27/2023
+    03/27/2023
+    03/27/2023
+    03/23/2023
+    03/22/2023
+    03/13/2023
+    03/10/2023
+    03/08/2023
+    03/08/2023
+    03/07/2023
+    03/06/2023
+    03/06/2023
+    03/01/2023
+    02/28/2023
+    02/27/2023
+    02/23/2023
+    02/22/2023
+    02/22/2023
+    02/16/2023
+    02/10/2023
+    02/08/2023
+    02/07/2023
+    02/07/2023
+    02/07/2023
+    02/03/2023
+    02/03/2023
+    01/31/2023
+    01/31/2023
+    01/30/2023
+    01/26/2023
+    01/25/2023
+    01/24/2023
+    01/17/2023
+    01/13/2023
+    01/06/2023
+    01/05/2023
+
+[ SAM.gov (USPS Opportunities) ]
+  https://sam.gov/search/?index=opp&sfm%5Bstatus%5D%5Bis_active%5D=true&sfm%5BsimpleSearch%5D%5BkeywordTags%5D%5B0%5D%5Bkey%5D=USPS&sfm%5BsimpleSearch%5D%5BkeywordTags%5D%5B0%5D%5Bvalue%5D=USPS
+  ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
+
 ======================================================================
-  Checked 30 sites | 97 total listings
-  12 flagged as architecture/design related
+  Checked 40 sites | 516 total listings
+  19 flagged as architecture/design related
 ======================================================================

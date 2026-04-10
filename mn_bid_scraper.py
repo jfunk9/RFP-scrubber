@@ -1202,8 +1202,10 @@ def scrape_iowa_das(url):
 def scrape_nebraska_das(url):
     """
     Nebraska DAS Purchasing Bureau Bid Opportunities.
-    Structure: multiple table.table-bordered.table-striped with columns:
-      Posted | Description | Category | Opening Date | Type | PCO/Buyer | Solicitation # | Agency | Updated
+    Page has 3 tables, each with class table-bordered:
+      Table 0 & 1 (active bids, 9 cols): Posted | Description | Category | Opening | Type | PCO | Solicitation# | Agency | Updated
+      Table 2 (awarded/closed, 8 cols):  Description | Letter of Intent | Category | Type | PCO | Solicitation# | Agency | Updated
+    We only want tables that have "posted" as the first header (active bids).
     """
     result = fetch(url)
     if isinstance(result, tuple):
@@ -1216,32 +1218,46 @@ def scrape_nebraska_das(url):
         if len(rows) < 2:
             continue
 
-        # Check if first row is a header
+        # Check header row to determine column layout
         header_cells = rows[0].find_all("th")
         if not header_cells:
             header_cells = rows[0].find_all("td")
-        header_text = " ".join(c.get_text(strip=True).lower() for c in header_cells)
-        if "description" not in header_text:
+        if not header_cells:
             continue
+
+        # Build a list of lowercase header names
+        headers = [c.get_text(strip=True).lower() for c in header_cells]
+
+        # Only process tables with "posted" as first column (active bid tables)
+        # Skip the awarded/closed table which starts with "description"
+        if not headers or "posted" not in headers[0]:
+            continue
+
+        # Find column indices dynamically from headers
+        desc_idx = next((i for i, h in enumerate(headers) if "description" in h), 1)
+        type_idx = next((i for i, h in enumerate(headers) if h.startswith("type")), 4)
+        opening_idx = next((i for i, h in enumerate(headers) if "opening" in h), 3)
+        sol_idx = next((i for i, h in enumerate(headers) if "solicitation" in h), 6)
+        agency_idx = next((i for i, h in enumerate(headers) if "agency" in h), 7)
 
         for row in rows[1:]:
             cells = row.find_all("td")
             if len(cells) < 7:
                 continue
 
-            posted = cells[0].get_text(strip=True)
-            description = cells[1].get_text(strip=True)
-            category = cells[2].get_text(strip=True)
-            opening_date = cells[3].get_text(strip=True)
-            bid_type = cells[4].get_text(strip=True)
-            solicitation = cells[6].get_text(strip=True) if len(cells) > 6 else ""
-            agency = cells[7].get_text(strip=True) if len(cells) > 7 else ""
+            description = cells[desc_idx].get_text(strip=True) if len(cells) > desc_idx else ""
+            opening_date = cells[opening_idx].get_text(strip=True) if len(cells) > opening_idx else ""
+            bid_type = cells[type_idx].get_text(strip=True) if len(cells) > type_idx else ""
+            solicitation = cells[sol_idx].get_text(strip=True) if len(cells) > sol_idx else ""
+            agency = cells[agency_idx].get_text(strip=True) if len(cells) > agency_idx else ""
 
             if not description or len(description) < 3:
                 continue
 
             # Get link if present
-            link_tag = cells[1].find("a") or cells[6].find("a") if len(cells) > 6 else None
+            link_tag = cells[desc_idx].find("a")
+            if not link_tag and len(cells) > sol_idx:
+                link_tag = cells[sol_idx].find("a")
             bid_url = url
             if link_tag and link_tag.get("href"):
                 href = link_tag["href"]
