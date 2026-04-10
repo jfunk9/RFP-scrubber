@@ -14,6 +14,7 @@ Requirements:
 
 import requests
 from bs4 import BeautifulSoup
+import datetime as dt_mod
 from datetime import datetime
 import time
 import os
@@ -189,70 +190,94 @@ TIMEOUT = 15  # seconds per request
 
 # ── Site definitions ───────────────────────────────────────────────────────────
 
-# Each entry: (display_name, url, scraper_function_name)
+# Each entry: (state, display_name, url, scraper_function_name)
+# state is used for accordion grouping in the dashboard.
 SITES = [
-    # --- CivicEngage cities (all same platform, same scraper) ---
-    ("Maplewood, MN",       "https://maplewoodmn.gov/Bids.aspx",                    "civicengage"),
-    ("Golden Valley, MN",   "https://www.goldenvalleymn.gov/bids.aspx",             "civicengage"),
-    ("Elk River, MN",       "https://www.elkrivermn.gov/bids.aspx",                 "civicengage"),
-    ("Lino Lakes, MN",      "https://linolakes.us/bids.aspx",                       "civicengage"),
-    ("Hibbing, MN",         "https://hibbingmn.gov/Bids.aspx",                      "civicengage"),
-    ("Faribault, MN",       "https://www.ci.faribault.mn.us/Bids.aspx",             "civicengage"),
-    ("Forest Lake, MN",     "https://ci.forest-lake.mn.us/Bids.aspx",               "civicengage"),
-    ("Woodbury, MN",        "https://woodburywithin.woodburymn.gov/Bids.aspx",       "civicengage"),
-    ("St. Cloud, MN",       "https://www.ci.stcloud.mn.us/Bids.aspx",               "civicengage"),
-    ("Northfield, MN",      "https://www.northfieldmn.gov/Bids.aspx",               "civicengage"),
-    ("Washington County",   "https://www.washingtoncountymn.gov/Bids.aspx",          "civicengage"),
-    ("Scott County",        "https://www.scottcountymn.gov/Bids.aspx",               "civicengage"),
+    # ═══════════════════════════════════════════════════════════════════════════
+    # MINNESOTA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("MN", "Maplewood",             "https://maplewoodmn.gov/Bids.aspx",                    "civicengage"),
+    ("MN", "Golden Valley",         "https://www.goldenvalleymn.gov/bids.aspx",             "civicengage"),
+    ("MN", "Elk River",             "https://www.elkrivermn.gov/bids.aspx",                 "civicengage"),
+    ("MN", "Lino Lakes",            "https://linolakes.us/bids.aspx",                       "civicengage"),
+    ("MN", "Hibbing",               "https://hibbingmn.gov/Bids.aspx",                      "civicengage"),
+    ("MN", "Faribault",             "https://www.ci.faribault.mn.us/Bids.aspx",             "civicengage"),
+    ("MN", "Forest Lake",           "https://ci.forest-lake.mn.us/Bids.aspx",               "civicengage"),
+    ("MN", "Woodbury",              "https://woodburywithin.woodburymn.gov/Bids.aspx",       "civicengage"),
+    ("MN", "St. Cloud",             "https://www.ci.stcloud.mn.us/Bids.aspx",               "civicengage"),
+    ("MN", "Northfield",            "https://www.northfieldmn.gov/Bids.aspx",               "civicengage"),
+    ("MN", "Washington County",     "https://www.washingtoncountymn.gov/Bids.aspx",          "civicengage"),
+    ("MN", "Scott County",          "https://www.scottcountymn.gov/Bids.aspx",               "civicengage"),
+    ("MN", "Anoka County (QuestCDN)",   "https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all",   "questcdn"),
+    ("MN", "Eagan (QuestCDN)",          "https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193",   "questcdn"),
+    ("MN", "Moorhead (QuestCDN)",       "https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465",                "questcdn"),
+    ("MN", "MN State (QuestCDN)",       "https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464",    "questcdn"),
+    ("MN", "MN OSP (State Solicitations)",  "https://osp.admin.mn.gov/PT-auto",                                 "mn_osp"),
+    ("MN", "MBID (UMN / Public Agencies)",  "https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1",        "mbid"),
+    ("MN", "Lino Lakes RFPs",               "https://linolakes.us/556/Request-for-Proposals",                    "generic"),
+    ("MN", "Metropolitan Council",
+     "https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx",   "metcouncil"),
+    ("MN", "MnDOT P/T Consultant Notices",  "https://www.dot.state.mn.us/consult/notices.html",     "mndot_pt"),
+    ("MN", "Hennepin County (ProcureWare)", "https://hennepin.procureware.com/Bids",                "procureware"),
+    # MN school districts
+    ("MN", "Saint Paul Public Schools",
+     "https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD",   "integratise"),
+    ("MN", "Roseville ISD 623",        "https://www.isd623.org/services/business-services",                    "finalsite_panels"),
+    ("MN", "Anoka-Hennepin Schools",    "https://www.ahschools.us/services/purchasing",                        "finalsite_boards"),
+    ("MN", "Mounds View Schools",       "https://www.mvpschools.org/about/finance/bids",                       "finalsite_posts"),
+    ("MN", "Stillwater ISD 834",        "https://www.stillwaterschools.org/our-district/departments/business-finance",  "finalsite_panels"),
+    ("MN", "St. Cloud ISD 742",         "https://www.isd742.org/departments/business-services/call-for-bids",  "finalsite_panels"),
+    ("MN", "Rochester Public Schools (Bonfire)",
+     "https://rochesterschools.bonfirehub.com/portal/?tab=openOpportunities",   "bonfire"),
 
-    # --- QuestCDN agency portals (same platform, same scraper) ---
-    ("Anoka County (QuestCDN)",     "https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all",   "questcdn"),
-    ("Eagan, MN (QuestCDN)",        "https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193",   "questcdn"),
-    ("Moorhead, MN (QuestCDN)",     "https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465",                "questcdn"),
-    ("MN State (QuestCDN)",         "https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464",    "questcdn"),
+    # ═══════════════════════════════════════════════════════════════════════════
+    # WISCONSIN
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("WI", "Superior",              "https://www.superiorwi.gov/Bids.aspx",                  "civicengage"),
+    ("WI", "Douglas County",        "https://www.douglascountywi.gov/Bids.aspx",             "civicengage"),
+    ("WI", "Hudson Schools",        "https://www.hudsonraiders.org/district/departments",     "finalsite_boards"),
 
-    # --- Other platforms ---
-    ("MN OSP (State Solicitations)",    "https://osp.admin.mn.gov/PT-auto",                                 "mn_osp"),
-    ("MBID (UMN / Public Agencies)",    "https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1",        "mbid"),
-    ("Lino Lakes RFPs",                 "https://linolakes.us/556/Request-for-Proposals",                    "generic"),
+    # ═══════════════════════════════════════════════════════════════════════════
+    # IOWA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("IA", "Iowa DAS (State Bids)",     "https://bidopportunities.iowa.gov/",                "iowa_das"),
+    ("IA", "Dubuque",                   "https://www.cityofdubuque.org/Bids.aspx",           "civicengage"),
+    ("IA", "Dallas County",             "https://www.dallascountyiowa.gov/Bids.aspx",        "civicengage"),
 
-    # --- School districts ---
-    ("Saint Paul Public Schools",
-     "https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD",
-     "integratise"),
-    ("Roseville ISD 623",
-     "https://www.isd623.org/services/business-services",
-     "finalsite_panels"),
-    ("Anoka-Hennepin Schools",
-     "https://www.ahschools.us/services/purchasing",
-     "finalsite_boards"),
-    ("Mounds View Schools",
-     "https://www.mvpschools.org/about/finance/bids",
-     "finalsite_posts"),
-    ("Stillwater ISD 834",
-     "https://www.stillwaterschools.org/our-district/departments/business-finance",
-     "finalsite_panels"),
-    ("Hudson Schools (WI)",
-     "https://www.hudsonraiders.org/district/departments",
-     "finalsite_boards"),
-    ("St. Cloud ISD 742",
-     "https://www.isd742.org/departments/business-services/call-for-bids",
-     "finalsite_panels"),
-    ("Rochester Public Schools (Bonfire)",
-     "https://rochesterschools.bonfirehub.com/portal/?tab=openOpportunities",
-     "bonfire"),
+    # ═══════════════════════════════════════════════════════════════════════════
+    # NORTH DAKOTA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("ND", "Bismarck",              "https://www.bismarcknd.gov/bids.aspx",                  "civicengage"),
+    ("ND", "Minot",                 "https://www.minotnd.gov/Bids.aspx",                     "civicengage"),
 
-    # --- High-value regional sources ---
-    ("Metropolitan Council",
-     "https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx",
-     "metcouncil"),
-    ("MnDOT P/T Consultant Notices",
-     "https://www.dot.state.mn.us/consult/notices.html",
-     "mndot_pt"),
-    ("Hennepin County (ProcureWare)",
-     "https://hennepin.procureware.com/Bids",
-     "procureware"),
+    # ═══════════════════════════════════════════════════════════════════════════
+    # SOUTH DAKOTA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("SD", "Aberdeen",              "https://www.aberdeen.sd.us/Bids.aspx",                  "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # NEBRASKA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("NE", "Nebraska DAS (State Bids)", "https://das.nebraska.gov/materiel/bid-opportunities.html",  "nebraska_das"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # FEDERAL (USPS)
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("FED", "SAM.gov (USPS Opportunities)",
+     "https://sam.gov/search/?index=opp&sfm%5Bstatus%5D%5Bis_active%5D=true&sfm%5BsimpleSearch%5D%5BkeywordTags%5D%5B0%5D%5Bkey%5D=USPS&sfm%5BsimpleSearch%5D%5BkeywordTags%5D%5B0%5D%5Bvalue%5D=USPS",
+     "sam_gov"),
 ]
+
+# State display names for the dashboard accordion
+STATE_NAMES = {
+    "MN": "Minnesota",
+    "WI": "Wisconsin",
+    "IA": "Iowa",
+    "ND": "North Dakota",
+    "SD": "South Dakota",
+    "NE": "Nebraska",
+    "FED": "Federal (USPS)",
+}
 
 # Sites removed due to persistent 403 blocks — check these manually:
 #   St. Louis Park, MN  — https://www.stlouisparkmn.gov/government/legal-notices-248
@@ -1123,6 +1148,167 @@ def scrape_procureware(url):
     return bids, None
 
 
+def scrape_iowa_das(url):
+    """
+    Iowa DAS Bidding Opportunities — DataTable with pagination.
+    Structure: table.dataTable with columns:
+      [expand] | Bid Number | Agency | Contact | Title | Effective Date | Expiration Date | [action] | [action]
+    Only first page (15 rows) is loaded via HTML; additional pages need JS.
+    We use Playwright to get all entries or fall back to page 1 only.
+    """
+    # Try Playwright first to get all rows (DataTable loads via AJAX)
+    result = fetch_js(url, wait_selector="table.dataTable tbody tr", wait_ms=5000)
+    if isinstance(result, tuple):
+        result2 = fetch(url)
+        if isinstance(result2, tuple):
+            return [], result2[1]
+        soup = result2
+    else:
+        soup = result
+
+    bids = []
+    table = soup.select_one("table.dataTable") or soup.find("table")
+    if not table:
+        return [], None
+
+    for row in table.select("tbody tr"):
+        cells = row.find_all("td")
+        if len(cells) < 7:
+            continue
+
+        bid_number = cells[1].get_text(strip=True)
+        agency = cells[2].get_text(strip=True)
+        title = cells[4].get_text(strip=True)
+        eff_date = cells[5].get_text(strip=True)
+        exp_date = cells[6].get_text(strip=True)
+
+        if not title or len(title) < 3:
+            continue
+
+        # Build link from bid number if there's an anchor
+        link_tag = cells[1].find("a")
+        bid_url = link_tag["href"] if link_tag and link_tag.get("href") else url
+        if bid_url and not bid_url.startswith("http"):
+            bid_url = "https://bidopportunities.iowa.gov" + bid_url
+
+        detail_parts = [p for p in [bid_number, agency, f"Expires: {exp_date}"] if p]
+        detail = " | ".join(detail_parts)
+
+        bids.append({"title": title, "detail": detail[:200], "url": bid_url})
+
+    return bids, None
+
+
+def scrape_nebraska_das(url):
+    """
+    Nebraska DAS Purchasing Bureau Bid Opportunities.
+    Structure: multiple table.table-bordered.table-striped with columns:
+      Posted | Description | Category | Opening Date | Type | PCO/Buyer | Solicitation # | Agency | Updated
+    """
+    result = fetch(url)
+    if isinstance(result, tuple):
+        return [], result[1]
+    soup = result
+
+    bids = []
+    for table in soup.find_all("table", class_="table-bordered"):
+        rows = table.find_all("tr")
+        if len(rows) < 2:
+            continue
+
+        # Check if first row is a header
+        header_cells = rows[0].find_all("th")
+        if not header_cells:
+            header_cells = rows[0].find_all("td")
+        header_text = " ".join(c.get_text(strip=True).lower() for c in header_cells)
+        if "description" not in header_text:
+            continue
+
+        for row in rows[1:]:
+            cells = row.find_all("td")
+            if len(cells) < 7:
+                continue
+
+            posted = cells[0].get_text(strip=True)
+            description = cells[1].get_text(strip=True)
+            category = cells[2].get_text(strip=True)
+            opening_date = cells[3].get_text(strip=True)
+            bid_type = cells[4].get_text(strip=True)
+            solicitation = cells[6].get_text(strip=True) if len(cells) > 6 else ""
+            agency = cells[7].get_text(strip=True) if len(cells) > 7 else ""
+
+            if not description or len(description) < 3:
+                continue
+
+            # Get link if present
+            link_tag = cells[1].find("a") or cells[6].find("a") if len(cells) > 6 else None
+            bid_url = url
+            if link_tag and link_tag.get("href"):
+                href = link_tag["href"]
+                if not href.startswith("http"):
+                    bid_url = "https://das.nebraska.gov" + href
+                else:
+                    bid_url = href
+
+            detail_parts = [p for p in [solicitation, bid_type, agency, f"Opens: {opening_date}"] if p]
+            detail = " | ".join(detail_parts)
+
+            bids.append({"title": description, "detail": detail[:200], "url": bid_url})
+
+    return bids, None
+
+
+# SAM.gov API key — register free at https://sam.gov/profile → API keys
+# Set this to your key, or leave empty to skip SAM.gov scraping
+SAM_GOV_API_KEY = os.environ.get("SAM_GOV_API_KEY", "")
+
+def scrape_sam_gov(url):
+    """
+    SAM.gov federal contract opportunities — searches for USPS active postings.
+    Uses the public API (requires free API key from sam.gov).
+    Falls back to a note if no API key is configured.
+    """
+    if not SAM_GOV_API_KEY:
+        return [], "No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key"
+
+    try:
+        api_url = "https://api.sam.gov/opportunities/v2/search"
+        # Search for active USPS opportunities related to architecture/facilities
+        params = {
+            "api_key": SAM_GOV_API_KEY,
+            "postedFrom": (datetime.now() - dt_mod.timedelta(days=90)).strftime("%m/%d/%Y"),
+            "postedTo": datetime.now().strftime("%m/%d/%Y"),
+            "keyword": "USPS architecture OR facility OR design OR renovation OR construction",
+            "limit": 50,
+            "offset": 0,
+        }
+        r = requests.get(api_url, params=params, timeout=TIMEOUT, headers=HEADERS)
+        r.raise_for_status()
+        data = r.json()
+
+        bids = []
+        for opp in data.get("opportunitiesData", []):
+            title = opp.get("title", "")
+            sol_number = opp.get("solicitationNumber", "")
+            agency = opp.get("fullParentPathName", "")
+            due_date = opp.get("responseDeadLine", "")
+            opp_type = opp.get("type", "")
+            notice_id = opp.get("noticeId", "")
+
+            if not title:
+                continue
+
+            detail_parts = [p for p in [sol_number, opp_type, agency, f"Due: {due_date}"] if p]
+            detail = " | ".join(detail_parts)
+            bid_url = f"https://sam.gov/opp/{notice_id}/view" if notice_id else url
+
+            bids.append({"title": title, "detail": detail[:300], "url": bid_url})
+
+        return bids, None
+    except Exception as e:
+        return [], str(e)
+
+
 SCRAPER_MAP = {
     "civicengage":      scrape_civicengage,
     "questcdn":         scrape_questcdn,
@@ -1136,6 +1322,9 @@ SCRAPER_MAP = {
     "metcouncil":       scrape_metcouncil,
     "mndot_pt":         scrape_mndot_pt,
     "procureware":      scrape_procureware,
+    "iowa_das":         scrape_iowa_das,
+    "nebraska_das":     scrape_nebraska_das,
+    "sam_gov":          scrape_sam_gov,
     "generic":          scrape_generic,
 }
 
@@ -1171,21 +1360,24 @@ import json as json_mod
 
 def build_html_dashboard(all_results, flagged, timestamp):
     """
-    Build a single self-contained HTML dashboard file.
-    all_results: list of (site_name, url, bids_list, error_or_None)
+    Build a single self-contained HTML dashboard file with state accordion sections.
+    all_results: list of (state, site_name, url, bids_list, error_or_None)
     flagged:     list of flagged bid dicts
     timestamp:   string like "2026-04-08 07:30"
     Returns the HTML string.
     """
-    total_bids = sum(len(r[2]) for r in all_results)
-    sites_ok = sum(1 for r in all_results if r[3] is None)
-    sites_err = sum(1 for r in all_results if r[3] is not None)
+    total_bids = sum(len(r[3]) for r in all_results)
+    sites_ok = sum(1 for r in all_results if r[4] is None)
+    sites_err = sum(1 for r in all_results if r[4] is not None)
 
-    # Build flat row data for the table
+    # Build flat row data for the table (now with state field)
     rows_json = []
-    for site_name, site_url, bids, error in all_results:
+    for state, site_name, site_url, bids, error in all_results:
+        state_label = STATE_NAMES.get(state, state)
         if error:
             rows_json.append({
+                "state": state,
+                "stateLabel": state_label,
                 "site": site_name,
                 "title": f"ERROR: {error[:100]}",
                 "detail": "",
@@ -1196,6 +1388,8 @@ def build_html_dashboard(all_results, flagged, timestamp):
             continue
         if not bids:
             rows_json.append({
+                "state": state,
+                "stateLabel": state_label,
                 "site": site_name,
                 "title": "(no open bids)",
                 "detail": "",
@@ -1206,6 +1400,8 @@ def build_html_dashboard(all_results, flagged, timestamp):
             continue
         for b in bids:
             rows_json.append({
+                "state": state,
+                "stateLabel": state_label,
                 "site": site_name,
                 "title": b["title"],
                 "detail": b.get("detail", ""),
@@ -1215,6 +1411,10 @@ def build_html_dashboard(all_results, flagged, timestamp):
             })
 
     data_js = json_mod.dumps(rows_json, ensure_ascii=False)
+
+    # State order for accordion rendering
+    state_order_js = json_mod.dumps(list(STATE_NAMES.keys()))
+    state_names_js = json_mod.dumps(STATE_NAMES)
 
     # Manual-check sites
     manual_sites = [
@@ -1227,12 +1427,21 @@ def build_html_dashboard(all_results, flagged, timestamp):
         for name, url in manual_sites
     )
 
+    # Count flagged per state for badges
+    state_flagged = {}
+    for state, site_name, site_url, bids, error in all_results:
+        if error or not bids:
+            continue
+        cnt = sum(1 for b in bids if is_architecture_related(b["title"], b.get("detail", "")))
+        state_flagged[state] = state_flagged.get(state, 0) + cnt
+    state_flagged_js = json_mod.dumps(state_flagged)
+
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MN A/E Bid Dashboard</title>
+<title>A/E Bid Dashboard — Multi-State</title>
 <style>
   :root {{
     --bg: #0f172a;
@@ -1259,139 +1468,132 @@ def build_html_dashboard(all_results, flagged, timestamp):
     border-bottom: 1px solid var(--border);
     padding: 20px 32px;
   }}
-  .header h1 {{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 4px;
-  }}
-  .header .subtitle {{
-    color: var(--text-dim);
-    font-size: 13px;
-  }}
+  .header h1 {{ font-size: 20px; font-weight: 600; margin-bottom: 4px; }}
+  .header .subtitle {{ color: var(--text-dim); font-size: 13px; }}
   .stats {{
-    display: flex;
-    gap: 24px;
-    padding: 16px 32px;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    flex-wrap: wrap;
+    display: flex; gap: 24px; padding: 16px 32px;
+    background: var(--surface); border-bottom: 1px solid var(--border); flex-wrap: wrap;
   }}
-  .stat {{
-    display: flex;
-    flex-direction: column;
-  }}
-  .stat-value {{
-    font-size: 24px;
-    font-weight: 700;
-  }}
+  .stat {{ display: flex; flex-direction: column; }}
+  .stat-value {{ font-size: 24px; font-weight: 700; }}
   .stat-value.flag {{ color: var(--flag); }}
   .stat-value.green {{ color: var(--green); }}
   .stat-value.error {{ color: var(--error); }}
   .stat-label {{
-    font-size: 11px;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-size: 11px; color: var(--text-dim);
+    text-transform: uppercase; letter-spacing: 0.5px;
   }}
   .controls {{
-    display: flex;
-    gap: 12px;
-    padding: 16px 32px;
-    align-items: center;
-    flex-wrap: wrap;
+    display: flex; gap: 12px; padding: 16px 32px;
+    align-items: center; flex-wrap: wrap;
   }}
   .controls input, .controls select {{
-    background: var(--surface);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-size: 14px;
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--text); padding: 8px 12px; border-radius: 6px; font-size: 14px;
   }}
   .controls input {{ flex: 1; min-width: 200px; }}
   .controls select {{ min-width: 150px; }}
   .controls label {{
-    font-size: 13px;
-    color: var(--text-dim);
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
+    font-size: 13px; color: var(--text-dim);
+    display: flex; align-items: center; gap: 6px; cursor: pointer;
   }}
   .controls input[type="checkbox"] {{
-    flex: unset;
-    min-width: unset;
-    width: 16px;
-    height: 16px;
-    accent-color: var(--flag);
+    flex: unset; min-width: unset; width: 16px; height: 16px; accent-color: var(--flag);
   }}
+  .controls button {{
+    background: var(--surface2); border: 1px solid var(--border);
+    color: var(--text-dim); padding: 8px 14px; border-radius: 6px;
+    font-size: 13px; cursor: pointer; white-space: nowrap;
+  }}
+  .controls button:hover {{ color: var(--text); border-color: var(--accent); }}
+  .count-info {{ padding: 0 32px 8px; font-size: 12px; color: var(--text-dim); }}
+
+  /* ── Accordion sections ── */
+  .accordion {{ margin: 0 16px 16px; }}
+  .acc-section {{ margin-bottom: 4px; }}
+  .acc-header {{
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    cursor: pointer; user-select: none;
+    transition: background 0.15s;
+  }}
+  .acc-header:hover {{ background: var(--surface2); }}
+  .acc-section.open .acc-header {{
+    border-radius: 8px 8px 0 0;
+    border-bottom-color: transparent;
+  }}
+  .acc-chevron {{
+    font-size: 14px; color: var(--text-dim);
+    transition: transform 0.2s;
+    flex-shrink: 0; width: 20px; text-align: center;
+  }}
+  .acc-section.open .acc-chevron {{ transform: rotate(90deg); }}
+  .acc-title {{
+    font-weight: 600; font-size: 15px; flex: 1;
+  }}
+  .acc-badge {{
+    font-size: 11px; font-weight: 700; padding: 2px 10px;
+    border-radius: 12px; text-transform: uppercase;
+  }}
+  .acc-badge-flag {{ background: rgba(245,158,11,0.15); color: var(--flag); }}
+  .acc-badge-count {{ background: var(--surface2); color: var(--text-dim); }}
+  .acc-badge-error {{ background: rgba(239,68,68,0.15); color: var(--error); }}
+  .acc-body {{
+    display: none;
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+  }}
+  .acc-section.open .acc-body {{ display: block; }}
+
+  /* ── Tables inside accordion ── */
   table {{
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
+    width: 100%; border-collapse: collapse; font-size: 14px;
   }}
   thead th {{
-    background: var(--surface);
-    padding: 10px 16px;
-    text-align: left;
-    font-weight: 600;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: var(--text-dim);
-    border-bottom: 2px solid var(--border);
-    cursor: pointer;
-    user-select: none;
-    white-space: nowrap;
+    background: var(--surface); padding: 10px 16px;
+    text-align: left; font-weight: 600; font-size: 12px;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    color: var(--text-dim); border-bottom: 2px solid var(--border);
+    cursor: pointer; user-select: none; white-space: nowrap;
   }}
   thead th:hover {{ color: var(--text); }}
   thead th .arrow {{ margin-left: 4px; opacity: 0.4; }}
   thead th.sorted .arrow {{ opacity: 1; color: var(--accent); }}
   tbody td {{
-    padding: 10px 16px;
-    border-bottom: 1px solid var(--surface2);
-    vertical-align: top;
+    padding: 10px 16px; border-bottom: 1px solid var(--surface2); vertical-align: top;
   }}
   tbody tr:hover {{ background: var(--surface); }}
   tbody tr.flagged {{ background: var(--flag-bg); }}
   tbody tr.flagged td:first-child {{
-    border-left: 3px solid var(--flag);
-    padding-left: 13px;
+    border-left: 3px solid var(--flag); padding-left: 13px;
   }}
   tbody tr.error-row td {{ color: var(--error); opacity: 0.7; }}
   tbody tr.empty-row td {{ color: var(--text-dim); font-style: italic; }}
   a {{ color: var(--accent); text-decoration: none; }}
   a:hover {{ text-decoration: underline; }}
   .tag {{
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
+    display: inline-block; padding: 2px 8px; border-radius: 4px;
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
   }}
   .tag-flag {{ background: rgba(245,158,11,0.15); color: var(--flag); }}
   .detail {{ color: var(--text-dim); font-size: 12px; margin-top: 2px; }}
   .manual-check {{
-    padding: 12px 32px;
-    background: var(--surface);
-    border-top: 1px solid var(--border);
-    font-size: 12px;
-    color: var(--text-dim);
+    padding: 12px 32px; background: var(--surface);
+    border-top: 1px solid var(--border); font-size: 12px; color: var(--text-dim);
   }}
   .manual-check a {{ margin: 0 8px; }}
-  .count-info {{
-    padding: 0 32px 8px;
-    font-size: 12px;
-    color: var(--text-dim);
-  }}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>MN Architecture &amp; Engineering Bid Dashboard</h1>
-  <div class="subtitle">Last updated: {timestamp} &nbsp;|&nbsp; The Adkins Association</div>
+  <h1>Architecture &amp; Engineering Bid Dashboard</h1>
+  <div class="subtitle">Last updated: {timestamp} &nbsp;|&nbsp; Adkins Architects Inc.</div>
 </div>
 
 <div class="stats">
@@ -1419,23 +1621,19 @@ def build_html_dashboard(all_results, flagged, timestamp):
 
 <div class="controls">
   <input type="text" id="search" placeholder="Filter by keyword..." />
+  <select id="stateFilter">
+    <option value="">All states</option>
+  </select>
   <select id="siteFilter">
     <option value="">All sites</option>
   </select>
   <label><input type="checkbox" id="flaggedOnly" /> Flagged only</label>
+  <button id="expandAll">Expand All</button>
+  <button id="collapseAll">Collapse All</button>
 </div>
 <div class="count-info" id="countInfo"></div>
 
-<table>
-  <thead>
-    <tr>
-      <th data-col="site">Site <span class="arrow">&#x25B4;</span></th>
-      <th data-col="title">Title <span class="arrow">&#x25B4;</span></th>
-      <th data-col="detail">Detail <span class="arrow">&#x25B4;</span></th>
-    </tr>
-  </thead>
-  <tbody id="tbody"></tbody>
-</table>
+<div class="accordion" id="accordion"></div>
 
 <div class="manual-check">
   Manual check (403 blocked): {manual_html}
@@ -1443,63 +1641,35 @@ def build_html_dashboard(all_results, flagged, timestamp):
 
 <script>
 const DATA = {data_js};
+const STATE_ORDER = {state_order_js};
+const STATE_NAMES = {state_names_js};
+const STATE_FLAGGED = {state_flagged_js};
 
-// Populate site filter dropdown
-const sites = [...new Set(DATA.map(r => r.site))].sort();
-const sel = document.getElementById("siteFilter");
-sites.forEach(s => {{
-  const o = document.createElement("option");
-  o.value = s; o.textContent = s;
-  sel.appendChild(o);
+// ── Populate dropdowns ──
+const stateFilter = document.getElementById("stateFilter");
+const siteFilter = document.getElementById("siteFilter");
+
+STATE_ORDER.forEach(code => {{
+  if (DATA.some(r => r.state === code)) {{
+    const o = document.createElement("option");
+    o.value = code;
+    o.textContent = STATE_NAMES[code] || code;
+    stateFilter.appendChild(o);
+  }}
 }});
 
-let sortCol = "site", sortAsc = true;
-
-function render() {{
-  const q = document.getElementById("search").value.toLowerCase();
-  const site = sel.value;
-  const flagOnly = document.getElementById("flaggedOnly").checked;
-
-  let rows = DATA.filter(r => {{
-    if (flagOnly && !r.flagged) return false;
-    if (site && r.site !== site) return false;
-    if (q) {{
-      const hay = (r.site + " " + r.title + " " + r.detail).toLowerCase();
-      if (!hay.includes(q)) return false;
-    }}
-    return true;
+function updateSiteDropdown() {{
+  const st = stateFilter.value;
+  const sites = [...new Set(DATA.filter(r => !st || r.state === st).map(r => r.site))].sort();
+  siteFilter.innerHTML = '<option value="">All sites</option>';
+  sites.forEach(s => {{
+    const o = document.createElement("option");
+    o.value = s; o.textContent = s;
+    siteFilter.appendChild(o);
   }});
-
-  // Sort
-  rows.sort((a, b) => {{
-    let va = a[sortCol] || "", vb = b[sortCol] || "";
-    // Flagged items always first
-    if (a.flagged !== b.flagged) return a.flagged ? -1 : 1;
-    if (typeof va === "string") va = va.toLowerCase();
-    if (typeof vb === "string") vb = vb.toLowerCase();
-    if (va < vb) return sortAsc ? -1 : 1;
-    if (va > vb) return sortAsc ? 1 : -1;
-    return 0;
-  }});
-
-  const tbody = document.getElementById("tbody");
-  tbody.innerHTML = rows.map(r => {{
-    const cls = r.error ? "error-row" :
-                r.title === "(no open bids)" ? "empty-row" :
-                r.flagged ? "flagged" : "";
-    const tag = r.flagged ? ' <span class="tag tag-flag">A/E</span>' : "";
-    const titleCell = r.url && !r.error && r.title !== "(no open bids)"
-      ? `<a href="${{r.url}}" target="_blank" rel="noopener">${{esc(r.title)}}</a>${{tag}}`
-      : esc(r.title) + tag;
-    const detailHtml = r.detail ? `<div class="detail">${{esc(r.detail)}}</div>` : "";
-    return `<tr class="${{cls}}"><td>${{esc(r.site)}}</td><td>${{titleCell}}</td><td>${{detailHtml || "&mdash;"}}</td></tr>`;
-  }}).join("");
-
-  const flagCount = rows.filter(r => r.flagged).length;
-  document.getElementById("countInfo").textContent =
-    `Showing ${{rows.length}} of ${{DATA.length}} listings` +
-    (flagCount ? ` (${{flagCount}} flagged)` : "");
 }}
+updateSiteDropdown();
+stateFilter.addEventListener("change", () => {{ updateSiteDropdown(); render(); }});
 
 function esc(s) {{
   const d = document.createElement("div");
@@ -1507,21 +1677,126 @@ function esc(s) {{
   return d.innerHTML;
 }}
 
-// Sort on header click
-document.querySelectorAll("thead th").forEach(th => {{
-  th.addEventListener("click", () => {{
-    const col = th.dataset.col;
-    if (sortCol === col) sortAsc = !sortAsc;
-    else {{ sortCol = col; sortAsc = true; }}
-    document.querySelectorAll("thead th").forEach(h => h.classList.remove("sorted"));
-    th.classList.add("sorted");
-    th.querySelector(".arrow").innerHTML = sortAsc ? "&#x25B4;" : "&#x25BE;";
-    render();
+function render() {{
+  const q = document.getElementById("search").value.toLowerCase();
+  const stateVal = stateFilter.value;
+  const siteVal = siteFilter.value;
+  const flagOnly = document.getElementById("flaggedOnly").checked;
+
+  // Filter rows
+  let filtered = DATA.filter(r => {{
+    if (flagOnly && !r.flagged) return false;
+    if (stateVal && r.state !== stateVal) return false;
+    if (siteVal && r.site !== siteVal) return false;
+    if (q) {{
+      const hay = (r.site + " " + r.title + " " + r.detail + " " + r.stateLabel).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }}
+    return true;
   }});
+
+  // Group by state (preserve STATE_ORDER)
+  const grouped = {{}};
+  filtered.forEach(r => {{
+    if (!grouped[r.state]) grouped[r.state] = [];
+    grouped[r.state].push(r);
+  }});
+
+  const accordion = document.getElementById("accordion");
+
+  // Remember which sections are open
+  const openStates = new Set();
+  accordion.querySelectorAll(".acc-section.open").forEach(el => openStates.add(el.dataset.state));
+  // If first render, open sections that have flagged bids
+  if (accordion.children.length === 0) {{
+    STATE_ORDER.forEach(code => {{
+      if ((STATE_FLAGGED[code] || 0) > 0) openStates.add(code);
+    }});
+    // Always open first state if nothing flagged
+    if (openStates.size === 0 && STATE_ORDER.length > 0) openStates.add(STATE_ORDER[0]);
+  }}
+
+  accordion.innerHTML = "";
+
+  STATE_ORDER.forEach(code => {{
+    const rows = grouped[code];
+    if (!rows || rows.length === 0) return;
+
+    const label = STATE_NAMES[code] || code;
+    const flagCount = rows.filter(r => r.flagged).length;
+    const errCount = rows.filter(r => r.error).length;
+    const totalCount = rows.filter(r => !r.error && r.title !== "(no open bids)").length;
+    const isOpen = openStates.has(code);
+
+    // Sort within section: flagged first, then alpha by site+title
+    rows.sort((a, b) => {{
+      if (a.flagged !== b.flagged) return a.flagged ? -1 : 1;
+      const sa = (a.site + a.title).toLowerCase();
+      const sb = (b.site + b.title).toLowerCase();
+      return sa < sb ? -1 : sa > sb ? 1 : 0;
+    }});
+
+    let badges = "";
+    if (flagCount > 0) badges += `<span class="acc-badge acc-badge-flag">${{flagCount}} A/E</span>`;
+    badges += `<span class="acc-badge acc-badge-count">${{totalCount}} listings</span>`;
+    if (errCount > 0) badges += `<span class="acc-badge acc-badge-error">${{errCount}} errors</span>`;
+
+    const tableRows = rows.map(r => {{
+      const cls = r.error ? "error-row" :
+                  r.title === "(no open bids)" ? "empty-row" :
+                  r.flagged ? "flagged" : "";
+      const tag = r.flagged ? ' <span class="tag tag-flag">A/E</span>' : "";
+      const titleCell = r.url && !r.error && r.title !== "(no open bids)"
+        ? `<a href="${{r.url}}" target="_blank" rel="noopener">${{esc(r.title)}}</a>${{tag}}`
+        : esc(r.title) + tag;
+      const detailHtml = r.detail ? `<div class="detail">${{esc(r.detail)}}</div>` : "";
+      return `<tr class="${{cls}}"><td>${{esc(r.site)}}</td><td>${{titleCell}}</td><td>${{detailHtml || "&mdash;"}}</td></tr>`;
+    }}).join("");
+
+    const section = document.createElement("div");
+    section.className = "acc-section" + (isOpen ? " open" : "");
+    section.dataset.state = code;
+    section.innerHTML = `
+      <div class="acc-header">
+        <span class="acc-chevron">&#9654;</span>
+        <span class="acc-title">${{esc(label)}}</span>
+        ${{badges}}
+      </div>
+      <div class="acc-body">
+        <table>
+          <thead><tr>
+            <th>Site</th>
+            <th>Title</th>
+            <th>Detail</th>
+          </tr></thead>
+          <tbody>${{tableRows}}</tbody>
+        </table>
+      </div>`;
+
+    section.querySelector(".acc-header").addEventListener("click", () => {{
+      section.classList.toggle("open");
+    }});
+
+    accordion.appendChild(section);
+  }});
+
+  const totalFiltered = filtered.length;
+  const totalFlagged = filtered.filter(r => r.flagged).length;
+  document.getElementById("countInfo").textContent =
+    `Showing ${{totalFiltered}} of ${{DATA.length}} listings` +
+    (totalFlagged ? ` (${{totalFlagged}} flagged)` : "");
+}}
+
+// Expand / collapse all
+document.getElementById("expandAll").addEventListener("click", () => {{
+  document.querySelectorAll(".acc-section").forEach(el => el.classList.add("open"));
+}});
+document.getElementById("collapseAll").addEventListener("click", () => {{
+  document.querySelectorAll(".acc-section").forEach(el => el.classList.remove("open"));
 }});
 
 document.getElementById("search").addEventListener("input", render);
-sel.addEventListener("change", render);
+siteFilter.addEventListener("change", render);
 document.getElementById("flaggedOnly").addEventListener("change", render);
 
 render();
@@ -1535,21 +1810,21 @@ render();
 def run():
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
     print(f"\n{'='*60}")
-    print(f"  MN Architecture RFP Scraper")
+    print(f"  A/E Bid Scraper — Multi-State")
     print(f"  {timestamp}")
     print(f"{'='*60}\n")
 
-    all_results = []   # (site_name, bids, error)
+    all_results = []   # (state, site_name, url, bids, error)
     flagged = []       # architecture-related bids across all sites
 
-    for site_name, url, scraper_key in SITES:
-        print(f"Checking: {site_name}...")
+    for state, site_name, url, scraper_key in SITES:
+        print(f"Checking: [{state}] {site_name}...")
         scraper = SCRAPER_MAP.get(scraper_key, scrape_generic)
         bids, error = scraper(url)
 
         if error:
             print(f"  !! Error: {error[:80]}")
-            all_results.append((site_name, url, [], error))
+            all_results.append((state, site_name, url, [], error))
             time.sleep(1)
             continue
 
@@ -1557,11 +1832,12 @@ def run():
         for bid in bids:
             if is_architecture_related(bid["title"], bid.get("detail", "")):
                 bid["site"] = site_name
+                bid["state"] = state
                 bid["site_url"] = url
                 flagged.append(bid)
 
         print(f"  Found {len(bids)} listings, {sum(1 for b in bids if is_architecture_related(b['title'], b.get('detail',''))) } flagged")
-        all_results.append((site_name, url, bids, None))
+        all_results.append((state, site_name, url, bids, None))
         time.sleep(1)  # be polite — don't hammer servers
 
     # ── Build report ──────────────────────────────────────────────────────────
@@ -1593,7 +1869,7 @@ def run():
     lines.append("ALL LISTINGS BY SITE")
     lines.append("=" * 70)
 
-    for site_name, url, bids, error in all_results:
+    for state, site_name, url, bids, error in all_results:
         lines.append(f"\n[ {site_name} ]")
         lines.append(f"  {url}")
         if error:
@@ -1610,7 +1886,7 @@ def run():
 
     lines.append("")
     lines.append("=" * 70)
-    lines.append(f"  Checked {len(SITES)} sites | {sum(len(r[2]) for r in all_results)} total listings")
+    lines.append(f"  Checked {len(SITES)} sites | {sum(len(r[3]) for r in all_results)} total listings")
     lines.append(f"  {len(flagged)} flagged as architecture/design related")
     lines.append("=" * 70)
 
