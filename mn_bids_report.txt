@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-04-09 20:57
+  Generated: 2026-04-10 06:48
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (19 total)
+FLAGGED AS LIKELY RELEVANT (15 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -70,35 +70,15 @@ FLAGGED AS LIKELY RELEVANT (19 total)
   RFB948300-01 | Administrative Services, Dept | Expires: 4/23/2026
   --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a7ff30d9-fdaa-425f-9b14-fc74b7c1e888
 
-  [Nebraska DAS (State Bids)]
-  02/26/26
-  123895 O5 REBID | Request for Proposal | State Purchasing Bureau | Opens: Architectural and Engineering Services, Non-Pr
-  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+  [Ventura]
+  Public Works Contracts
+  City-funded capital improvement program (CIP) projects are handled by the Public Works Department.    View all open bids
+  --> https://www.cityofventura.ca.gov/bids.aspx?bidID=331
 
-  [Nebraska DAS (State Bids)]
-  01/07/26
-  123895 O5 | Request for Proposal | State Purchasing Bureau | Opens: Architectural and Engineering Services, Non-Professi
-  --> https://das.nebraska.gov/materiel/bid-opportunities.html
-
-  [Nebraska DAS (State Bids)]
-  08/05/25
-  122255 O5 | Request for Proposal | State Purchasing Bureau | Opens: HVAC Systems Maintenance and Repair, Power Plant - 9
-  --> https://das.nebraska.gov/materiel/bid-opportunities.html
-
-  [Nebraska DAS (State Bids)]
-  08/14/24
-  RFP DS2401 | Request for Proposal | Department of Natural Resources | Opens: Engineering Services, Professional-92500
-  --> https://das.nebraska.gov/materiel/bid-opportunities.html
-
-  [Nebraska DAS (State Bids)]
-  07/31/24
-  6903 Z1 REBID | Request for Proposal | State Purchasing Bureau | Opens: Towers - Architectural Services
-  --> https://das.nebraska.gov/materiel/bid-opportunities.html
-
-  [Nebraska DAS (State Bids)]
-  07/17/24
-  6903 Z1 | Request for Proposal | State Purchasing Bureau | Opens: Towers - Architectural Services
-  --> https://das.nebraska.gov/materiel/bid-opportunities.html
+  [Eureka]
+  ADU Design Professionals RFQ
+  1. OVERVIEW The City of Eureka (City) invites qualified design professionals to submit qualifications to support the “Eu
+  --> https://www.eurekaca.gov/bids.aspx?bidID=26
 
 
 ALL LISTINGS BY SITE
@@ -230,6 +210,7 @@ ALL LISTINGS BY SITE
 
 [ MN OSP (State Solicitations) ]
   https://osp.admin.mn.gov/PT-auto
+    MNIT/MDE RFP ITN EducationDataMgmtModernization
     DNR Glacial Lakes State Park Renovation
     Minnesota Veterans Home - Silver Bay Laboratory Services
     Bureau of Criminal Apprehension Serial Number Restoration Training
@@ -237,7 +218,6 @@ ALL LISTINGS BY SITE
     Develop Cannabis & Substance Misuse Prevention
     Admin/Aerial Imagery Enterprise Contract Program R
     Occupational Health Services for Minnesota Veterans Home - Hastings
-    DNR EWR PT QC PIPING PLOVER MONITORING
     Pharmacy Benefit Manager Auditor
     Marketing Agency for Minnesota Parks and Trails
     Interpretive Curation, Development, and Design for the Minnesota Zoo Center for Wildlife Conservation
@@ -255,7 +235,6 @@ ALL LISTINGS BY SITE
     DHS/Assessments and Recommendations for Agency Tr
     RECS RFP DEFERRED MAINTENANCE PROJECTS RUSH CITY
     DHS / Outreach & Engagement (TMaH)
-    RECS RFP Design for Replace Domestic Water Pump
     RFP to Provide Services to Individuals in the Vocational Rehabilitation Program
 
 [ MBID (UMN / Public Agencies) ]
@@ -506,362 +485,200 @@ ALL LISTINGS BY SITE
       https://das.nebraska.gov/materiel/purchasing/6915Z1/6915Z1.html
     Contractor to provide, at a competitive and reasonable cost, professional consulting services for natural gas rate cases and other matters related to the regulation of natural gas public utilities
       https://das.nebraska.gov/materiel/purchasing/PSC-GAS-2024-1/PSC-GAS-2024-1.html
-    04/08/26
-    03/25/26
-    03/25/26
-    03/17/26
- ** 02/26/26
-    02/25/26
-    02/23/26
-    02/20/26
-    02/20/26
-    02/19/26
-    01/22/26
-    01/16/26
-    01/14/26
-    01/13/26
-    01/09/26
- ** 01/07/26
-    01/06/26
-    12/30/25
-    12/17/25
-    12/11/25
-    12/09/25
-    12/09/25
-    12/09/25
-    12/09/25
-    12/09/25
-    12/04/25
-    11/21/25
-    11/21/25
-    11/19/25
-    11/19/25
-    10/30/25
-    10/23/25
-    10/20/25
-    10/17/25
-    10/15/25
-    10/10/25
-    10/10/25
-    10/07/25
-    09/11/25
-    09/10/25
-    09/09/25
-    09/05/2508/11/25
-    09/04/25
-    08/25/25
-    08/19/25
-    08/15/25
-    08/14/25
-    08/13/25
-    08/12/25
-    08/08/25
- ** 08/05/25
-    08/04/25
-    07/22/25
-    07/16/25
-    07/08/25
-    06/23/25
-    06/20/25
-    06/10/25
-    06/10/25
-    06/06/25
-    06/06/25
-    05/23/25
-    05/23/25
-    05/22/25
-    05/19/25
-    05/16/25
-    05/13/25
-    04/30/25
-    04/29/25
-    04/29/25
-    04/23/25
-    04/22/25
-    04/21/25
-    04/18/25
-    04/11/25
-    04/08/25
-    03/26/25
-    03/11/25
-    03/10/25
-    03/07/25
-    03/07/25
-    03/05/25
-    03/05/25
-    03/04/25
-    02/24/25
-    02/21/25
-    02/12/25
-    02/05/25
-    01/30/25
-    01/27/25
-    01/22/25
-    01/21/25
-    01/17/25
-    01/17/25
-    01/16/25
-    09/16/25
-    12/27/24
-    12/12/24
-    12/10/24
-    12/06/24
-    11/18/24
-    11/14/24
-    11/05/24
-    10/30/24
-    10/29/24
-    10/24/24
-    10/24/24
-    10/22/24
-    10/21/24
-    10/16/24
-    10/15/24
-    10/07/24
-    10/07/24
-    10/03/24
-    09/30/24
-    09/16/24
-    09/06/24
-    09/03/24
-    08/27/24
-    08/27/24
-    08/26/24
-    08/15/24
- ** 08/14/24
-    08/13/24
-    08/12/24
-    08/09/24
-    08/06/24
-    08/05/24
-    08/02/24
-    08/01/24
-    08/01/24
- ** 07/31/24
-    07/31/24
-    07/30/24
-    07/22/24
-    07/17/24
- ** 07/17/24
-    07/10/24
-    07/01/2024
-    06/26/2024
-    06/24/2024
-    06/24/2024
-    06/20/2024
-    06/17/2024
-    06/11/2024
-    06/06/24
-    05/30/2024
-    05/17/2024
-    05/16/2024
-    05/15/2024
-    05/13/2024
-    05/10/2024
-    05/10/2024
-    05/10/2024
-    05/10/2024
-    04/29/2024
-    04/18/2024
-    04/18/2024
-    04/18/2024
-    04/10/2024
-    04/05/2024
-    04/02/2024
-    03/25/2024
-    03/25/2024
-    03/22/2024
-    03/22/2024
-    03/21/2024
-    03/21/2024
-    03/14/2024
-    03/13/2024
-    03/12/2024
-    03/08/2024
-    03/08/2024
-    03/08/2024
-    03/07/2024
-    03/07/2024
-    03/07/2024
-    03/06/2024
-    03/05/2024
-    03/05/2024
-    03/05/2024
-    02/29/2024
-    02/28/2024
-    02/28/2024
-    02/23/2024
-    02/22/2024
-    02/20/2024
-    02/16/2024
-    02/15/2024
-    02/13/2024
-    02/08/2024
-    02/06/2024
-    02/02/2024
-    01/26/2024
-    01/23/2024
-    1/23/2024
-    01/12/2024
-    01/13/2024
-    01/12/2024
-    01/10/2024
-    01/10/2024
-    01/09/2024
-    01/09/2024
-    01/04/2024
-    01/03/2024
-    01/03/2024
-    12/22/2023
-    12/18/2023
-    12/14/2023
-    12/11/2023
-    12/07/2023
-    12/06/2023
-    12/04/2023
-    12/04/2023
-    11/22/2024
-    11/17/2024
-    11/16/2023
-    11/15/2023
-    11/14/2023
-    11/14/2023
-    11/14/2023
-    11/08/2023
-    01/06/2023
-    11/06/2023
-    10/31/2023
-    10/31/2023
-    10/26/2023
-    10/25/2023
-    10/24/2023
-    10/24/2023
-    10/24/2023
-    10/19/2023
-    10/15/2023
-    10/13/2023
-    10/13/2023
-    10/12/2023
-    10/12/2023
-    10/05/2023
-    10/03/2023
-    10/03/2023
-    10/02/2024
-    10/02/2023
-    10/02/2023
-    09/30/2023
-    09/26/2023
-    09/22/2023
-    09/22/2023
-    09/21/2023
-    09/21/2023
-    09/20/2023
-    09/19/2023
-    09/18/2023
-    09/18/2023
-    09/12/2023
-    09/11/2023
-    09/07/2023
-    09/06/2023
-    08/31/2023
-    09/29/2023
-    08/31/2023
-    08/29/2023
-    08/25/2023
-    08/23/2023
-    08/17/2023
-    08/16/2023
-    08/03/2023
-    08/03/2023
-    07/27/2023
-    07/25/2023
-    07/24/2023
-    07/20/2023
-    07/14/2023
-    07/10/2023
-    07/07/2023
-    07/07/2023
-    06/23/2023
-    06/16/2023
-    06/15/2023
-    06/12/2023
-    06/05/2023
-    06/05/2023
-    05/26/2023
-    05/26/2023
-    05/25/2023
-    05/25/2023
-    05/24/2023
-    05/22/2023
-    05/19/2023
-    05/18/2023
-    05/15/2023
-    05/15/2023
-    05/10/2023
-    05/10/2023
-    05/09/2023
-    05/09/2023
-    05/05/2023
-    05/04/2023
-    05/02/2023
-    04/20/2023
-    04/13/2023
-    04/13/2023
-    04/12/2023
-    04/12/2023
-    04/11/2023
-    04/11/2023
-    04/06/2023
-    04/06/2023
-    04/06/2023
-    04/04/2023
-    04/04/2023
-    04/03/2023
-    03/29/2023
-    03/28/2023
-    03/27/2023
-    03/27/2023
-    03/27/2023
-    03/27/2023
-    03/23/2023
-    03/22/2023
-    03/13/2023
-    03/10/2023
-    03/08/2023
-    03/08/2023
-    03/07/2023
-    03/06/2023
-    03/06/2023
-    03/01/2023
-    02/28/2023
-    02/27/2023
-    02/23/2023
-    02/22/2023
-    02/22/2023
-    02/16/2023
-    02/10/2023
-    02/08/2023
-    02/07/2023
-    02/07/2023
-    02/07/2023
-    02/03/2023
-    02/03/2023
-    01/31/2023
-    01/31/2023
-    01/30/2023
-    01/26/2023
-    01/25/2023
-    01/24/2023
-    01/17/2023
-    01/13/2023
-    01/06/2023
-    01/05/2023
+
+[ San Pablo ]
+  https://www.sanpabloca.gov/Bids.aspx
+    PUBLIC WORKS, ENGINEERING, AND ENVIRONMENTAL PROJECTS ARE POSTED ON PLANET BIDS
+      https://www.sanpabloca.gov/bids.aspx?bidID=87
+
+[ Campbell ]
+  https://www.campbellca.gov/Bids.aspx
+    Contractor's State License Board
+      http://www.cslb.ca.gov/
+
+[ Ventura ]
+  https://www.cityofventura.ca.gov/Bids.aspx
+ ** Public Works Contracts
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=331
+    On-Call Electrical Services
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=383
+    On-Call Maintenance, Repair, and Testing of Emergency Generators and Automatic Transfer Switches
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=382
+    Street and Sidewalk Construction Services
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=385
+    Waterline Repair: Camden-Hanover Project
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
+    Waterline Repair: Camden-Hanover Project
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
+    Professional Assistance for Implementation of Invasive Species Minimization Plan for VWP Project
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=381
+    On-Call Electrical Services
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=383
+    On-Call Maintenance, Repair, and Testing of Emergency Generators and Automatic Transfer Switches
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=382
+    Street and Sidewalk Construction Services
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=385
+    Waterline Repair: Camden-Hanover Project
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
+    SEISMIC RETROFIT OF BRIDGES OVER RAILROAD AT VICTORIA AVE. AND TELEPHONE RD.
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=384
+    Professional Assistance for Implementation of Invasive Species Minimization Plan for VWP Project
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=381
+    Waterline Repair: Camden-Hanover Project
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
+
+[ Eureka ]
+  https://www.eurekaca.gov/Bids.aspx
+    Halvorsen Park Trail Project
+      https://www.eurekaca.gov/bids.aspx?bidID=27
+ ** ADU Design Professionals RFQ
+      https://www.eurekaca.gov/bids.aspx?bidID=26
+    Consulting Services for Water and Wastewater Rate Study RFP
+      https://www.eurekaca.gov/bids.aspx?bidID=28
+
+[ Humboldt County ]
+  https://humboldtgov.org/Bids.aspx
+    ROHNERVILLE AIRPORT REHABILITATE RUNWAY 11/29
+      https://humboldtgov.org/bids.aspx?bidID=654
+    Security and Secure Transportation
+      https://humboldtgov.org/bids.aspx?bidID=655
+    Environmental Remediation and Restoration Initiative
+      https://humboldtgov.org/bids.aspx?bidID=548
+    Measure O - 2026 Road Maintenance Surfacing Project Bald Hills Road (Phase 1)
+      https://humboldtgov.org/bids.aspx?bidID=652
+    Public Works Measure O - 2026 Road  Maintenance Surface Management Project, Multiple Locations
+      https://humboldtgov.org/bids.aspx?bidID=653
+    Rehabilitation, Overlay And Bike Improvements On Myrtle
+      https://humboldtgov.org/bids.aspx?bidID=651
+
+[ North Miami ]
+  https://www.northmiamifl.gov/Bids.aspx
+    2025 Neat Street Planting Project
+      https://www.northmiamifl.gov/bids.aspx?bidID=101
+    Operation and Maintenance Services
+      https://www.northmiamifl.gov/bids.aspx?bidID=103
+
+[ Jacksonville Beach ]
+  https://www.jacksonvillebeach.org/Bids.aspx
+    Fencing Services
+      https://www.jacksonvillebeach.org/bids.aspx?bidID=101
+    Flame Retardant Clothing
+      https://www.jacksonvillebeach.org/bids.aspx?bidID=100
+    Landscape Services
+      https://www.jacksonvillebeach.org/bids.aspx?bidID=102
+    New Well #16 (Part A) and 12” Raw Water Main Extension (Part B)
+      https://www.jacksonvillebeach.org/bids.aspx?bidID=103
+    Latham Plaza Parking Lot Public-Private Partnership (P3)
+      https://www.jacksonvillebeach.org/bids.aspx?bidID=104
+
+[ Palm Beach Gardens ]
+  https://www.pbgfl.gov/Bids.aspx
+    Bid Opportunities
+      https://www.pbgfl.gov/177/Purchasing
+    Bid Postings
+      https://www.pbgfl.com/bids.aspx
+
+[ St. Pete Beach ]
+  https://www.stpetebeach.org/Bids.aspx
+    Professional Integrator Services - SCADA Conversion RFP
+      https://www.stpetebeach.org/bids.aspx?bidID=120
+    Wastewater Lift Stations Rehabilitation - RFB
+      https://www.stpetebeach.org/bids.aspx?bidID=119
+
+[ Hillsborough County (Bonfire) ]
+  https://hillsboroughcounty.bonfirehub.com/portal/?tab=openOpportunities
+  No open bids found (site may require login or be empty)
+
+[ Bexar County ]
+  https://www.bexar.org/Bids.aspx
+  No open bids found (site may require login or be empty)
+
+[ Texas City ]
+  https://www.texascitytx.gov/Bids.aspx
+    SANITARY SEWER REHABILITION PROJECT- PHASE 25
+      https://www.texascitytx.gov/bids.aspx?bidID=88
+    WATER LINE REPLACEMENT PROJECT- PHASE 23
+      https://www.texascitytx.gov/bids.aspx?bidID=89
+
+[ Galveston ]
+  https://www.galvestontx.gov/bids.aspx
+    Compensation Study
+      https://www.galvestontx.gov/bids.aspx?bidID=631
+    Drug and Alcohol Testing
+      https://www.galvestontx.gov/bids.aspx?bidID=628
+    Lift Stations 13 and 51 Improvements
+      https://www.galvestontx.gov/bids.aspx?bidID=625
+    Mobile Parking Payment System
+      https://www.galvestontx.gov/bids.aspx?bidID=626
+    Summer Band Concert Series
+      https://www.galvestontx.gov/bids.aspx?bidID=630
+    UTMB Elevated Storage Tank Rehabilitation
+      https://www.galvestontx.gov/bids.aspx?bidID=623
+
+[ Cedar Park ]
+  https://www.cedarparktexas.gov/Bids.aspx
+    City of Cedar Park Arts Collective
+      https://www.cedarparktexas.gov/bids.aspx?bidID=137
+
+[ League City ]
+  https://www.leaguecitytx.gov/bids.aspx
+    Harbour Park 1 Lift Station Rehabilitation WW2203 ITB REBID
+      https://www.leaguecitytx.gov/bids.aspx?bidID=856
+    Pat Hallisey Park PK2001
+      https://www.leaguecitytx.gov/bids.aspx?bidID=857
+    Printing and Mailing Services of City Matters Magazine
+      https://www.leaguecitytx.gov/bids.aspx?bidID=858
+    Sanitary Sewer Manhole Rehabilitation ITB WW1801L
+      https://www.leaguecitytx.gov/bids.aspx?bidID=855
+    SWWRF - Building Construction Package
+      https://www.leaguecitytx.gov/bids.aspx?bidID=859
+    SWWRF - Electrical Construction Package
+      https://www.leaguecitytx.gov/bids.aspx?bidID=861
+    SWWRF - Instrumentation & Controls Construction Package
+      https://www.leaguecitytx.gov/bids.aspx?bidID=862
+    SWWRF - Treatment Plant Construction Package
+      https://www.leaguecitytx.gov/bids.aspx?bidID=860
+
+[ Dallas (Bonfire) ]
+  https://dallascityhall.bonfirehub.com/portal/?tab=openOpportunities
+  No open bids found (site may require login or be empty)
+
+[ Harris County (Bonfire) ]
+  https://harriscountytx.bonfirehub.com/portal/?tab=openOpportunities
+  No open bids found (site may require login or be empty)
+
+[ Rockford ]
+  https://rockfordil.gov/Bids.aspx
+    CITY WIDE STREET REPAIRS GROUP NO. 3 - 2026 (RESIDENTIAL)
+      https://rockfordil.gov/bids.aspx?bidID=281
+    CORONADO PERFORMING ARTS CENTER  DECORATIVE PLASTER REPAIRS
+      https://rockfordil.gov/bids.aspx?bidID=282
+    MADISON STREET RECONSTRUCTION PHASE II
+      https://rockfordil.gov/bids.aspx?bidID=280
+    BITUMINIOUS PATCHING 2026 - REBID
+      https://rockfordil.gov/bids.aspx?bidID=283
+
+[ Pierce County ]
+  https://www.piercecountywa.gov/Bids.aspx
+  ERROR: 403 Client Error: Forbidden for url: https://www.piercecountywa.gov/Bids.aspx
+
+[ Snohomish County ]
+  https://snohomishcountywa.gov/Bids.aspx
+  No open bids found (site may require login or be empty)
+
+[ Seattle (ProcureWare) ]
+  https://seattle.procureware.com/Bids
+  No open bids found (site may require login or be empty)
+
+[ Coconino County ]
+  https://www.coconino.az.gov/Bids.aspx
+  ERROR: 403 Client Error: Forbidden for url: https://www.coconino.az.gov/Bids.aspx
 
 [ SAM.gov (USPS Opportunities) ]
   https://sam.gov/search/?index=opp&sfm%5Bstatus%5D%5Bis_active%5D=true&sfm%5BsimpleSearch%5D%5BkeywordTags%5D%5B0%5D%5Bkey%5D=USPS&sfm%5BsimpleSearch%5D%5BkeywordTags%5D%5B0%5D%5Bvalue%5D=USPS
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 40 sites | 516 total listings
-  19 flagged as architecture/design related
+  Checked 62 sites | 222 total listings
+  15 flagged as architecture/design related
 ======================================================================

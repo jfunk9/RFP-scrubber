@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-MN Architecture & Design RFP Scraper
-Scrapes open bid/RFP listings from your bookmarked MN government sites
-and saves a filtered report to your desktop.
+Multi-State Architecture & Engineering RFP Scraper
+Scrapes open bid/RFP listings from government procurement sites across
+13 states + federal, and generates a filtered dashboard with accordion UI.
 
 Usage:
-    python3 mn_bid_scraper.py
+    python mn_bid_scraper.py
 
 Requirements:
     pip install requests beautifulsoup4 lxml playwright
@@ -261,6 +261,55 @@ SITES = [
     ("NE", "Nebraska DAS (State Bids)", "https://das.nebraska.gov/materiel/bid-opportunities.html",  "nebraska_das"),
 
     # ═══════════════════════════════════════════════════════════════════════════
+    # CALIFORNIA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("CA", "San Pablo",         "https://www.sanpabloca.gov/Bids.aspx",           "civicengage"),
+    ("CA", "Campbell",          "https://www.campbellca.gov/Bids.aspx",           "civicengage"),
+    ("CA", "Ventura",           "https://www.cityofventura.ca.gov/Bids.aspx",     "civicengage"),
+    ("CA", "Eureka",            "https://www.eurekaca.gov/Bids.aspx",             "civicengage"),
+    ("CA", "Humboldt County",   "https://humboldtgov.org/Bids.aspx",             "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # FLORIDA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("FL", "North Miami",           "https://www.northmiamifl.gov/Bids.aspx",         "civicengage"),
+    ("FL", "Jacksonville Beach",    "https://www.jacksonvillebeach.org/Bids.aspx",    "civicengage"),
+    ("FL", "Palm Beach Gardens",    "https://www.pbgfl.gov/Bids.aspx",               "civicengage"),
+    ("FL", "St. Pete Beach",        "https://www.stpetebeach.org/Bids.aspx",          "civicengage"),
+    ("FL", "Hillsborough County (Bonfire)",
+     "https://hillsboroughcounty.bonfirehub.com/portal/?tab=openOpportunities",       "bonfire"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # TEXAS
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("TX", "Bexar County",      "https://www.bexar.org/Bids.aspx",                "civicengage"),
+    ("TX", "Texas City",        "https://www.texascitytx.gov/Bids.aspx",          "civicengage"),
+    ("TX", "Galveston",         "https://www.galvestontx.gov/bids.aspx",          "civicengage"),
+    ("TX", "Cedar Park",        "https://www.cedarparktexas.gov/Bids.aspx",       "civicengage"),
+    ("TX", "League City",       "https://www.leaguecitytx.gov/bids.aspx",         "civicengage"),
+    ("TX", "Dallas (Bonfire)",
+     "https://dallascityhall.bonfirehub.com/portal/?tab=openOpportunities",        "bonfire"),
+    ("TX", "Harris County (Bonfire)",
+     "https://harriscountytx.bonfirehub.com/portal/?tab=openOpportunities",        "bonfire"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # ILLINOIS
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("IL", "Rockford",          "https://rockfordil.gov/Bids.aspx",               "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # WASHINGTON
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("WA", "Pierce County",         "https://www.piercecountywa.gov/Bids.aspx",       "civicengage"),
+    ("WA", "Snohomish County",      "https://snohomishcountywa.gov/Bids.aspx",        "civicengage"),
+    ("WA", "Seattle (ProcureWare)", "https://seattle.procureware.com/Bids",            "procureware"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # ARIZONA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("AZ", "Coconino County",   "https://www.coconino.az.gov/Bids.aspx",          "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
     # FEDERAL (USPS)
     # ═══════════════════════════════════════════════════════════════════════════
     ("FED", "SAM.gov (USPS Opportunities)",
@@ -276,6 +325,12 @@ STATE_NAMES = {
     "ND": "North Dakota",
     "SD": "South Dakota",
     "NE": "Nebraska",
+    "CA": "California",
+    "FL": "Florida",
+    "TX": "Texas",
+    "IL": "Illinois",
+    "WA": "Washington",
+    "AZ": "Arizona",
     "FED": "Federal (USPS)",
 }
 
@@ -1957,6 +2012,10 @@ def run():
 if __name__ == "__main__":
     try:
         run()
+    except Exception as e:
+        print(f"\n!! FATAL ERROR: {e}")
+        import traceback
+        traceback.print_exc()
     finally:
         # Clean up Playwright browser if it was started
         if _browser is not None:
@@ -1964,3 +2023,5 @@ if __name__ == "__main__":
                 _browser.close()
             except:
                 pass
+        # Keep window open so user can read output
+        input("\nPress Enter to exit...")
