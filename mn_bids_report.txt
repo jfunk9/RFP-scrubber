@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-04-28 19:36
+  Generated: 2026-04-29 22:32
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (17 total)
+FLAGGED AS LIKELY RELEVANT (15 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -55,11 +55,6 @@ FLAGGED AS LIKELY RELEVANT (17 total)
   26P033 | IFB | Transit | Due: 6/3/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
 
-  [Metropolitan Council]
-  Notice of Intent to Solicit Construction Bids: Blue Line Lake St/Midtown Station Renovation
-  METRO BLE | IFB | Transit | Due: 
-  --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-
   [MnDOT P/T Consultant Notices]
   US 75 Climax Design Build Design Verification and Construction Manager
   Brief Description:ÂMnDOT requests responses for a Contractor to provide design-build design verification for State Proje
@@ -69,11 +64,6 @@ FLAGGED AS LIKELY RELEVANT (17 total)
   Blatnik Bridge Construction Contract Administration & Verification
   Brief Description:ÂMnDOT requests proposals for assistance in performing tasks necessary to verify that the Blatnik Brid
   --> https://www.dot.state.mn.us/consult/notices.html
-
-  [Iowa DAS (State Bids)]
-  Feasibility Study for Waterline Connection Between Lewis and Clark State Park and the City of Onawa
-  26CRDPFPSMOOR-0009 | Natural Resources, Dept Of | Expires: 5/15/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=da522b10-01a9-4a33-9b71-b665787e180d
 
   [Bismarck]
   Request for Qualifications for Architectural Services
@@ -194,10 +184,10 @@ ALL LISTINGS BY SITE
 
 [ Moorhead (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465
-    Moorhead City of40th Avenue South Improvements...
-      https://qcpi.questcdn.com/cdn/posting/?id=10152855
     Moorhead Center Mall Redevelopment - Street & Util...
       https://qcpi.questcdn.com/cdn/posting/?id=10183180
+    2026 Sanitary Sewer Lining Improvements
+      https://qcpi.questcdn.com/cdn/posting/?id=10175580
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
@@ -224,8 +214,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    Duluth Campus Annual Small Projects Program
-    Student Housing Facilities Lease for Athletics
     Comstock and Yudof Retaining Wall Replacement
     Boiler Maintenance Services
     UMD Print Services
@@ -250,25 +238,25 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    New Fridley Lift Station L32A Revised Invitation for Pre-Qual
     Regular Route Shelter Procurement
     Northstar Platform Removals (Contracting - with Small Business Goal)
-    Green Line OMF LRF Storage Barn
     North Loop Garage Solar Array
     Rosedale Mall Transit Facility Rehabilitation
  ** Franklin O & M Redundant RCC HVAC (Contracting - with Small Business Goal)
+    Green Line OMF LRF Storage Barn
     Fuel Supply – Metro Mobility
     NEWRegional Mobility Hubs
     Advertising Services
  ** Small Communities Planning Program Engineering Services
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
- ** Notice of Intent to Solicit Construction Bids: Blue Line Lake St/Midtown Station Renovation
+    New Fridley Lift Station L32A Revised Invitation for Pre-Qual
     2050 Comprehensive Planning Resources Support
     NEWNetwork Wrangler Updates
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
+    2103-43 TH 29 Alexandria
     Indigenous Cultural Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Wisconsin Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Minnesota Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
@@ -329,6 +317,16 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Courier Services for Des Moines Metro Area
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=228450cc-5595-4663-8b1f-e317c4727c63
+    Courier Services for Des Moines Metro Area
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4e6aecd4-7a78-4408-b59c-e58ca3662b5c
+    Bakery Sheet Roller
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=326b2b56-6e9e-4824-a697-3b8db1a9c81a
+    Wetland Restoration, Silver Lake WMA, Palo Alto County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d05f46da-2286-4219-a6bf-3d57410a0226
+    Wastewater Improvements, Backbone State Park, Delaware County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=78070c5e-8f7b-4f05-92d7-f623083e0aa5
     DOC 4JD CBC New Central Office Building
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=85a3013a-4834-4201-836d-788c52ee5f62
     NCF Dietary and Laundry Hot Water Tank Replacement
@@ -349,16 +347,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cc7dddc-59b9-4655-985f-22c8be0b746a
     IVH Loftus & Malloy Water Infiltration
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=38f43ec5-a00a-4354-baa1-62e0114a6c31
-    Transition Services and Aftercare
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=60da67cf-4b40-4d62-b21f-dc2e8f87109c
-    Access Control Systems and Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ee03344b-f8ce-4383-83ff-3882bfbd29ea
-    Promega DNA Amplification Chemistry Kits
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=54f15693-2194-416b-ae8c-ceb197f16998
- ** Feasibility Study for Waterline Connection Between Lewis and Clark State Park and the City of Onawa
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=da522b10-01a9-4a33-9b71-b665787e180d
-    Floating and Emergent Aquatic Plant Management
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3f548f06-8907-4c24-9fee-39864cfee86e
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -400,6 +388,8 @@ ALL LISTINGS BY SITE
       https://www.bismarcknd.gov/bids.aspx?bidID=1349
     Roadway Pavement Markings - 26
       https://www.bismarcknd.gov/bids.aspx?bidID=1351
+    Street Improvement District No. 598
+      https://www.bismarcknd.gov/bids.aspx?bidID=1352
     Street Light and Traffic Signal Project No. 88
       https://www.bismarcknd.gov/bids.aspx?bidID=1345
     Water Utility Project No. 153
@@ -419,6 +409,8 @@ ALL LISTINGS BY SITE
   https://www.minotnd.gov/Bids.aspx
     BID NOTICE: 2026 AIRFIELD DITCH STABILIZATION
       https://www.minotnd.gov/bids.aspx?bidID=650
+    BID NOTICE: MOSQUITO SURVEILLANCE & GROUND DISPERSAL SPRAY SERVICES
+      https://www.minotnd.gov/bids.aspx?bidID=652
     BID NOTICE: TWO (2) WHEEL LOADER PROJECT 5008
       https://www.minotnd.gov/bids.aspx?bidID=651
     NOTICE OF SALE - PUBLIC AUCTION: RETAIL LIQUOR, BEER, & WINE LICENSE
@@ -500,6 +492,8 @@ ALL LISTINGS BY SITE
       https://www.cityofventura.ca.gov/bids.aspx?bidID=378
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
+    One (1) New, Unused 2026 or Newer, Mid-Size All Electric SUV, Chevrolet Equinox EV or Equivalent
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=390
     As-Needed Roofing Services
       https://www.cityofventura.ca.gov/bids.aspx?bidID=386
     Citywide Traffic Striping Maintenance
@@ -510,6 +504,8 @@ ALL LISTINGS BY SITE
       https://www.cityofventura.ca.gov/bids.aspx?bidID=389
     Waterline Repair: Camden-Hanover Project
       https://www.cityofventura.ca.gov/bids.aspx?bidID=378
+    One (1) New, Unused 2026 or Newer, Mid-Size All Electric SUV, Chevrolet Equinox EV or Equivalent
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=390
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
     Waterline Repair: Camden-Hanover Project
@@ -578,8 +574,6 @@ ALL LISTINGS BY SITE
 
 [ St. Pete Beach ]
   https://www.stpetebeach.org/Bids.aspx
-    Professional Integrator Services - SCADA Conversion RFP
-      https://www.stpetebeach.org/bids.aspx?bidID=120
     Wastewater Lift Stations Rehabilitation - RFB
       https://www.stpetebeach.org/bids.aspx?bidID=119
 
@@ -595,13 +589,11 @@ ALL LISTINGS BY SITE
   https://www.texascitytx.gov/Bids.aspx
     MOSES LAKE STORMWATER PUMP STATION
       https://www.texascitytx.gov/bids.aspx?bidID=90
-    SANITARY SEWER REHABILITION PROJECT- PHASE 25
-      https://www.texascitytx.gov/bids.aspx?bidID=88
-    WATER LINE REPLACEMENT PROJECT- PHASE 23
-      https://www.texascitytx.gov/bids.aspx?bidID=89
 
 [ Galveston ]
   https://www.galvestontx.gov/bids.aspx
+    Lift Stations 13 and 51 Improvements
+      https://www.galvestontx.gov/bids.aspx?bidID=625
     Main WWTP Bio Solids Replacement
       https://www.galvestontx.gov/bids.aspx?bidID=633
     Stewart Beach Redevelopment
@@ -652,7 +644,8 @@ ALL LISTINGS BY SITE
 
 [ Pierce County ]
   https://www.piercecountywa.gov/Bids.aspx
-  ERROR: 403 Client Error: Forbidden for url: https://www.piercecountywa.gov/Bids.aspx
+    Bid Postings
+      https://www.piercecountywa.gov/
 
 [ Snohomish County ]
   https://snohomishcountywa.gov/Bids.aspx
@@ -672,6 +665,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 206 total listings
-  17 flagged as architecture/design related
+  Checked 62 sites | 207 total listings
+  15 flagged as architecture/design related
 ======================================================================
