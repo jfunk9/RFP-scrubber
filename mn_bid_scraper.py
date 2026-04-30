@@ -1658,19 +1658,6 @@ def build_html_dashboard(all_results, flagged, timestamp):
     border-top: 1px solid var(--border); font-size: 12px; color: var(--text-dim);
   }}
   .manual-check a {{ margin: 0 8px; }}
-  .refresh-btn {{
-    display: inline-block;
-    padding: 6px 16px;
-    background: var(--accent);
-    color: #fff;
-    border-radius: 6px;
-    font-size: 13px;
-    font-weight: 600;
-    text-decoration: none;
-    margin-left: 16px;
-    transition: background 0.15s;
-  }}
-  .refresh-btn:hover {{ background: #2563eb; text-decoration: none; }}
 </style>
 </head>
 <body>
@@ -1679,8 +1666,6 @@ def build_html_dashboard(all_results, flagged, timestamp):
   <h1>Architecture &amp; Engineering Bid Dashboard</h1>
   <div class="subtitle">
     Last updated: {timestamp} &nbsp;|&nbsp; Adkins Architects Inc.
-    <a class="refresh-btn" href="https://github.com/jfunk9/RFP-scrubber/actions/workflows/scrape.yml"
-       target="_blank" rel="noopener">&#x21bb; Refresh Data</a>
   </div>
 </div>
 
