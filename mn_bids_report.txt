@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-04-29 22:32
+  Generated: 2026-04-30 13:53
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (15 total)
+FLAGGED AS LIKELY RELEVANT (14 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -58,11 +58,6 @@ FLAGGED AS LIKELY RELEVANT (15 total)
   [MnDOT P/T Consultant Notices]
   US 75 Climax Design Build Design Verification and Construction Manager
   Brief Description:ÂMnDOT requests responses for a Contractor to provide design-build design verification for State Proje
-  --> https://www.dot.state.mn.us/consult/notices.html
-
-  [MnDOT P/T Consultant Notices]
-  Blatnik Bridge Construction Contract Administration & Verification
-  Brief Description:ÂMnDOT requests proposals for assistance in performing tasks necessary to verify that the Blatnik Brid
   --> https://www.dot.state.mn.us/consult/notices.html
 
   [Bismarck]
@@ -238,7 +233,6 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    Regular Route Shelter Procurement
     Northstar Platform Removals (Contracting - with Small Business Goal)
     North Loop Garage Solar Array
     Rosedale Mall Transit Facility Rehabilitation
@@ -250,7 +244,6 @@ ALL LISTINGS BY SITE
  ** Small Communities Planning Program Engineering Services
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
-    New Fridley Lift Station L32A Revised Invitation for Pre-Qual
     2050 Comprehensive Planning Resources Support
     NEWNetwork Wrangler Updates
 
@@ -261,7 +254,6 @@ ALL LISTINGS BY SITE
     Wisconsin Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Minnesota Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
  ** US 75 Climax Design Build Design Verification and Construction Manager
- ** Blatnik Bridge Construction Contract Administration & Verification
     US 2 in Floodwood Corridor Study and Preliminary Design
     Statewide Travel Demand Model - Phase 1
 
@@ -317,36 +309,7 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
-    Courier Services for Des Moines Metro Area
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=228450cc-5595-4663-8b1f-e317c4727c63
-    Courier Services for Des Moines Metro Area
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4e6aecd4-7a78-4408-b59c-e58ca3662b5c
-    Bakery Sheet Roller
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=326b2b56-6e9e-4824-a697-3b8db1a9c81a
-    Wetland Restoration, Silver Lake WMA, Palo Alto County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d05f46da-2286-4219-a6bf-3d57410a0226
-    Wastewater Improvements, Backbone State Park, Delaware County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=78070c5e-8f7b-4f05-92d7-f623083e0aa5
-    DOC 4JD CBC New Central Office Building
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=85a3013a-4834-4201-836d-788c52ee5f62
-    NCF Dietary and Laundry Hot Water Tank Replacement
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f7ce9216-98d6-41ac-9b5b-8fdbda95a8fa
-    Frog Hollow Bridge Redecking, Volga River Recreation Area, Fayette County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d788e208-d1aa-49cb-a78f-bd6085f16dea
-    Individual and Group Therapy
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1c99d3b4-9e77-42b7-886b-0b0ffa43380b
-    Community Based Sanctions Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=fef4c5d7-a087-4c46-a065-62c802d7d89c
-    Early Services Program (ESP)
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6e7f3b64-d508-4bc1-a003-5caed8257cfc
-    Mobile Retroreflectometers
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5d7b830e-74af-4174-be7c-01755f453f49
-    Request for Proposals Bread and Bakery Products
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=8df276d4-bcef-47b4-a0b6-342790175f3b
-    Cleanup and Restoration Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cc7dddc-59b9-4655-985f-22c8be0b746a
-    IVH Loftus & Malloy Water Infiltration
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=38f43ec5-a00a-4354-baa1-62e0114a6c31
+  No open bids found (site may require login or be empty)
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -423,8 +386,6 @@ ALL LISTINGS BY SITE
 
 [ Nebraska DAS (State Bids) ]
   https://das.nebraska.gov/materiel/bid-opportunities.html
-    Sixpence Evaluation
-      https://das.nebraska.gov/materiel/purchasing/NDERFP260202/NDERFP260202.html
     Nebraska Tobacco Quitline Services
       https://das.nebraska.gov/materiel/purchasing/124316 O3/124316 O3.html
     Refuse Services
@@ -433,6 +394,8 @@ ALL LISTINGS BY SITE
       https://das.nebraska.gov/materiel/purchasing/124273 O3/124273 O3.html
     Trauma or General Surgeons and Trauma Coordinator or Manager Registered Nurses
       https://das.nebraska.gov/materiel/purchasing/109205/109205.html
+    Sixpence Evaluation
+      https://das.nebraska.gov/materiel/purchasing/NDERFP260202/NDERFP260202.html
     Nebraska Technology Initiative
       https://das.nebraska.gov/materiel/purchasing/NDERFP260105/NDERFP260105.html
     Emergency Services IP Network (ESInet) and Next Generation Core  Services (NGCS) to Enable Statewide Delivery of Next Generation 911 (NG911)
@@ -665,6 +628,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 207 total listings
-  15 flagged as architecture/design related
+  Checked 62 sites | 189 total listings
+  14 flagged as architecture/design related
 ======================================================================
