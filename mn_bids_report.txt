@@ -1,19 +1,14 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-04-30 13:53
+  Generated: 2026-05-01 13:16
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (14 total)
+FLAGGED AS LIKELY RELEVANT (12 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
   2026-07 Bid Advertisement    2026-07 Project Bid Link | Status: Closes: Open Upon Contract
   --> https://www.ci.faribault.mn.us/bids.aspx?bidID=22
-
-  [MN State (QuestCDN)]
-  RCTC-23-Heintz Center HB2 Roof Replacement
-  Buildings and Grounds/Educatio... | Rochester Community ... | Rochester | 04/30/2026 02:00 PM CDT | Construction Project
-  --> https://qcpi.questcdn.com/cdn/posting/?id=10148662
 
   [MN State (QuestCDN)]
   MState Fergus Falls Campus Geothermal Project
@@ -22,22 +17,22 @@ FLAGGED AS LIKELY RELEVANT (14 total)
 
   [MBID (UMN / Public Agencies)]
   Northrup Auditorium Lighting Upgrade
-  01-053-26-3805 Addendum 2 | Architect (Design) | Purchasing | 5/4/2026 02:00:00 PM (CT)
+  01-053-26-3805 Addendum 4 | Architect (Design) | Purchasing | 5/4/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [MBID (UMN / Public Agencies)]
   Ferguson Hall Fire Protection System Deficiency Corrections
-  01-215-26-3814 | Architect (Design) | Purchasing | 5/11/2026 02:00:00 PM (CT)
+  01-215-26-3814 Addendum 1 | Architect (Design) | Purchasing | 5/11/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [MBID (UMN / Public Agencies)]
   Diehl Hall Repurposing
-  01-111-26-3789 Addendum 2 | Architect (Design) | Purchasing | 5/13/2026 02:00:00 PM (CT)
+  01-111-26-3789 Addendum 3 | Architect (Design) | Purchasing | 5/13/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [MBID (UMN / Public Agencies)]
   REBID - Andersen Library Caverns Fire Hazard Remediation and  Fire Alarm Upgrades
-  01-220-25-1210A | Construction | Purchasing | 5/14/2026 02:00:00 PM (CT)
+  01-220-25-1210A Addendum 1 | Construction | Purchasing | 5/14/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
@@ -54,11 +49,6 @@ FLAGGED AS LIKELY RELEVANT (14 total)
   Blue Line Lake Street / Midtown Station Renovation Construction
   26P033 | IFB | Transit | Due: 6/3/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-
-  [MnDOT P/T Consultant Notices]
-  US 75 Climax Design Build Design Verification and Construction Manager
-  Brief Description:ÂMnDOT requests responses for a Contractor to provide design-build design verification for State Proje
-  --> https://www.dot.state.mn.us/consult/notices.html
 
   [Bismarck]
   Request for Qualifications for Architectural Services
@@ -151,6 +141,8 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=864
     RFP for 2050 Comprehensive Plan
       https://www.washingtoncountymn.gov/bids.aspx?bidID=865
+    Bid for CSAH 14 Trail Improvements
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=867
     Bid for Law Enforcement Center (LEC) Phase 2 Remodel
       https://www.washingtoncountymn.gov/bids.aspx?bidID=856
     RFP for Library Strategic Facility Plan
@@ -159,13 +151,9 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=855
     RFP for Waste and Recycling Management Services
       https://www.washingtoncountymn.gov/bids.aspx?bidID=858
-    RFQ for 2026 Regional Solicitation Applications
-      https://www.washingtoncountymn.gov/bids.aspx?bidID=854
 
 [ Scott County ]
   https://www.scottcountymn.gov/Bids.aspx
-    Lawn Care Services
-      https://www.scottcountymn.gov/bids.aspx?bidID=156
     Scott County LEC Safety Railing Project
       https://www.scottcountymn.gov/bids.aspx?bidID=158
 
@@ -175,7 +163,8 @@ ALL LISTINGS BY SITE
 
 [ Eagan (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193
-  No open bids found (site may require login or be empty)
+    26-09 Sanitary & Storm Structure Lining
+      https://qcpi.questcdn.com/cdn/posting/?id=10187395
 
 [ Moorhead (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465
@@ -186,12 +175,6 @@ ALL LISTINGS BY SITE
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
-    SCSU- 25 - MHSRC 2026 Paving Replacement
-      https://qcpi.questcdn.com/cdn/posting/?id=10131947
-    RIDG-H-26 Door 14 Replacement
-      https://qcpi.questcdn.com/cdn/posting/?id=10145765
- ** RCTC-23-Heintz Center HB2 Roof Replacement
-      https://qcpi.questcdn.com/cdn/posting/?id=10148662
     ARCC-C 2026 Ext Water Intrusion
       https://qcpi.questcdn.com/cdn/posting/?id=10159965
     MCTC - Parking Ramp renovations - PR0000252
@@ -200,6 +183,8 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10127331
     SCTCC-25-HSB Cooling Tower Replacement
       https://qcpi.questcdn.com/cdn/posting/?id=10143668
+    MANK-26-WC 140 FACS Dishwasher
+      https://qcpi.questcdn.com/cdn/posting/?id=10187398
  ** MState Fergus Falls Campus Geothermal Project
       https://qcpi.questcdn.com/cdn/posting/?id=10181059
 
@@ -209,9 +194,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    Comstock and Yudof Retaining Wall Replacement
-    Boiler Maintenance Services
-    UMD Print Services
  ** Northrup Auditorium Lighting Upgrade
     PWB Fire Pump and Generator Replacement
     Large Format Hybrid Direct Rigid Printer for the University of Minnesota Twin Cities Campus
@@ -233,17 +215,18 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    Northstar Platform Removals (Contracting - with Small Business Goal)
     North Loop Garage Solar Array
     Rosedale Mall Transit Facility Rehabilitation
  ** Franklin O & M Redundant RCC HVAC (Contracting - with Small Business Goal)
     Green Line OMF LRF Storage Barn
     Fuel Supply – Metro Mobility
     NEWRegional Mobility Hubs
+    NEWHopkins Rail Support Facility Pocket Track Construction
     Advertising Services
  ** Small Communities Planning Program Engineering Services
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
+    NEWFully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     2050 Comprehensive Planning Resources Support
     NEWNetwork Wrangler Updates
 
@@ -253,7 +236,6 @@ ALL LISTINGS BY SITE
     Indigenous Cultural Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Wisconsin Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Minnesota Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
- ** US 75 Climax Design Build Design Verification and Construction Manager
     US 2 in Floodwood Corridor Study and Preliminary Design
     Statewide Travel Demand Model - Phase 1
 
@@ -309,7 +291,36 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
-  No open bids found (site may require login or be empty)
+    DAS CC Hoover Print Shop Expansion
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=582b4500-f545-4653-82f0-532f63fc306f
+    DOC Iowa Correctional Institute for Women Road Repair & Tunnel Infill
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b974e0ae-cd35-4df1-b220-acfaac1f9db4
+    Courier Services for Des Moines Metro Area
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=228450cc-5595-4663-8b1f-e317c4727c63
+    Courier Services for Des Moines Metro Area
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4e6aecd4-7a78-4408-b59c-e58ca3662b5c
+    Bakery Sheet Roller
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=326b2b56-6e9e-4824-a697-3b8db1a9c81a
+    Wetland Restoration, Silver Lake WMA, Palo Alto County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d05f46da-2286-4219-a6bf-3d57410a0226
+    Wastewater Improvements, Backbone State Park, Delaware County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=78070c5e-8f7b-4f05-92d7-f623083e0aa5
+    DOC 4JD CBC New Central Office Building
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=85a3013a-4834-4201-836d-788c52ee5f62
+    NCF Dietary and Laundry Hot Water Tank Replacement
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f7ce9216-98d6-41ac-9b5b-8fdbda95a8fa
+    Frog Hollow Bridge Redecking, Volga River Recreation Area, Fayette County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d788e208-d1aa-49cb-a78f-bd6085f16dea
+    Individual and Group Therapy
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1c99d3b4-9e77-42b7-886b-0b0ffa43380b
+    Community Based Sanctions Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=fef4c5d7-a087-4c46-a065-62c802d7d89c
+    Early Services Program (ESP)
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6e7f3b64-d508-4bc1-a003-5caed8257cfc
+    Mobile Retroreflectometers
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5d7b830e-74af-4174-be7c-01755f453f49
+    Request for Proposals Bread and Bakery Products
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=8df276d4-bcef-47b4-a0b6-342790175f3b
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -347,6 +358,8 @@ ALL LISTINGS BY SITE
       https://www.bismarcknd.gov/bids.aspx?bidID=1335
     Bismarck Parking Authority Advertisement for Bids - Parking Ramp Video Surveillance Upgrade Project
       https://www.bismarcknd.gov/bids.aspx?bidID=1336
+    Ad for Bid - Runway 3/21 & Taxiway D Rehab Phase 2
+      https://www.bismarcknd.gov/bids.aspx?bidID=1353
     Highway Construction Project No. 188
       https://www.bismarcknd.gov/bids.aspx?bidID=1349
     Roadway Pavement Markings - 26
@@ -370,8 +383,6 @@ ALL LISTINGS BY SITE
 
 [ Minot ]
   https://www.minotnd.gov/Bids.aspx
-    BID NOTICE: 2026 AIRFIELD DITCH STABILIZATION
-      https://www.minotnd.gov/bids.aspx?bidID=650
     BID NOTICE: MOSQUITO SURVEILLANCE & GROUND DISPERSAL SPRAY SERVICES
       https://www.minotnd.gov/bids.aspx?bidID=652
     BID NOTICE: TWO (2) WHEEL LOADER PROJECT 5008
@@ -501,8 +512,6 @@ ALL LISTINGS BY SITE
       https://humboldtgov.org/bids.aspx?bidID=661
     MURRAY FIELD AIRPORT INSTALL RUNWAY 12/30 VERTICAL GUIDANCE SYSTEMS
       https://humboldtgov.org/bids.aspx?bidID=659
-    Lot: Rock Crushing and Transport Equipment
-      https://humboldtgov.org/bids.aspx?bidID=657
 
 [ North Miami ]
   https://www.northmiamifl.gov/Bids.aspx
@@ -573,8 +582,6 @@ ALL LISTINGS BY SITE
   https://www.leaguecitytx.gov/bids.aspx
     Countryside Water Well Assessment and Repairs
       https://www.leaguecitytx.gov/bids.aspx?bidID=864
-    Printing and Mailing Services of City Matters Magazine
-      https://www.leaguecitytx.gov/bids.aspx?bidID=858
     SWWRF - Building Construction Package
       https://www.leaguecitytx.gov/bids.aspx?bidID=859
     SWWRF - Electrical Construction Package
@@ -628,6 +635,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 189 total listings
-  14 flagged as architecture/design related
+  Checked 62 sites | 197 total listings
+  12 flagged as architecture/design related
 ======================================================================
