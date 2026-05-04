@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-01 13:16
+  Generated: 2026-05-04 13:58
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (12 total)
+FLAGGED AS LIKELY RELEVANT (13 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -49,6 +49,11 @@ FLAGGED AS LIKELY RELEVANT (12 total)
   Blue Line Lake Street / Midtown Station Renovation Construction
   26P033 | IFB | Transit | Due: 6/3/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+
+  [Iowa DAS (State Bids)]
+  Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
+  645-DOTRFB-2722-2026 | Transportation | Expires: 5/5/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=aae3a05d-b378-4c59-b527-12ed2c436cca
 
   [Bismarck]
   Request for Qualifications for Architectural Services
@@ -145,12 +150,12 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=867
     Bid for Law Enforcement Center (LEC) Phase 2 Remodel
       https://www.washingtoncountymn.gov/bids.aspx?bidID=856
+    Equipment for Auction - 2011 Bobcat S650 and 2011 Bobcat S650
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=866
     RFP for Library Strategic Facility Plan
       https://www.washingtoncountymn.gov/bids.aspx?bidID=863
     RFP for Signage and Wayfinding Implementation
       https://www.washingtoncountymn.gov/bids.aspx?bidID=855
-    RFP for Waste and Recycling Management Services
-      https://www.washingtoncountymn.gov/bids.aspx?bidID=858
 
 [ Scott County ]
   https://www.scottcountymn.gov/Bids.aspx
@@ -159,7 +164,8 @@ ALL LISTINGS BY SITE
 
 [ Anoka County (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all
-  No open bids found (site may require login or be empty)
+    SAP 002-612-039 INTERSECTION IMPROVEMENTS
+      https://qcpi.questcdn.com/cdn/posting/?id=10183135
 
 [ Eagan (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193
@@ -220,15 +226,17 @@ ALL LISTINGS BY SITE
  ** Franklin O & M Redundant RCC HVAC (Contracting - with Small Business Goal)
     Green Line OMF LRF Storage Barn
     Fuel Supply – Metro Mobility
-    NEWRegional Mobility Hubs
+    Regional Mobility Hubs
     NEWHopkins Rail Support Facility Pocket Track Construction
     Advertising Services
  ** Small Communities Planning Program Engineering Services
+    NEWReissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
+    NEWRSF Security Improvements - Rebid (Contracting - with Small Business Goal)
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     NEWFully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     2050 Comprehensive Planning Resources Support
-    NEWNetwork Wrangler Updates
+    Network Wrangler Updates
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
@@ -236,6 +244,7 @@ ALL LISTINGS BY SITE
     Indigenous Cultural Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Wisconsin Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Minnesota Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
+    Minnesota Speed Management Action Plan
     US 2 in Floodwood Corridor Study and Preliminary Design
     Statewide Travel Demand Model - Phase 1
 
@@ -245,7 +254,7 @@ ALL LISTINGS BY SITE
 
 [ Saint Paul Public Schools ]
   https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD
-  No open bids found (site may require login or be empty)
+  ERROR: HTTPSConnectionPool(host='erfp.integratise.com', port=443): Max retries exceeded with url: /getall/a
 
 [ Roseville ISD 623 ]
   https://www.isd623.org/services/business-services
@@ -291,6 +300,26 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Statewide Mechanical Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf0425b5-92e2-4078-8743-3f05070adab8
+    Newton Correctional Facility Temporary Gravel Access Road
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6e76d717-bb1b-4a5d-aa08-57ccb30c7fb0
+    Mechanical Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5d96c397-2300-4f37-af45-b008d38fc622
+    HHS STS New Garage Building - Phase 2
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3dce2c69-457f-408d-b508-cb6b93490ac1
+    Emergency/Non-emergency Cleanup and Restoration Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=006d1ec5-6e78-4119-b80f-ef11e1a605c2
+    Trauma-Informed Care
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1abeb875-d0dd-4612-a7e1-4682e7cc4414
+ ** Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=aae3a05d-b378-4c59-b527-12ed2c436cca
+    Sheldon Readiness Center Renovation
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7f4dd7f3-261a-475f-9cd0-abf514c79496
+    Food Items for CDC Warehouse
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a45271be-642f-4b25-9cd8-09b747df5ffd
+    T-603 Covered Training Building
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ad3f2550-ae05-438c-ad55-05b36181964f
     DAS CC Hoover Print Shop Expansion
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=582b4500-f545-4653-82f0-532f63fc306f
     DOC Iowa Correctional Institute for Women Road Repair & Tunnel Infill
@@ -301,31 +330,15 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4e6aecd4-7a78-4408-b59c-e58ca3662b5c
     Bakery Sheet Roller
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=326b2b56-6e9e-4824-a697-3b8db1a9c81a
-    Wetland Restoration, Silver Lake WMA, Palo Alto County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d05f46da-2286-4219-a6bf-3d57410a0226
-    Wastewater Improvements, Backbone State Park, Delaware County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=78070c5e-8f7b-4f05-92d7-f623083e0aa5
-    DOC 4JD CBC New Central Office Building
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=85a3013a-4834-4201-836d-788c52ee5f62
-    NCF Dietary and Laundry Hot Water Tank Replacement
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f7ce9216-98d6-41ac-9b5b-8fdbda95a8fa
-    Frog Hollow Bridge Redecking, Volga River Recreation Area, Fayette County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d788e208-d1aa-49cb-a78f-bd6085f16dea
-    Individual and Group Therapy
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1c99d3b4-9e77-42b7-886b-0b0ffa43380b
-    Community Based Sanctions Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=fef4c5d7-a087-4c46-a065-62c802d7d89c
-    Early Services Program (ESP)
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6e7f3b64-d508-4bc1-a003-5caed8257cfc
-    Mobile Retroreflectometers
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5d7b830e-74af-4174-be7c-01755f453f49
-    Request for Proposals Bread and Bakery Products
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=8df276d4-bcef-47b4-a0b6-342790175f3b
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
     Asbury, Carter, and Chaney Traffic Signal Improvement Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1863
+    Dubuque Fire Station No. 5 Emergency Stair Replacement
+      https://www.cityofdubuque.org/bids.aspx?bidID=1864
+    Dubuque Fire Station No. 5, 6 Concrete Sidewalk, Driveway, Truck Bay Improvements
+      https://www.cityofdubuque.org/bids.aspx?bidID=1865
     Loras Blvd and Locust St Storm Sewer Reconstruction Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1861
     Loras Blvd Reconstruction and Repairs
@@ -336,6 +349,8 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1857
     Fire Department TRT Truck Bid
       https://www.cityofdubuque.org/bids.aspx?bidID=1857
+    City of Dubuque Lead and Healthy Homes Project for 1296 Brown and 655 Alpine (2 Units)
+      https://www.cityofdubuque.org/bids.aspx?bidID=1862
     Radon Testing and Mitigation System Installation
       https://www.cityofdubuque.org/bids.aspx?bidID=1850
     Fire Department TRT Truck Bid
@@ -372,8 +387,6 @@ ALL LISTINGS BY SITE
       https://www.bismarcknd.gov/bids.aspx?bidID=1347
     Passenger Rail Study RFP
       https://www.bismarcknd.gov/bids.aspx?bidID=1348
-    Call for Artists for an Art and Heritage Discovery Trail
-      https://www.bismarcknd.gov/bids.aspx?bidID=1341
     Request for Bids Landfill Cold Storage Project
       https://www.bismarcknd.gov/bids.aspx?bidID=1346
  ** Request for Qualifications for Architectural Services
@@ -383,6 +396,8 @@ ALL LISTINGS BY SITE
 
 [ Minot ]
   https://www.minotnd.gov/Bids.aspx
+    BID NOTICE: 2026 LEAD SERVICE IDENTIFICATION
+      https://www.minotnd.gov/bids.aspx?bidID=653
     BID NOTICE: MOSQUITO SURVEILLANCE & GROUND DISPERSAL SPRAY SERVICES
       https://www.minotnd.gov/bids.aspx?bidID=652
     BID NOTICE: TWO (2) WHEEL LOADER PROJECT 5008
@@ -603,14 +618,12 @@ ALL LISTINGS BY SITE
 
 [ Rockford ]
   https://rockfordil.gov/Bids.aspx
-    CITY WIDE STREET REPAIRS GROUP NO. 4 - 2026 (CONCRETE)
-      https://rockfordil.gov/bids.aspx?bidID=284
+    CITY WIDE STREET REPAIRS GROUP NO. 5 - 2026 (PARKING LOTS)
+      https://rockfordil.gov/bids.aspx?bidID=288
  ** CORONADO PERFORMING ARTS CENTER ELEVATOR REPLACEMENTS
       https://rockfordil.gov/bids.aspx?bidID=285
     CORONADO PERFORMING ARTS CENTER INTERIOR LIGHTING REPAIRS PHASE 1
       https://rockfordil.gov/bids.aspx?bidID=287
-    JAMESTOWN DITCH DRAINAGE IMPROVEMENTS
-      https://rockfordil.gov/bids.aspx?bidID=286
 
 [ Pierce County ]
   https://www.piercecountywa.gov/Bids.aspx
@@ -635,6 +648,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 197 total listings
-  12 flagged as architecture/design related
+  Checked 62 sites | 203 total listings
+  13 flagged as architecture/design related
 ======================================================================
