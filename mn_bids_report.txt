@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-04 13:58
+  Generated: 2026-05-05 13:52
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (13 total)
+FLAGGED AS LIKELY RELEVANT (15 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -16,13 +16,8 @@ FLAGGED AS LIKELY RELEVANT (13 total)
   --> https://qcpi.questcdn.com/cdn/posting/?id=10181059
 
   [MBID (UMN / Public Agencies)]
-  Northrup Auditorium Lighting Upgrade
-  01-053-26-3805 Addendum 4 | Architect (Design) | Purchasing | 5/4/2026 02:00:00 PM (CT)
-  --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-
-  [MBID (UMN / Public Agencies)]
   Ferguson Hall Fire Protection System Deficiency Corrections
-  01-215-26-3814 Addendum 1 | Architect (Design) | Purchasing | 5/11/2026 02:00:00 PM (CT)
+  01-215-26-3814 Addendum 2 | Architect (Design) | Purchasing | 5/11/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [MBID (UMN / Public Agencies)]
@@ -49,6 +44,21 @@ FLAGGED AS LIKELY RELEVANT (13 total)
   Blue Line Lake Street / Midtown Station Renovation Construction
   26P033 | IFB | Transit | Due: 6/3/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+
+  [Iowa DAS (State Bids)]
+  Accessibility Improvements, Prairie Rose, Shelby County
+  25-04-83-03 | Natural Resources, Dept Of | Expires: 5/28/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=56858a05-0232-42fa-a8d9-2be2bee2cffe
+
+  [Iowa DAS (State Bids)]
+  Accessibility Improvements, Lake of Three Fires, Taylor County
+  25-04-87-02 | Natural Resources, Dept Of | Expires: 5/28/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a3e65bf1-3e00-40eb-af80-96a1b7652009
+
+  [Iowa DAS (State Bids)]
+  Accessibility Improvements, Viking Lake, Montgomery County
+  25-04-69-03 | Natural Resources, Dept Of | Expires: 5/28/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=54d68b4b-f201-4b7d-ba87-fdd6c6f8f5a0
 
   [Iowa DAS (State Bids)]
   Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
@@ -154,8 +164,6 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=866
     RFP for Library Strategic Facility Plan
       https://www.washingtoncountymn.gov/bids.aspx?bidID=863
-    RFP for Signage and Wayfinding Implementation
-      https://www.washingtoncountymn.gov/bids.aspx?bidID=855
 
 [ Scott County ]
   https://www.scottcountymn.gov/Bids.aspx
@@ -181,8 +189,6 @@ ALL LISTINGS BY SITE
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
-    ARCC-C 2026 Ext Water Intrusion
-      https://qcpi.questcdn.com/cdn/posting/?id=10159965
     MCTC - Parking Ramp renovations - PR0000252
       https://qcpi.questcdn.com/cdn/posting/?id=10171326
     MSTA/MHD-2025-Outdoor Sign Replacement
@@ -200,8 +206,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
- ** Northrup Auditorium Lighting Upgrade
-    PWB Fire Pump and Generator Replacement
     Large Format Hybrid Direct Rigid Printer for the University of Minnesota Twin Cities Campus
     University of MN - Prepaid Debit Card, Gift Card, and Individual Payment Program RFI
     Mondale Hall - Water Infiltration Remediation at North Exterior Corrections
@@ -254,7 +258,7 @@ ALL LISTINGS BY SITE
 
 [ Saint Paul Public Schools ]
   https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD
-  ERROR: HTTPSConnectionPool(host='erfp.integratise.com', port=443): Max retries exceeded with url: /getall/a
+  ERROR: HTTPSConnectionPool(host='erfp.integratise.com', port=443): Read timed out. (read timeout=15)
 
 [ Roseville ISD 623 ]
   https://www.isd623.org/services/business-services
@@ -302,14 +306,26 @@ ALL LISTINGS BY SITE
   https://bidopportunities.iowa.gov/
     Statewide Mechanical Services
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf0425b5-92e2-4078-8743-3f05070adab8
+    2027 Compact 4 Door SUV, Automatic Transmission, FWD & AWD Chevrolet Equinox or equivalent
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d384c190-ab90-48a5-bef6-527ab355cd25
     Newton Correctional Facility Temporary Gravel Access Road
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6e76d717-bb1b-4a5d-aa08-57ccb30c7fb0
+    Professional Work Boots
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0866d94d-7de2-442e-b37b-50ce4ec31871
     Mechanical Services
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5d96c397-2300-4f37-af45-b008d38fc622
     HHS STS New Garage Building - Phase 2
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3dce2c69-457f-408d-b508-cb6b93490ac1
     Emergency/Non-emergency Cleanup and Restoration Services
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=006d1ec5-6e78-4119-b80f-ef11e1a605c2
+ ** Accessibility Improvements, Prairie Rose, Shelby County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=56858a05-0232-42fa-a8d9-2be2bee2cffe
+ ** Accessibility Improvements, Lake of Three Fires, Taylor County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a3e65bf1-3e00-40eb-af80-96a1b7652009
+    ADA Sidewalk for Playground, Lake Anita, Cass County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=725d0c1f-8fab-4826-b4ac-fc72922c37bf
+ ** Accessibility Improvements, Viking Lake, Montgomery County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=54d68b4b-f201-4b7d-ba87-fdd6c6f8f5a0
     Trauma-Informed Care
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1abeb875-d0dd-4612-a7e1-4682e7cc4414
  ** Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
@@ -318,18 +334,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7f4dd7f3-261a-475f-9cd0-abf514c79496
     Food Items for CDC Warehouse
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a45271be-642f-4b25-9cd8-09b747df5ffd
-    T-603 Covered Training Building
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ad3f2550-ae05-438c-ad55-05b36181964f
-    DAS CC Hoover Print Shop Expansion
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=582b4500-f545-4653-82f0-532f63fc306f
-    DOC Iowa Correctional Institute for Women Road Repair & Tunnel Infill
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b974e0ae-cd35-4df1-b220-acfaac1f9db4
-    Courier Services for Des Moines Metro Area
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=228450cc-5595-4663-8b1f-e317c4727c63
-    Courier Services for Des Moines Metro Area
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4e6aecd4-7a78-4408-b59c-e58ca3662b5c
-    Bakery Sheet Roller
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=326b2b56-6e9e-4824-a697-3b8db1a9c81a
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -345,16 +349,10 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1860
     Public Works Asphalt Profile Milling Services Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1858
-    Fire Department TRT Truck Bid
-      https://www.cityofdubuque.org/bids.aspx?bidID=1857
-    Fire Department TRT Truck Bid
-      https://www.cityofdubuque.org/bids.aspx?bidID=1857
     City of Dubuque Lead and Healthy Homes Project for 1296 Brown and 655 Alpine (2 Units)
       https://www.cityofdubuque.org/bids.aspx?bidID=1862
     Radon Testing and Mitigation System Installation
       https://www.cityofdubuque.org/bids.aspx?bidID=1850
-    Fire Department TRT Truck Bid
-      https://www.cityofdubuque.org/bids.aspx?bidID=1857
     Loras Blvd Reconstruction and Repairs
       https://www.cityofdubuque.org/bids.aspx?bidID=1860
     Public Works Asphalt Profile Milling Services Project
@@ -513,8 +511,6 @@ ALL LISTINGS BY SITE
       https://humboldtgov.org/bids.aspx?bidID=660
     MURRAY FIELD AIRPORT INSTALL RUNWAY 12/30 VERTICAL GUIDANCE SYSTEMS
       https://humboldtgov.org/bids.aspx?bidID=659
-    Security and Secure Transportation
-      https://humboldtgov.org/bids.aspx?bidID=655
     Environmental Remediation and Restoration Initiative
       https://humboldtgov.org/bids.aspx?bidID=548
     Humboldt Natural and Working Lands Carbon Stock and Mgmt Study
@@ -648,6 +644,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 203 total listings
-  13 flagged as architecture/design related
+  Checked 62 sites | 195 total listings
+  15 flagged as architecture/design related
 ======================================================================
