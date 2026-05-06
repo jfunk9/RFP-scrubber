@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-05 13:52
+  Generated: 2026-05-06 14:08
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (15 total)
@@ -62,7 +62,7 @@ FLAGGED AS LIKELY RELEVANT (15 total)
 
   [Iowa DAS (State Bids)]
   Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
-  645-DOTRFB-2722-2026 | Transportation | Expires: 5/5/2026
+  645-DOTRFB-2722-2026 | Transportation | Expires: 5/26/2026
   --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=aae3a05d-b378-4c59-b527-12ed2c436cca
 
   [Bismarck]
@@ -144,6 +144,8 @@ ALL LISTINGS BY SITE
       https://www.ci.stcloud.mn.us/bids.aspx?bidID=269
     LAKE GEORGE NEIGHBORHOOD PHASE 1 LEAD SERVICE LINE REPLACEMENT PROJECT
       https://www.ci.stcloud.mn.us/bids.aspx?bidID=269
+    Pond 41 Dredging Improvements
+      https://www.ci.stcloud.mn.us/bids.aspx?bidID=270
 
 [ Northfield ]
   https://www.northfieldmn.gov/Bids.aspx
@@ -189,8 +191,6 @@ ALL LISTINGS BY SITE
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
-    MCTC - Parking Ramp renovations - PR0000252
-      https://qcpi.questcdn.com/cdn/posting/?id=10171326
     MSTA/MHD-2025-Outdoor Sign Replacement
       https://qcpi.questcdn.com/cdn/posting/?id=10127331
     SCTCC-25-HSB Cooling Tower Replacement
@@ -226,7 +226,7 @@ ALL LISTINGS BY SITE
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
     North Loop Garage Solar Array
-    Rosedale Mall Transit Facility Rehabilitation
+    Rosedale Mall Transit Facility Rehabilitation (Contracting - with Small Business Goal)
  ** Franklin O & M Redundant RCC HVAC (Contracting - with Small Business Goal)
     Green Line OMF LRF Storage Barn
     Fuel Supply – Metro Mobility
@@ -250,7 +250,6 @@ ALL LISTINGS BY SITE
     Minnesota Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Minnesota Speed Management Action Plan
     US 2 in Floodwood Corridor Study and Preliminary Design
-    Statewide Travel Demand Model - Phase 1
 
 [ Hennepin County (ProcureWare) ]
   https://hennepin.procureware.com/Bids
@@ -258,7 +257,7 @@ ALL LISTINGS BY SITE
 
 [ Saint Paul Public Schools ]
   https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD
-  ERROR: HTTPSConnectionPool(host='erfp.integratise.com', port=443): Read timed out. (read timeout=15)
+  No open bids found (site may require login or be empty)
 
 [ Roseville ISD 623 ]
   https://www.isd623.org/services/business-services
@@ -274,7 +273,7 @@ ALL LISTINGS BY SITE
 
 [ Stillwater ISD 834 ]
   https://www.stillwaterschools.org/our-district/departments/business-finance
-  No open bids found (site may require login or be empty)
+  ERROR: HTTPSConnectionPool(host='www.stillwaterschools.org', port=443): Read timed out. (read timeout=15)
 
 [ St. Cloud ISD 742 ]
   https://www.isd742.org/departments/business-services/call-for-bids
@@ -304,6 +303,10 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Downdraft Tables
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b1bf346a-2510-4347-9ea2-a0b992ed1c77
+    Ames Campus: Hub Basement Sun Shade Replacement
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0b77d1b1-5b47-4ad4-b052-eb53e47760db
     Statewide Mechanical Services
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf0425b5-92e2-4078-8743-3f05070adab8
     2027 Compact 4 Door SUV, Automatic Transmission, FWD & AWD Chevrolet Equinox or equivalent
@@ -330,10 +333,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1abeb875-d0dd-4612-a7e1-4682e7cc4414
  ** Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=aae3a05d-b378-4c59-b527-12ed2c436cca
-    Sheldon Readiness Center Renovation
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7f4dd7f3-261a-475f-9cd0-abf514c79496
-    Food Items for CDC Warehouse
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a45271be-642f-4b25-9cd8-09b747df5ffd
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -379,10 +378,6 @@ ALL LISTINGS BY SITE
       https://www.bismarcknd.gov/bids.aspx?bidID=1351
     Street Improvement District No. 598
       https://www.bismarcknd.gov/bids.aspx?bidID=1352
-    Street Light and Traffic Signal Project No. 88
-      https://www.bismarcknd.gov/bids.aspx?bidID=1345
-    Water Utility Project No. 153
-      https://www.bismarcknd.gov/bids.aspx?bidID=1347
     Passenger Rail Study RFP
       https://www.bismarcknd.gov/bids.aspx?bidID=1348
     Request for Bids Landfill Cold Storage Project
@@ -405,8 +400,7 @@ ALL LISTINGS BY SITE
 
 [ Aberdeen ]
   https://www.aberdeen.sd.us/Bids.aspx
-    2026 Water Treatment Plant Lime Slaker Replacement
-      https://www.aberdeen.sd.us/bids.aspx?bidID=465
+  No open bids found (site may require login or be empty)
 
 [ Nebraska DAS (State Bids) ]
   https://das.nebraska.gov/materiel/bid-opportunities.html
@@ -465,38 +459,22 @@ ALL LISTINGS BY SITE
   https://www.cityofventura.ca.gov/Bids.aspx
  ** Public Works Contracts
       https://www.cityofventura.ca.gov/bids.aspx?bidID=331
-    As-Needed Roofing Services
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=386
     Citywide Traffic Striping Maintenance
       https://www.cityofventura.ca.gov/bids.aspx?bidID=388
-    Street and Sidewalk Construction Services
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=385
     Turnkey Encampment Cleanup Services
       https://www.cityofventura.ca.gov/bids.aspx?bidID=389
-    Waterline Repair: Camden-Hanover Project
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
-    Waterline Repair: Camden-Hanover Project
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
     One (1) New, Unused 2026 or Newer, Mid-Size All Electric SUV, Chevrolet Equinox EV or Equivalent
       https://www.cityofventura.ca.gov/bids.aspx?bidID=390
-    As-Needed Roofing Services
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=386
     Citywide Traffic Striping Maintenance
       https://www.cityofventura.ca.gov/bids.aspx?bidID=388
-    Street and Sidewalk Construction Services
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=385
     Turnkey Encampment Cleanup Services
       https://www.cityofventura.ca.gov/bids.aspx?bidID=389
-    Waterline Repair: Camden-Hanover Project
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
     One (1) New, Unused 2026 or Newer, Mid-Size All Electric SUV, Chevrolet Equinox EV or Equivalent
       https://www.cityofventura.ca.gov/bids.aspx?bidID=390
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
-    Waterline Repair: Camden-Hanover Project
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=378
 
 [ Eureka ]
   https://www.eurekaca.gov/Bids.aspx
@@ -557,8 +535,8 @@ ALL LISTINGS BY SITE
 
 [ St. Pete Beach ]
   https://www.stpetebeach.org/Bids.aspx
-    Wastewater Lift Stations Rehabilitation - RFB
-      https://www.stpetebeach.org/bids.aspx?bidID=119
+    Historic Shuffleboard Clubhouse Replacement - RFP
+      https://www.stpetebeach.org/bids.aspx?bidID=121
 
 [ Hillsborough County (Bonfire) ]
   https://hillsboroughcounty.bonfirehub.com/portal/?tab=openOpportunities
@@ -614,6 +592,8 @@ ALL LISTINGS BY SITE
 
 [ Rockford ]
   https://rockfordil.gov/Bids.aspx
+    CITY WIDE EXCAVATION AND HAULING PKG 1
+      https://rockfordil.gov/bids.aspx?bidID=289
     CITY WIDE STREET REPAIRS GROUP NO. 5 - 2026 (PARKING LOTS)
       https://rockfordil.gov/bids.aspx?bidID=288
  ** CORONADO PERFORMING ARTS CENTER ELEVATOR REPLACEMENTS
@@ -644,6 +624,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 195 total listings
+  Checked 62 sites | 184 total listings
   15 flagged as architecture/design related
 ======================================================================
