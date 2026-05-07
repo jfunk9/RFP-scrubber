@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-06 14:08
+  Generated: 2026-05-07 14:17
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (15 total)
+FLAGGED AS LIKELY RELEVANT (12 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -55,16 +55,6 @@ FLAGGED AS LIKELY RELEVANT (15 total)
   25-04-87-02 | Natural Resources, Dept Of | Expires: 5/28/2026
   --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a3e65bf1-3e00-40eb-af80-96a1b7652009
 
-  [Iowa DAS (State Bids)]
-  Accessibility Improvements, Viking Lake, Montgomery County
-  25-04-69-03 | Natural Resources, Dept Of | Expires: 5/28/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=54d68b4b-f201-4b7d-ba87-fdd6c6f8f5a0
-
-  [Iowa DAS (State Bids)]
-  Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
-  645-DOTRFB-2722-2026 | Transportation | Expires: 5/26/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=aae3a05d-b378-4c59-b527-12ed2c436cca
-
   [Bismarck]
   Request for Qualifications for Architectural Services
   The City of Bismarck (City) Public Works Department is accepting written qualifications from professional architectural 
@@ -74,11 +64,6 @@ FLAGGED AS LIKELY RELEVANT (15 total)
   Public Works Contracts
   City-funded capital improvement program (CIP) projects are handled by the Public Works Department.    View all open bids
   --> https://www.cityofventura.ca.gov/bids.aspx?bidID=331
-
-  [Rockford]
-  CORONADO PERFORMING ARTS CENTER ELEVATOR REPLACEMENTS
-  Bid No.BID NO. 426-PW-040 | Status: Closes: Open 5/6/2026 11:00 AM
-  --> https://rockfordil.gov/bids.aspx?bidID=285
 
 
 ALL LISTINGS BY SITE
@@ -91,6 +76,8 @@ ALL LISTINGS BY SITE
 
 [ Golden Valley ]
   https://www.goldenvalleymn.gov/bids.aspx
+    Advertisement For Bid - 2026 Lining Project
+      https://www.goldenvalleymn.gov/bids.aspx?bidID=133
     Current Engineering Project Bid Information
       https://www.goldenvalleymn.gov/bids.aspx?bidID=5
 
@@ -206,7 +193,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    Large Format Hybrid Direct Rigid Printer for the University of Minnesota Twin Cities Campus
     University of MN - Prepaid Debit Card, Gift Card, and Individual Payment Program RFI
     Mondale Hall - Water Infiltration Remediation at North Exterior Corrections
  ** Ferguson Hall Fire Protection System Deficiency Corrections
@@ -215,6 +201,7 @@ ALL LISTINGS BY SITE
     Faculty Recruiting and Hiring Platform - RFI
  ** REBID - Andersen Library Caverns Fire Hazard Remediation and  Fire Alarm Upgrades
     Marching Band Uniforms
+    CCAPS Instructional Design
     University of Minnesota Contractor Safety Program (2026)
 
 [ Lino Lakes RFPs ]
@@ -238,9 +225,12 @@ ALL LISTINGS BY SITE
     NEWRSF Security Improvements - Rebid (Contracting - with Small Business Goal)
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
+    NEWMetropolitan WRRF Screenings Wash Press Prequalification
     NEWFully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
+    NEWGreen Line Extension Pre-Opening & Launch Event Support
     2050 Comprehensive Planning Resources Support
     Network Wrangler Updates
+    NEWSnow Removal 390 Robert Street
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
@@ -273,7 +263,7 @@ ALL LISTINGS BY SITE
 
 [ Stillwater ISD 834 ]
   https://www.stillwaterschools.org/our-district/departments/business-finance
-  ERROR: HTTPSConnectionPool(host='www.stillwaterschools.org', port=443): Read timed out. (read timeout=15)
+  No open bids found (site may require login or be empty)
 
 [ St. Cloud ISD 742 ]
   https://www.isd742.org/departments/business-services/call-for-bids
@@ -303,18 +293,26 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Purchase of Structure to be Removed, Lake Anita, Cass County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a59a64f1-2251-4a82-8cd5-9823341fe9cd
+    Purchase of Structure to be Removed, Elk Rock State Park, Marion County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1e598b59-0e81-458b-9eb6-fe84c70875ef
     Downdraft Tables
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b1bf346a-2510-4347-9ea2-a0b992ed1c77
+    PSB Individual and Group Therapy Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=93a5f20f-a3d9-4dce-b8ce-ee7f49f5f84b
+    2026 Design On-Call RFP
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d741022d-d499-4bd4-873c-d0a93d16f815
     Ames Campus: Hub Basement Sun Shade Replacement
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0b77d1b1-5b47-4ad4-b052-eb53e47760db
     Statewide Mechanical Services
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf0425b5-92e2-4078-8743-3f05070adab8
+    Professional Work Boots
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0866d94d-7de2-442e-b37b-50ce4ec31871
     2027 Compact 4 Door SUV, Automatic Transmission, FWD & AWD Chevrolet Equinox or equivalent
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d384c190-ab90-48a5-bef6-527ab355cd25
     Newton Correctional Facility Temporary Gravel Access Road
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6e76d717-bb1b-4a5d-aa08-57ccb30c7fb0
-    Professional Work Boots
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0866d94d-7de2-442e-b37b-50ce4ec31871
     Mechanical Services
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5d96c397-2300-4f37-af45-b008d38fc622
     HHS STS New Garage Building - Phase 2
@@ -325,14 +323,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=56858a05-0232-42fa-a8d9-2be2bee2cffe
  ** Accessibility Improvements, Lake of Three Fires, Taylor County
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a3e65bf1-3e00-40eb-af80-96a1b7652009
-    ADA Sidewalk for Playground, Lake Anita, Cass County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=725d0c1f-8fab-4826-b4ac-fc72922c37bf
- ** Accessibility Improvements, Viking Lake, Montgomery County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=54d68b4b-f201-4b7d-ba87-fdd6c6f8f5a0
-    Trauma-Informed Care
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1abeb875-d0dd-4612-a7e1-4682e7cc4414
- ** Metal Roof Replacement on Eight Stall Cold Storage Pole Building in Avoca
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=aae3a05d-b378-4c59-b527-12ed2c436cca
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -361,15 +351,11 @@ ALL LISTINGS BY SITE
 
 [ Dallas County ]
   https://www.dallascountyiowa.gov/Bids.aspx
-    Bid Postings
-      https://www.dallascountyiowa.gov/
+    Notice to Bidders RFQ - Dallas County-Adel EMS Station
+      https://www.dallascountyiowa.gov/bids.aspx?bidID=23
 
 [ Bismarck ]
   https://www.bismarcknd.gov/bids.aspx
-    Bismarck Parking Authority Advertisement for Bids - Main Parking Ramp Elevator Controls
-      https://www.bismarcknd.gov/bids.aspx?bidID=1335
-    Bismarck Parking Authority Advertisement for Bids - Parking Ramp Video Surveillance Upgrade Project
-      https://www.bismarcknd.gov/bids.aspx?bidID=1336
     Ad for Bid - Runway 3/21 & Taxiway D Rehab Phase 2
       https://www.bismarcknd.gov/bids.aspx?bidID=1353
     Highway Construction Project No. 188
@@ -393,8 +379,6 @@ ALL LISTINGS BY SITE
       https://www.minotnd.gov/bids.aspx?bidID=653
     BID NOTICE: MOSQUITO SURVEILLANCE & GROUND DISPERSAL SPRAY SERVICES
       https://www.minotnd.gov/bids.aspx?bidID=652
-    BID NOTICE: TWO (2) WHEEL LOADER PROJECT 5008
-      https://www.minotnd.gov/bids.aspx?bidID=651
     NOTICE OF SALE - PUBLIC AUCTION: RETAIL LIQUOR, BEER, & WINE LICENSE
       https://www.minotnd.gov/bids.aspx?bidID=644
 
@@ -569,6 +553,8 @@ ALL LISTINGS BY SITE
 
 [ League City ]
   https://www.leaguecitytx.gov/bids.aspx
+    26-038 Low Emissions Diesel Excavator
+      https://www.leaguecitytx.gov/bids.aspx?bidID=865
     Countryside Water Well Assessment and Repairs
       https://www.leaguecitytx.gov/bids.aspx?bidID=864
     SWWRF - Building Construction Package
@@ -596,8 +582,6 @@ ALL LISTINGS BY SITE
       https://rockfordil.gov/bids.aspx?bidID=289
     CITY WIDE STREET REPAIRS GROUP NO. 5 - 2026 (PARKING LOTS)
       https://rockfordil.gov/bids.aspx?bidID=288
- ** CORONADO PERFORMING ARTS CENTER ELEVATOR REPLACEMENTS
-      https://rockfordil.gov/bids.aspx?bidID=285
     CORONADO PERFORMING ARTS CENTER INTERIOR LIGHTING REPAIRS PHASE 1
       https://rockfordil.gov/bids.aspx?bidID=287
 
@@ -624,6 +608,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 184 total listings
-  15 flagged as architecture/design related
+  Checked 62 sites | 185 total listings
+  12 flagged as architecture/design related
 ======================================================================
