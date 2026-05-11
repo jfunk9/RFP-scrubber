@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-07 14:17
+  Generated: 2026-05-11 14:48
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (12 total)
+FLAGGED AS LIKELY RELEVANT (13 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -27,7 +27,12 @@ FLAGGED AS LIKELY RELEVANT (12 total)
 
   [MBID (UMN / Public Agencies)]
   REBID - Andersen Library Caverns Fire Hazard Remediation and  Fire Alarm Upgrades
-  01-220-25-1210A Addendum 1 | Construction | Purchasing | 5/14/2026 02:00:00 PM (CT)
+  01-220-25-1210A Addendum 2 | Construction | Purchasing | 5/14/2026 02:00:00 PM (CT)
+  --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
+
+  [MBID (UMN / Public Agencies)]
+  Large Lakes Observatory
+  26-04 | State Designer Selection Board (SDSB) | Purchasing | 6/1/2026 12:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
@@ -46,19 +51,19 @@ FLAGGED AS LIKELY RELEVANT (12 total)
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
 
   [Iowa DAS (State Bids)]
-  Accessibility Improvements, Prairie Rose, Shelby County
-  25-04-83-03 | Natural Resources, Dept Of | Expires: 5/28/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=56858a05-0232-42fa-a8d9-2be2bee2cffe
+  HHS WRC Campus Utility Decentralization Phase 4/Fire Alarm Phase 3/Linden Fire Suppression
+  RFB927940-04 | Administrative Services, Dept | Expires: 6/4/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cd13a39-a7f4-40e1-a690-16fc9c88ac55
 
   [Iowa DAS (State Bids)]
-  Accessibility Improvements, Lake of Three Fires, Taylor County
-  25-04-87-02 | Natural Resources, Dept Of | Expires: 5/28/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a3e65bf1-3e00-40eb-af80-96a1b7652009
+  Accessibility Improvements, Lacey-Keosauqua State Park, Van Buren County
+  25-06-89-04 | Natural Resources, Dept Of | Expires: 5/21/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f694215b-b154-494e-8003-8c1d3172d63c
 
-  [Bismarck]
-  Request for Qualifications for Architectural Services
-  The City of Bismarck (City) Public Works Department is accepting written qualifications from professional architectural 
-  --> https://www.bismarcknd.gov/bids.aspx?bidID=1350
+  [Minot]
+  REQUEST FOR QUOTES: COMPREHENSIVE HVAC PREVENTATIVE MAINTENANCE CONTRACT
+  REQUEST FOR QUOTES     CITY OF MINOT, ND 58701     The City of Minot is soliciting quotes for:     "Comprehensive Annual
+  --> https://www.minotnd.gov/bids.aspx?bidID=656
 
   [Ventura]
   Public Works Contracts
@@ -136,8 +141,9 @@ ALL LISTINGS BY SITE
 
 [ Northfield ]
   https://www.northfieldmn.gov/Bids.aspx
-    TH 3 Lighting Improvements Phase II Project
-      https://www.northfieldmn.gov/bids.aspx?bidID=112
+    Bids & Request For Proposals
+    Bid Postings
+      https://www.northfieldmn.gov/
 
 [ Washington County ]
   https://www.washingtoncountymn.gov/Bids.aspx
@@ -151,6 +157,8 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=856
     Equipment for Auction - 2011 Bobcat S650 and 2011 Bobcat S650
       https://www.washingtoncountymn.gov/bids.aspx?bidID=866
+    Equipment for Auction - John Deere 6420
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=868
     RFP for Library Strategic Facility Plan
       https://www.washingtoncountymn.gov/bids.aspx?bidID=863
 
@@ -163,6 +171,10 @@ ALL LISTINGS BY SITE
   https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all
     SAP 002-612-039 INTERSECTION IMPROVEMENTS
       https://qcpi.questcdn.com/cdn/posting/?id=10183135
+    SAP 002-030-015 SIGNAL PAINTING
+      https://qcpi.questcdn.com/cdn/posting/?id=10191169
+    SP 002-614-051 CSAH 14 Rehab and Overlay
+      https://qcpi.questcdn.com/cdn/posting/?id=9910702
 
 [ Eagan (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193
@@ -184,6 +196,8 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10143668
     MANK-26-WC 140 FACS Dishwasher
       https://qcpi.questcdn.com/cdn/posting/?id=10187398
+    MPLS - MNCHEP Office Suite - PR0000364
+      https://qcpi.questcdn.com/cdn/posting/?id=10202979
  ** MState Fergus Falls Campus Geothermal Project
       https://qcpi.questcdn.com/cdn/posting/?id=10181059
 
@@ -193,7 +207,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    University of MN - Prepaid Debit Card, Gift Card, and Individual Payment Program RFI
     Mondale Hall - Water Infiltration Remediation at North Exterior Corrections
  ** Ferguson Hall Fire Protection System Deficiency Corrections
     UMD Library Annex / Center for Sales Excellence
@@ -202,6 +215,9 @@ ALL LISTINGS BY SITE
  ** REBID - Andersen Library Caverns Fire Hazard Remediation and  Fire Alarm Upgrades
     Marching Band Uniforms
     CCAPS Instructional Design
+ ** Large Lakes Observatory
+    Boynton Air Handler SUP 002 Redesign
+    Housing Development for the St. Paul Campus
     University of Minnesota Contractor Safety Program (2026)
 
 [ Lino Lakes RFPs ]
@@ -212,22 +228,20 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    North Loop Garage Solar Array
-    Rosedale Mall Transit Facility Rehabilitation (Contracting - with Small Business Goal)
  ** Franklin O & M Redundant RCC HVAC (Contracting - with Small Business Goal)
     Green Line OMF LRF Storage Barn
     Fuel Supply – Metro Mobility
     Regional Mobility Hubs
-    NEWHopkins Rail Support Facility Pocket Track Construction
-    Advertising Services
+    Hopkins Rail Support Facility Pocket Track Construction
  ** Small Communities Planning Program Engineering Services
-    NEWReissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
-    NEWRSF Security Improvements - Rebid (Contracting - with Small Business Goal)
+    Reissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
+    RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
  ** Blue Line Lake Street / Midtown Station Renovation Construction
-    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     NEWMetropolitan WRRF Screenings Wash Press Prequalification
-    NEWFully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
+    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
+    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     NEWGreen Line Extension Pre-Opening & Launch Event Support
+    Advertising Services
     2050 Comprehensive Planning Resources Support
     Network Wrangler Updates
     NEWSnow Removal 390 Robert Street
@@ -238,8 +252,8 @@ ALL LISTINGS BY SITE
     Indigenous Cultural Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Wisconsin Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Minnesota Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
+    Final Bridge Design: TH 13 Corridor in Savage
     Minnesota Speed Management Action Plan
-    US 2 in Floodwood Corridor Study and Preliminary Design
 
 [ Hennepin County (ProcureWare) ]
   https://hennepin.procureware.com/Bids
@@ -293,59 +307,49 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
-    Purchase of Structure to be Removed, Lake Anita, Cass County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a59a64f1-2251-4a82-8cd5-9823341fe9cd
-    Purchase of Structure to be Removed, Elk Rock State Park, Marion County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1e598b59-0e81-458b-9eb6-fe84c70875ef
-    Downdraft Tables
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b1bf346a-2510-4347-9ea2-a0b992ed1c77
-    PSB Individual and Group Therapy Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=93a5f20f-a3d9-4dce-b8ce-ee7f49f5f84b
-    2026 Design On-Call RFP
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d741022d-d499-4bd4-873c-d0a93d16f815
-    Ames Campus: Hub Basement Sun Shade Replacement
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0b77d1b1-5b47-4ad4-b052-eb53e47760db
-    Statewide Mechanical Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf0425b5-92e2-4078-8743-3f05070adab8
-    Professional Work Boots
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=0866d94d-7de2-442e-b37b-50ce4ec31871
-    2027 Compact 4 Door SUV, Automatic Transmission, FWD & AWD Chevrolet Equinox or equivalent
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d384c190-ab90-48a5-bef6-527ab355cd25
-    Newton Correctional Facility Temporary Gravel Access Road
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6e76d717-bb1b-4a5d-aa08-57ccb30c7fb0
-    Mechanical Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5d96c397-2300-4f37-af45-b008d38fc622
-    HHS STS New Garage Building - Phase 2
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3dce2c69-457f-408d-b508-cb6b93490ac1
-    Emergency/Non-emergency Cleanup and Restoration Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=006d1ec5-6e78-4119-b80f-ef11e1a605c2
- ** Accessibility Improvements, Prairie Rose, Shelby County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=56858a05-0232-42fa-a8d9-2be2bee2cffe
- ** Accessibility Improvements, Lake of Three Fires, Taylor County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a3e65bf1-3e00-40eb-af80-96a1b7652009
+    DOC NCF Misc Door Replacements
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
+    DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ed83833-67c8-46b8-aa45-2dd246dc8d28
+    Food Items for CDC Warehouse
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3993688d-f69c-4ec5-919a-ad958b68624d
+    Request to Qualify - Winterset Airport Consultant
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a69f89ee-a995-4244-862d-a78336cf70a2
+    Frozen Cake Donuts for CDC Warehouse
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=77c6a03e-5be5-4e91-8938-379c165f2f58
+    DOC NCCF Air Handler Replacement and Condenser Coils Unit A and B
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b8e82d83-3ce2-41a7-9647-60dc31e93108
+    Cleaning Services for Muscatine DL Service Center
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=77f11a84-778a-4975-b3be-f5c411cb47aa
+ ** HHS WRC Campus Utility Decentralization Phase 4/Fire Alarm Phase 3/Linden Fire Suppression
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cd13a39-a7f4-40e1-a690-16fc9c88ac55
+    Juniper Products & Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7219c99f-23b0-4e18-a431-59503cda4319
+    Credible Messengers
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cbe42fe7-c56f-4104-bdfb-c467c7ee6fff
+    DPS Post 13 Upper Parking Lot Replacement
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=53f18059-abde-48e2-83ca-28b2a21ae469
+    53' x 102" Great Dane Refrigerated Reefer or equivalent
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=05815f3a-8753-4ce6-891d-36616ed3eb2c
+    DOC North Central Correctional Facility Replace Windows in Education Building
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=9fd033cb-2edb-4279-95be-5825d5d8b86f
+    Boat Ramp/ADA Improvements, Lacey-Keosauqua State Park, Van Buren County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5ab7f1a2-23d7-4963-8d71-1f8fec38dde0
+ ** Accessibility Improvements, Lacey-Keosauqua State Park, Van Buren County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f694215b-b154-494e-8003-8c1d3172d63c
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
-    Asbury, Carter, and Chaney Traffic Signal Improvement Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1863
     Dubuque Fire Station No. 5 Emergency Stair Replacement
       https://www.cityofdubuque.org/bids.aspx?bidID=1864
     Dubuque Fire Station No. 5, 6 Concrete Sidewalk, Driveway, Truck Bay Improvements
       https://www.cityofdubuque.org/bids.aspx?bidID=1865
-    Loras Blvd and Locust St Storm Sewer Reconstruction Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1861
-    Loras Blvd Reconstruction and Repairs
-      https://www.cityofdubuque.org/bids.aspx?bidID=1860
-    Public Works Asphalt Profile Milling Services Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1858
     City of Dubuque Lead and Healthy Homes Project for 1296 Brown and 655 Alpine (2 Units)
       https://www.cityofdubuque.org/bids.aspx?bidID=1862
-    Radon Testing and Mitigation System Installation
-      https://www.cityofdubuque.org/bids.aspx?bidID=1850
-    Loras Blvd Reconstruction and Repairs
-      https://www.cityofdubuque.org/bids.aspx?bidID=1860
-    Public Works Asphalt Profile Milling Services Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1858
+    Minor Rehabilitation of Single Family Home at 990 Althauser
+      https://www.cityofdubuque.org/bids.aspx?bidID=1867
+    Greyhound Park Water Main Looping Project
+      https://www.cityofdubuque.org/bids.aspx?bidID=1866
     2026 Terminal St Pump Sta Rehab Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1859
 
@@ -368,8 +372,6 @@ ALL LISTINGS BY SITE
       https://www.bismarcknd.gov/bids.aspx?bidID=1348
     Request for Bids Landfill Cold Storage Project
       https://www.bismarcknd.gov/bids.aspx?bidID=1346
- ** Request for Qualifications for Architectural Services
-      https://www.bismarcknd.gov/bids.aspx?bidID=1350
     Roadway Pavement Markings - 26
       https://www.bismarcknd.gov/bids.aspx?bidID=1351
 
@@ -379,8 +381,14 @@ ALL LISTINGS BY SITE
       https://www.minotnd.gov/bids.aspx?bidID=653
     BID NOTICE: MOSQUITO SURVEILLANCE & GROUND DISPERSAL SPRAY SERVICES
       https://www.minotnd.gov/bids.aspx?bidID=652
+    BID NOTICE: TAXIWAY B REALIGNMENT AND RECONSTRUCTION AND RUNWAY 8/26 REHABILITATION (WEST)
+      https://www.minotnd.gov/bids.aspx?bidID=657
     NOTICE OF SALE - PUBLIC AUCTION: RETAIL LIQUOR, BEER, & WINE LICENSE
       https://www.minotnd.gov/bids.aspx?bidID=644
+ ** REQUEST FOR QUOTES: COMPREHENSIVE HVAC PREVENTATIVE MAINTENANCE CONTRACT
+      https://www.minotnd.gov/bids.aspx?bidID=656
+    RFP: ACTUARY SERVICES
+      https://www.minotnd.gov/bids.aspx?bidID=654
 
 [ Aberdeen ]
   https://www.aberdeen.sd.us/Bids.aspx
@@ -394,6 +402,8 @@ ALL LISTINGS BY SITE
       https://das.nebraska.gov/materiel/purchasing/124328 O5/124328 O5.html
     Chargemaster Review Services
       https://das.nebraska.gov/materiel/purchasing/124273 O3/124273 O3.html
+    Grants Management System
+      https://das.nebraska.gov/materiel/purchasing/NDERFP260303/NDERFP260303.html
     Trauma or General Surgeons and Trauma Coordinator or Manager Registered Nurses
       https://das.nebraska.gov/materiel/purchasing/109205/109205.html
     Sixpence Evaluation
@@ -471,8 +481,6 @@ ALL LISTINGS BY SITE
   https://humboldtgov.org/Bids.aspx
     CALIFORNIA REDWOOD COAST - HUMBOLDT COUNTY AIRPORT RELOCATE TAXIWAY A & TAXIWAY A LIGHTING
       https://humboldtgov.org/bids.aspx?bidID=660
-    MURRAY FIELD AIRPORT INSTALL RUNWAY 12/30 VERTICAL GUIDANCE SYSTEMS
-      https://humboldtgov.org/bids.aspx?bidID=659
     Environmental Remediation and Restoration Initiative
       https://humboldtgov.org/bids.aspx?bidID=548
     Humboldt Natural and Working Lands Carbon Stock and Mgmt Study
@@ -483,8 +491,6 @@ ALL LISTINGS BY SITE
       https://humboldtgov.org/bids.aspx?bidID=656
     HUMBOLDT COUNTY ANIMAL SHELTER ADA MODIFICATION
       https://humboldtgov.org/bids.aspx?bidID=661
-    MURRAY FIELD AIRPORT INSTALL RUNWAY 12/30 VERTICAL GUIDANCE SYSTEMS
-      https://humboldtgov.org/bids.aspx?bidID=659
 
 [ North Miami ]
   https://www.northmiamifl.gov/Bids.aspx
@@ -537,8 +543,6 @@ ALL LISTINGS BY SITE
 
 [ Galveston ]
   https://www.galvestontx.gov/bids.aspx
-    Lift Stations 13 and 51 Improvements
-      https://www.galvestontx.gov/bids.aspx?bidID=625
     Main WWTP Bio Solids Replacement
       https://www.galvestontx.gov/bids.aspx?bidID=633
     Stewart Beach Redevelopment
@@ -609,5 +613,5 @@ ALL LISTINGS BY SITE
 
 ======================================================================
   Checked 62 sites | 185 total listings
-  12 flagged as architecture/design related
+  13 flagged as architecture/design related
 ======================================================================
