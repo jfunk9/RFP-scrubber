@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-11 14:48
+  Generated: 2026-05-12 14:33
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (13 total)
+FLAGGED AS LIKELY RELEVANT (11 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -14,11 +14,6 @@ FLAGGED AS LIKELY RELEVANT (13 total)
   MState Fergus Falls Campus Geothermal Project
   Design-Build | Minnesota State Comm... | Fergus Fal... | 06/02/2026 02:00 PM CDT | Request For Proposal
   --> https://qcpi.questcdn.com/cdn/posting/?id=10181059
-
-  [MBID (UMN / Public Agencies)]
-  Ferguson Hall Fire Protection System Deficiency Corrections
-  01-215-26-3814 Addendum 2 | Architect (Design) | Purchasing | 5/11/2026 02:00:00 PM (CT)
-  --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [MBID (UMN / Public Agencies)]
   Diehl Hall Repurposing
@@ -32,7 +27,7 @@ FLAGGED AS LIKELY RELEVANT (13 total)
 
   [MBID (UMN / Public Agencies)]
   Large Lakes Observatory
-  26-04 | State Designer Selection Board (SDSB) | Purchasing | 6/1/2026 12:00:00 PM (CT)
+  26-04 Addendum 1 | State Designer Selection Board (SDSB) | Purchasing | 6/1/2026 12:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
@@ -54,11 +49,6 @@ FLAGGED AS LIKELY RELEVANT (13 total)
   HHS WRC Campus Utility Decentralization Phase 4/Fire Alarm Phase 3/Linden Fire Suppression
   RFB927940-04 | Administrative Services, Dept | Expires: 6/4/2026
   --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cd13a39-a7f4-40e1-a690-16fc9c88ac55
-
-  [Iowa DAS (State Bids)]
-  Accessibility Improvements, Lacey-Keosauqua State Park, Van Buren County
-  25-06-89-04 | Natural Resources, Dept Of | Expires: 5/21/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f694215b-b154-494e-8003-8c1d3172d63c
 
   [Minot]
   REQUEST FOR QUOTES: COMPREHENSIVE HVAC PREVENTATIVE MAINTENANCE CONTRACT
@@ -85,6 +75,8 @@ ALL LISTINGS BY SITE
       https://www.goldenvalleymn.gov/bids.aspx?bidID=133
     Current Engineering Project Bid Information
       https://www.goldenvalleymn.gov/bids.aspx?bidID=5
+    RFP: Public Safety Staffing Analysis
+      https://www.goldenvalleymn.gov/bids.aspx?bidID=134
 
 [ Elk River ]
   https://www.elkrivermn.gov/bids.aspx
@@ -187,6 +179,8 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10183180
     2026 Sanitary Sewer Lining Improvements
       https://qcpi.questcdn.com/cdn/posting/?id=10175580
+    Center Ave Reconstruction - 8th to 10th
+      https://qcpi.questcdn.com/cdn/posting/?id=10171322
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
@@ -207,8 +201,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    Mondale Hall - Water Infiltration Remediation at North Exterior Corrections
- ** Ferguson Hall Fire Protection System Deficiency Corrections
     UMD Library Annex / Center for Sales Excellence
  ** Diehl Hall Repurposing
     Faculty Recruiting and Hiring Platform - RFI
@@ -217,6 +209,7 @@ ALL LISTINGS BY SITE
     CCAPS Instructional Design
  ** Large Lakes Observatory
     Boynton Air Handler SUP 002 Redesign
+    University Wide Agreement for Temporary Staffing Services
     Housing Development for the St. Paul Campus
     University of Minnesota Contractor Safety Program (2026)
 
@@ -242,12 +235,12 @@ ALL LISTINGS BY SITE
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     NEWGreen Line Extension Pre-Opening & Launch Event Support
     Advertising Services
-    2050 Comprehensive Planning Resources Support
     Network Wrangler Updates
     NEWSnow Removal 390 Robert Street
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
+    Timber Local Bridge Load Rating and Evaluation
     2103-43 TH 29 Alexandria
     Indigenous Cultural Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Wisconsin Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
@@ -311,6 +304,14 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
     DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ed83833-67c8-46b8-aa45-2dd246dc8d28
+    Custom Aluminum Work Boats Agency Specific Contract
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f08bfd92-e2f0-414e-99ad-23d68887b10c
+    Random Moment Sampling System and Title IV-E Claim Support
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1dfa8331-188c-4507-9e8c-f7ff584e4cb8
+    Tracking, Monitoring and Outreach
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ed5dbf3f-9358-44ff-9db8-2bce86e1ee4e
+    Sand (Aggregate for Ice Control) for FY27
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=83a57985-a65c-4d16-84a9-fc123ff2baf7
     Food Items for CDC Warehouse
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3993688d-f69c-4ec5-919a-ad958b68624d
     Request to Qualify - Winterset Airport Consultant
@@ -329,14 +330,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cbe42fe7-c56f-4104-bdfb-c467c7ee6fff
     DPS Post 13 Upper Parking Lot Replacement
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=53f18059-abde-48e2-83ca-28b2a21ae469
-    53' x 102" Great Dane Refrigerated Reefer or equivalent
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=05815f3a-8753-4ce6-891d-36616ed3eb2c
-    DOC North Central Correctional Facility Replace Windows in Education Building
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=9fd033cb-2edb-4279-95be-5825d5d8b86f
-    Boat Ramp/ADA Improvements, Lacey-Keosauqua State Park, Van Buren County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5ab7f1a2-23d7-4963-8d71-1f8fec38dde0
- ** Accessibility Improvements, Lacey-Keosauqua State Park, Van Buren County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f694215b-b154-494e-8003-8c1d3172d63c
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -415,7 +408,7 @@ ALL LISTINGS BY SITE
     CTE Standards Revision
       https://das.nebraska.gov/materiel/purchasing/NDERFP260106/NDERFP260106.html
     Nebraska Literacy Project
-      https://das.nebraska.gov/materiel/purchasing/NDERFP260213/NDERFP260213.html
+      https://das.nebraska.gov/materiel/purchasing/NDERFP250213/NDERFP250213.html
     Printing of Annual and  Duplicate Park Permits for the State of Nebraska and Non-Nebraska Licensed  Vehicles
       https://das.nebraska.gov/materiel/purchasing/124023 OR/124023 OR.html
     2026 Nebraska VR Summer Transition Program
@@ -474,8 +467,6 @@ ALL LISTINGS BY SITE
   https://www.eurekaca.gov/Bids.aspx
     Consulting Services for Water and Wastewater Rate Study RFP
       https://www.eurekaca.gov/bids.aspx?bidID=28
-    Housing and Safety Element Updates
-      https://www.eurekaca.gov/bids.aspx?bidID=29
 
 [ Humboldt County ]
   https://humboldtgov.org/Bids.aspx
@@ -561,6 +552,8 @@ ALL LISTINGS BY SITE
       https://www.leaguecitytx.gov/bids.aspx?bidID=865
     Countryside Water Well Assessment and Repairs
       https://www.leaguecitytx.gov/bids.aspx?bidID=864
+    Fire Apparatus Preventive Maintenance and Repairs
+      https://www.leaguecitytx.gov/bids.aspx?bidID=866
     SWWRF - Building Construction Package
       https://www.leaguecitytx.gov/bids.aspx?bidID=859
     SWWRF - Electrical Construction Package
@@ -612,6 +605,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 185 total listings
-  13 flagged as architecture/design related
+  Checked 62 sites | 186 total listings
+  11 flagged as architecture/design related
 ======================================================================
