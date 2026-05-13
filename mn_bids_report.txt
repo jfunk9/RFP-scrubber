@@ -1,14 +1,19 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-12 14:33
+  Generated: 2026-05-13 14:32
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (11 total)
+FLAGGED AS LIKELY RELEVANT (12 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
   2026-07 Bid Advertisement    2026-07 Project Bid Link | Status: Closes: Open Upon Contract
   --> https://www.ci.faribault.mn.us/bids.aspx?bidID=22
+
+  [Washington County]
+  RFP for County Road 19A Realignment and Corridor Improvements
+  The Washington County Public Works Department is issuing this request for proposals (RFP) to hire a consultant to provid
+  --> https://www.washingtoncountymn.gov/bids.aspx?bidID=869
 
   [MN State (QuestCDN)]
   MState Fergus Falls Campus Geothermal Project
@@ -126,6 +131,8 @@ ALL LISTINGS BY SITE
   https://www.ci.stcloud.mn.us/Bids.aspx
     LAKE GEORGE NEIGHBORHOOD PHASE 1 LEAD SERVICE LINE REPLACEMENT PROJECT
       https://www.ci.stcloud.mn.us/bids.aspx?bidID=269
+    22ND STREET S FROM CR136 TO COOPER AVE S IMPROVEMENTS
+      https://www.ci.stcloud.mn.us/bids.aspx?bidID=271
     LAKE GEORGE NEIGHBORHOOD PHASE 1 LEAD SERVICE LINE REPLACEMENT PROJECT
       https://www.ci.stcloud.mn.us/bids.aspx?bidID=269
     Pond 41 Dredging Improvements
@@ -151,6 +158,8 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=866
     Equipment for Auction - John Deere 6420
       https://www.washingtoncountymn.gov/bids.aspx?bidID=868
+ ** RFP for County Road 19A Realignment and Corridor Improvements
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=869
     RFP for Library Strategic Facility Plan
       https://www.washingtoncountymn.gov/bids.aspx?bidID=863
 
@@ -184,8 +193,6 @@ ALL LISTINGS BY SITE
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
-    MSTA/MHD-2025-Outdoor Sign Replacement
-      https://qcpi.questcdn.com/cdn/posting/?id=10127331
     SCTCC-25-HSB Cooling Tower Replacement
       https://qcpi.questcdn.com/cdn/posting/?id=10143668
     MANK-26-WC 140 FACS Dishwasher
@@ -194,6 +201,10 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10202979
  ** MState Fergus Falls Campus Geothermal Project
       https://qcpi.questcdn.com/cdn/posting/?id=10181059
+    SMSU-26-Outdoor Track Throwing Area
+      https://qcpi.questcdn.com/cdn/posting/?id=10205104
+    Minnesota State University Moorhead Pneumatic Cont...
+      https://qcpi.questcdn.com/cdn/posting/?id=10205151
 
 [ MN OSP (State Solicitations) ]
   https://osp.admin.mn.gov/PT-auto
@@ -201,10 +212,10 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    UMD Library Annex / Center for Sales Excellence
  ** Diehl Hall Repurposing
     Faculty Recruiting and Hiring Platform - RFI
  ** REBID - Andersen Library Caverns Fire Hazard Remediation and  Fire Alarm Upgrades
+    TC Multi-Facility Parking Structure Repairs
     Marching Band Uniforms
     CCAPS Instructional Design
  ** Large Lakes Observatory
@@ -234,6 +245,7 @@ ALL LISTINGS BY SITE
     Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     NEWGreen Line Extension Pre-Opening & Launch Event Support
+    NEWMTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
     Advertising Services
     Network Wrangler Updates
     NEWSnow Removal 390 Robert Street
@@ -300,6 +312,12 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Paper & Print Shop Products for DAS Print Shop
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=511095a2-b9c8-4086-9346-6687519a88d7
+    Iowa Hunting & Trapping Regulations Booklet
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ae110625-95c6-4d75-a214-e404ef23e2c3
+    Tipton Building Re-Roof
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=44746450-02e5-40f3-875c-40ea3999546c
     DOC NCF Misc Door Replacements
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
     DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
@@ -324,12 +342,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=77f11a84-778a-4975-b3be-f5c411cb47aa
  ** HHS WRC Campus Utility Decentralization Phase 4/Fire Alarm Phase 3/Linden Fire Suppression
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cd13a39-a7f4-40e1-a690-16fc9c88ac55
-    Juniper Products & Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7219c99f-23b0-4e18-a431-59503cda4319
-    Credible Messengers
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cbe42fe7-c56f-4104-bdfb-c467c7ee6fff
-    DPS Post 13 Upper Parking Lot Replacement
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=53f18059-abde-48e2-83ca-28b2a21ae469
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -372,6 +384,8 @@ ALL LISTINGS BY SITE
   https://www.minotnd.gov/Bids.aspx
     BID NOTICE: 2026 LEAD SERVICE IDENTIFICATION
       https://www.minotnd.gov/bids.aspx?bidID=653
+    BID NOTICE: 2026 SANITARY SEWER CIPP
+      https://www.minotnd.gov/bids.aspx?bidID=655
     BID NOTICE: MOSQUITO SURVEILLANCE & GROUND DISPERSAL SPRAY SERVICES
       https://www.minotnd.gov/bids.aspx?bidID=652
     BID NOTICE: TAXIWAY B REALIGNMENT AND RECONSTRUCTION AND RUNWAY 8/26 REHABILITATION (WEST)
@@ -452,8 +466,12 @@ ALL LISTINGS BY SITE
       https://www.cityofventura.ca.gov/bids.aspx?bidID=389
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
+    Inspection, Cleaning, and Repair of Structural Fire Fighting Protective Ensembles (FFPE)
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=391
     One (1) New, Unused 2026 or Newer, Mid-Size All Electric SUV, Chevrolet Equinox EV or Equivalent
       https://www.cityofventura.ca.gov/bids.aspx?bidID=390
+    Inspection, Cleaning, and Repair of Structural Fire Fighting Protective Ensembles (FFPE)
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=391
     Citywide Traffic Striping Maintenance
       https://www.cityofventura.ca.gov/bids.aspx?bidID=388
     Turnkey Encampment Cleanup Services
@@ -478,10 +496,14 @@ ALL LISTINGS BY SITE
       https://humboldtgov.org/bids.aspx?bidID=658
     CALIFORNIA REDWOOD COAST - HUMBOLDT COUNTY AIRPORT RELOCATE TAXIWAY A & TAXIWAY A LIGHTING
       https://humboldtgov.org/bids.aspx?bidID=660
-    Correctional Facility Re-Roofing Project
-      https://humboldtgov.org/bids.aspx?bidID=656
+    Edgelines on Indian Reservation Road Systems
+      https://humboldtgov.org/bids.aspx?bidID=663
     HUMBOLDT COUNTY ANIMAL SHELTER ADA MODIFICATION
       https://humboldtgov.org/bids.aspx?bidID=661
+    Storm Damage Repair to Alderpoint Road (F6B165) PM 7.90 & 8.15
+      https://humboldtgov.org/bids.aspx?bidID=664
+    Storm Damage Repair to Hidden Court PM 0.20 , PM 0.04 & East Branch Road PM 0.36
+      https://humboldtgov.org/bids.aspx?bidID=662
 
 [ North Miami ]
   https://www.northmiamifl.gov/Bids.aspx
@@ -500,6 +522,8 @@ ALL LISTINGS BY SITE
       https://www.jacksonvillebeach.org/bids.aspx?bidID=101
     Landscape Services
       https://www.jacksonvillebeach.org/bids.aspx?bidID=102
+    LS-13 Rehabilitation and Site Upgrades
+      https://www.jacksonvillebeach.org/bids.aspx?bidID=105
     New Well #16 (Part A) and 12” Raw Water Main Extension (Part B)
       https://www.jacksonvillebeach.org/bids.aspx?bidID=103
     Latham Plaza Parking Lot Public-Private Partnership (P3)
@@ -579,8 +603,6 @@ ALL LISTINGS BY SITE
       https://rockfordil.gov/bids.aspx?bidID=289
     CITY WIDE STREET REPAIRS GROUP NO. 5 - 2026 (PARKING LOTS)
       https://rockfordil.gov/bids.aspx?bidID=288
-    CORONADO PERFORMING ARTS CENTER INTERIOR LIGHTING REPAIRS PHASE 1
-      https://rockfordil.gov/bids.aspx?bidID=287
 
 [ Pierce County ]
   https://www.piercecountywa.gov/Bids.aspx
@@ -605,6 +627,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 186 total listings
-  11 flagged as architecture/design related
+  Checked 62 sites | 195 total listings
+  12 flagged as architecture/design related
 ======================================================================
