@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-14 14:09
+  Generated: 2026-05-15 14:05
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (9 total)
@@ -21,11 +21,6 @@ FLAGGED AS LIKELY RELEVANT (9 total)
   --> https://qcpi.questcdn.com/cdn/posting/?id=10181059
 
   [MBID (UMN / Public Agencies)]
-  REBID - Andersen Library Caverns Fire Hazard Remediation and  Fire Alarm Upgrades
-  01-220-25-1210A Addendum 2 | Construction | Purchasing | 5/14/2026 02:00:00 PM (CT)
-  --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-
-  [MBID (UMN / Public Agencies)]
   Large Lakes Observatory
   26-04 Addendum 1 | State Designer Selection Board (SDSB) | Purchasing | 6/1/2026 12:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
@@ -39,6 +34,11 @@ FLAGGED AS LIKELY RELEVANT (9 total)
   Blue Line Lake Street / Midtown Station Renovation Construction
   26P033 | IFB | Transit | Due: 6/3/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+
+  [Iowa DAS (State Bids)]
+  HHS WRC Campus Utility Decentralization Phase 4/Fire Alarm Phase 3/Linden Fire Suppression
+  RFB927940-04 | Administrative Services, Dept | Expires: 6/4/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cd13a39-a7f4-40e1-a690-16fc9c88ac55
 
   [Minot]
   REQUEST FOR QUOTES: COMPREHENSIVE HVAC PREVENTATIVE MAINTENANCE CONTRACT
@@ -157,6 +157,8 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10191169
     SP 002-614-051 CSAH 14 Rehab and Overlay
       https://qcpi.questcdn.com/cdn/posting/?id=9910702
+    SAP 002-602-014 CSAH 2 RECONSTRUCTION
+      https://qcpi.questcdn.com/cdn/posting/?id=10197478
 
 [ Eagan (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193
@@ -193,7 +195,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
- ** REBID - Andersen Library Caverns Fire Hazard Remediation and  Fire Alarm Upgrades
     TC Multi-Facility Parking Structure Repairs
     Marching Band Uniforms
     CCAPS Instructional Design
@@ -212,7 +213,6 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    Green Line OMF LRF Storage Barn
     Fuel Supply – Metro Mobility
     Regional Mobility Hubs
     Hopkins Rail Support Facility Pocket Track Construction
@@ -220,9 +220,9 @@ ALL LISTINGS BY SITE
     Reissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
  ** Blue Line Lake Street / Midtown Station Renovation Construction
-    Metropolitan WRRF Screenings Wash Press Prequalification
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
+    Metropolitan WRRF Screenings Wash Press Prequalification
     Green Line Extension Pre-Opening & Launch Event Support
     NEWMTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
     NEWCommunity Service Officer & Sworn Officer Uniforms and Equipment
@@ -236,9 +236,6 @@ ALL LISTINGS BY SITE
     MnDOT Aerial Roofing and Pavement Assessment
     Timber Local Bridge Load Rating and Evaluation
     2103-43 TH 29 Alexandria
-    Indigenous Cultural Monitoring for the I-535 John A. Blatnik Bridge Replacement
-    Wisconsin Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
-    Minnesota Archaeological Construction Monitoring for the I-535 John A. Blatnik Bridge Replacement
     Final Bridge Design: TH 13 Corridor in Savage
     Minnesota Speed Management Action Plan
 
@@ -300,8 +297,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=511095a2-b9c8-4086-9346-6687519a88d7
     Iowa Hunting & Trapping Regulations Booklet
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ae110625-95c6-4d75-a214-e404ef23e2c3
-    Tipton Building Re-Roof
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=44746450-02e5-40f3-875c-40ea3999546c
     DOC NCF Misc Door Replacements
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
     DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
@@ -324,6 +319,8 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b8e82d83-3ce2-41a7-9647-60dc31e93108
     Cleaning Services for Muscatine DL Service Center
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=77f11a84-778a-4975-b3be-f5c411cb47aa
+ ** HHS WRC Campus Utility Decentralization Phase 4/Fire Alarm Phase 3/Linden Fire Suppression
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1cd13a39-a7f4-40e1-a690-16fc9c88ac55
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -331,8 +328,6 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1864
     Dubuque Fire Station No. 5, 6 Concrete Sidewalk, Driveway, Truck Bay Improvements
       https://www.cityofdubuque.org/bids.aspx?bidID=1865
-    City of Dubuque Lead and Healthy Homes Project for 1296 Brown and 655 Alpine (2 Units)
-      https://www.cityofdubuque.org/bids.aspx?bidID=1862
     Minor Rehabilitation of Single Family Home at 990 Althauser
       https://www.cityofdubuque.org/bids.aspx?bidID=1867
     Greyhound Park Water Main Looping Project
@@ -349,12 +344,8 @@ ALL LISTINGS BY SITE
   https://www.bismarcknd.gov/bids.aspx
     Ad for Bid - Runway 3/21 & Taxiway D Rehab Phase 2
       https://www.bismarcknd.gov/bids.aspx?bidID=1353
-    Highway Construction Project No. 188
-      https://www.bismarcknd.gov/bids.aspx?bidID=1349
     Roadway Pavement Markings - 26
       https://www.bismarcknd.gov/bids.aspx?bidID=1351
-    Street Improvement District No. 598
-      https://www.bismarcknd.gov/bids.aspx?bidID=1352
     Passenger Rail Study RFP
       https://www.bismarcknd.gov/bids.aspx?bidID=1348
     Roadway Pavement Markings - 26
@@ -444,6 +435,8 @@ ALL LISTINGS BY SITE
       https://www.cityofventura.ca.gov/bids.aspx?bidID=388
     Turnkey Encampment Cleanup Services
       https://www.cityofventura.ca.gov/bids.aspx?bidID=389
+    Pest Control for Sewer Collection System
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=392
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
     Inspection, Cleaning, and Repair of Structural Fire Fighting Protective Ensembles (FFPE)
@@ -460,6 +453,8 @@ ALL LISTINGS BY SITE
       https://www.cityofventura.ca.gov/bids.aspx?bidID=390
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
+    Pest Control for Sewer Collection System
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=392
 
 [ Eureka ]
   https://www.eurekaca.gov/Bids.aspx
@@ -533,6 +528,8 @@ ALL LISTINGS BY SITE
 
 [ Texas City ]
   https://www.texascitytx.gov/Bids.aspx
+    Mental Health Services: Counseling and Support Services for Youth and Families
+      https://www.texascitytx.gov/bids.aspx?bidID=91
     MOSES LAKE STORMWATER PUMP STATION
       https://www.texascitytx.gov/bids.aspx?bidID=90
 
@@ -581,6 +578,8 @@ ALL LISTINGS BY SITE
       https://rockfordil.gov/bids.aspx?bidID=289
     CITY WIDE STREET REPAIRS GROUP NO. 5 - 2026 (PARKING LOTS)
       https://rockfordil.gov/bids.aspx?bidID=288
+    CITY YARDS WASH BAY DRAIN REPLACEMENT REPAIR AND RESTORATION
+      https://rockfordil.gov/bids.aspx?bidID=290
 
 [ Pierce County ]
   https://www.piercecountywa.gov/Bids.aspx
@@ -605,6 +604,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 192 total listings
+  Checked 62 sites | 189 total listings
   9 flagged as architecture/design related
 ======================================================================
