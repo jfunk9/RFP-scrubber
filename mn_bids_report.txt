@@ -1,14 +1,19 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-18 15:30
+  Generated: 2026-05-19 14:59
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (9 total)
+FLAGGED AS LIKELY RELEVANT (10 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
   2026-07 Bid Advertisement    2026-07 Project Bid Link | Status: Closes: Open Upon Contract
   --> https://www.ci.faribault.mn.us/bids.aspx?bidID=22
+
+  [Washington County]
+  Historic Courthouse Elevator Replacement Project
+  Requests for bids are being solicited for the Washington County Historic Courthouse Elevator Replacement Project. | Stat
+  --> https://www.washingtoncountymn.gov/bids.aspx?bidID=871
 
   [Washington County]
   RFP for County Road 19A Realignment and Corridor Improvements
@@ -143,6 +148,10 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=866
     Equipment for Auction - John Deere 6420
       https://www.washingtoncountymn.gov/bids.aspx?bidID=868
+ ** Historic Courthouse Elevator Replacement Project
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=871
+    RFP for Building Controls
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=870
  ** RFP for County Road 19A Realignment and Corridor Improvements
       https://www.washingtoncountymn.gov/bids.aspx?bidID=869
     RFP for Library Strategic Facility Plan
@@ -171,8 +180,6 @@ ALL LISTINGS BY SITE
 
 [ Moorhead (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465
-    Moorhead Center Mall Redevelopment - Street & Util...
-      https://qcpi.questcdn.com/cdn/posting/?id=10183180
     2026 Sanitary Sewer Lining Improvements
       https://qcpi.questcdn.com/cdn/posting/?id=10175580
     Center Ave Reconstruction - 8th to 10th
@@ -314,10 +321,10 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ae110625-95c6-4d75-a214-e404ef23e2c3
     Tipton Building Re-Roof
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=44746450-02e5-40f3-875c-40ea3999546c
-    DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ed83833-67c8-46b8-aa45-2dd246dc8d28
     DOC NCF Misc Door Replacements
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
+    DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ed83833-67c8-46b8-aa45-2dd246dc8d28
     Custom Aluminum Work Boats Agency Specific Contract
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f08bfd92-e2f0-414e-99ad-23d68887b10c
     Random Moment Sampling System and Title IV-E Claim Support
@@ -349,10 +356,6 @@ ALL LISTINGS BY SITE
   https://www.bismarcknd.gov/bids.aspx
     Ad for Bid - Runway 3/21 & Taxiway D Rehab Phase 2
       https://www.bismarcknd.gov/bids.aspx?bidID=1353
-    Roadway Pavement Markings - 26
-      https://www.bismarcknd.gov/bids.aspx?bidID=1351
-    Roadway Pavement Markings - 26
-      https://www.bismarcknd.gov/bids.aspx?bidID=1351
 
 [ Minot ]
   https://www.minotnd.gov/Bids.aspx
@@ -381,6 +384,8 @@ ALL LISTINGS BY SITE
       https://das.nebraska.gov/materiel/purchasing/124328 O5/124328 O5.html
     Chargemaster Review Services
       https://das.nebraska.gov/materiel/purchasing/124273 O3/124273 O3.html
+    Grant Writing Implementation Providers
+      https://das.nebraska.gov/materiel/purchasing/NDERFI260510/NDERFI260510.html
     Nebraska National Defense Strategic Growth Facilitation Services
       https://das.nebraska.gov/materiel/purchasing/125590 O5/125590 O5.html
     Grants Management System
@@ -498,10 +503,6 @@ ALL LISTINGS BY SITE
 
 [ Jacksonville Beach ]
   https://www.jacksonvillebeach.org/Bids.aspx
-    Fencing Services
-      https://www.jacksonvillebeach.org/bids.aspx?bidID=101
-    Landscape Services
-      https://www.jacksonvillebeach.org/bids.aspx?bidID=102
     LS-13 Rehabilitation and Site Upgrades
       https://www.jacksonvillebeach.org/bids.aspx?bidID=105
     New Well #16 (Part A) and 12” Raw Water Main Extension (Part B)
@@ -558,6 +559,8 @@ ALL LISTINGS BY SITE
       https://www.leaguecitytx.gov/bids.aspx?bidID=864
     Fire Apparatus Preventive Maintenance and Repairs
       https://www.leaguecitytx.gov/bids.aspx?bidID=866
+    FM 270 Public Boat Ramp Renovations PK1804
+      https://www.leaguecitytx.gov/bids.aspx?bidID=867
     SWWRF - Building Construction Package
       https://www.leaguecitytx.gov/bids.aspx?bidID=859
     SWWRF - Electrical Construction Package
@@ -613,6 +616,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 194 total listings
-  9 flagged as architecture/design related
+  Checked 62 sites | 193 total listings
+  10 flagged as architecture/design related
 ======================================================================
