@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-19 14:59
+  Generated: 2026-05-20 15:17
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (10 total)
@@ -77,8 +77,8 @@ ALL LISTINGS BY SITE
 
 [ Elk River ]
   https://www.elkrivermn.gov/bids.aspx
-    City of Elk River - Advertisement for Proposals - Parks and Recreation Framework Plan
-      https://www.elkrivermn.gov/bids.aspx?bidID=121
+    Bid Postings
+      https://www.elkrivermn.gov/
 
 [ Lino Lakes ]
   https://linolakes.us/bids.aspx
@@ -121,6 +121,8 @@ ALL LISTINGS BY SITE
 
 [ St. Cloud ]
   https://www.ci.stcloud.mn.us/Bids.aspx
+    North City Hall Redevelopment
+      https://www.ci.stcloud.mn.us/bids.aspx?bidID=273
     2026 REJUVENATOR IMPROVEMENTS
       https://www.ci.stcloud.mn.us/bids.aspx?bidID=272
     22ND STREET S FROM CR136 TO COOPER AVE S IMPROVEMENTS
@@ -180,17 +182,11 @@ ALL LISTINGS BY SITE
 
 [ Moorhead (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465
-    2026 Sanitary Sewer Lining Improvements
-      https://qcpi.questcdn.com/cdn/posting/?id=10175580
     Center Ave Reconstruction - 8th to 10th
       https://qcpi.questcdn.com/cdn/posting/?id=10171322
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
-    SCTCC-25-HSB Cooling Tower Replacement
-      https://qcpi.questcdn.com/cdn/posting/?id=10143668
-    MANK-26-WC 140 FACS Dishwasher
-      https://qcpi.questcdn.com/cdn/posting/?id=10187398
     MPLS - MNCHEP Office Suite - PR0000364
       https://qcpi.questcdn.com/cdn/posting/?id=10202979
  ** MState Fergus Falls Campus Geothermal Project
@@ -239,12 +235,12 @@ ALL LISTINGS BY SITE
     Advertising Services
     NEWCommunity Service Officer & Sworn Officer Uniforms and Equipment
     NEWLight Rail Train (LRT) Operator Training Simulator
-    Network Wrangler Updates
     Snow Removal 390 Robert Street
     NEWRegional Model Roadway Network Speed Update
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
+    Managed Lane (E-ZPass) System Planning Study
     MnDOT Aerial Roofing and Pavement Assessment
     Timber Local Bridge Load Rating and Evaluation
     2103-43 TH 29 Alexandria
@@ -303,34 +299,34 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
-    Group Errors & Omissions Insurance - Iowa Real Estate Commission
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=33cc1dab-20df-419f-942e-d3a21743f110
     Migratory Game Bird Stamp
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cebc21f1-80f3-4a7b-b662-5e6ecf0f314c
-    HHS WRC Campus Utility Decentralization Phase 5
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=bdb04fc5-8386-4814-80d3-4682d2fe1541
+    Group Errors & Omissions Insurance - Iowa Real Estate Commission
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=33cc1dab-20df-419f-942e-d3a21743f110
     RFB - Resource Center Building Abatement – Area 1
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a59d6343-1e12-43b5-a681-062114a9a106
+    HHS WRC Campus Utility Decentralization Phase 5
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=bdb04fc5-8386-4814-80d3-4682d2fe1541
     RFP - Madison County Mold Remediation
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b954185b-72bb-4075-986c-d214af033a03
     Water Treatment Chemicals and Services for Capitol Complex
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6cb101f0-4c54-43c3-a6d7-55cda2f413ea
+    Tipton Building Re-Roof
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=44746450-02e5-40f3-875c-40ea3999546c
     Paper & Print Shop Products for DAS Print Shop
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=511095a2-b9c8-4086-9346-6687519a88d7
     Iowa Hunting & Trapping Regulations Booklet
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ae110625-95c6-4d75-a214-e404ef23e2c3
-    Tipton Building Re-Roof
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=44746450-02e5-40f3-875c-40ea3999546c
-    DOC NCF Misc Door Replacements
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
-    DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ed83833-67c8-46b8-aa45-2dd246dc8d28
     Custom Aluminum Work Boats Agency Specific Contract
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f08bfd92-e2f0-414e-99ad-23d68887b10c
-    Random Moment Sampling System and Title IV-E Claim Support
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1dfa8331-188c-4507-9e8c-f7ff584e4cb8
+    DOC NCF Misc Door Replacements
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
     Tracking, Monitoring and Outreach
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ed5dbf3f-9358-44ff-9db8-2bce86e1ee4e
+    DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ed83833-67c8-46b8-aa45-2dd246dc8d28
+    Random Moment Sampling System and Title IV-E Claim Support
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1dfa8331-188c-4507-9e8c-f7ff584e4cb8
     Sand (Aggregate for Ice Control) for FY27
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=83a57985-a65c-4d16-84a9-fc123ff2baf7
 
@@ -356,6 +352,8 @@ ALL LISTINGS BY SITE
   https://www.bismarcknd.gov/bids.aspx
     Ad for Bid - Runway 3/21 & Taxiway D Rehab Phase 2
       https://www.bismarcknd.gov/bids.aspx?bidID=1353
+    Bismarck Curb Management Study Request for Proposals
+      https://www.bismarcknd.gov/bids.aspx?bidID=1355
 
 [ Minot ]
   https://www.minotnd.gov/Bids.aspx
@@ -541,6 +539,8 @@ ALL LISTINGS BY SITE
 
 [ Galveston ]
   https://www.galvestontx.gov/bids.aspx
+    Emergency Food and Lodging
+      https://www.galvestontx.gov/bids.aspx?bidID=635
     Main WWTP Bio Solids Replacement
       https://www.galvestontx.gov/bids.aspx?bidID=633
     Stewart Beach Redevelopment
@@ -565,12 +565,8 @@ ALL LISTINGS BY SITE
       https://www.leaguecitytx.gov/bids.aspx?bidID=859
     SWWRF - Electrical Construction Package
       https://www.leaguecitytx.gov/bids.aspx?bidID=861
-    SWWRF - Instrumentation & Controls Construction Package
-      https://www.leaguecitytx.gov/bids.aspx?bidID=862
     SWWRF - Treatment Plant Construction Package
       https://www.leaguecitytx.gov/bids.aspx?bidID=860
-    Utility Billing Kiosk
-      https://www.leaguecitytx.gov/bids.aspx?bidID=863
 
 [ Dallas (Bonfire) ]
   https://dallascityhall.bonfirehub.com/portal/?tab=openOpportunities
@@ -616,6 +612,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 193 total listings
+  Checked 62 sites | 191 total listings
   10 flagged as architecture/design related
 ======================================================================
