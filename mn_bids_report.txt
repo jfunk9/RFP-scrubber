@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-20 15:17
+  Generated: 2026-05-21 15:22
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (10 total)
+FLAGGED AS LIKELY RELEVANT (12 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -30,6 +30,11 @@ FLAGGED AS LIKELY RELEVANT (10 total)
   26-04 Addendum 1 | State Designer Selection Board (SDSB) | Purchasing | 6/1/2026 12:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
+  [MBID (UMN / Public Agencies)]
+  10 Church Street Repurposing
+  01-061-25-3788 | Architect (Design) | Purchasing | 6/18/2026 02:00:00 PM (CT)
+  --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
+
   [Metropolitan Council]
   Small Communities Planning Program Engineering Services
   25P296 | RFP | CD | Due: 5/28/2026
@@ -39,6 +44,11 @@ FLAGGED AS LIKELY RELEVANT (10 total)
   Blue Line Lake Street / Midtown Station Renovation Construction
   26P033 | IFB | Transit | Due: 6/11/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+
+  [Iowa DAS (State Bids)]
+  2026 Statewide On-Call Traffic Engineering Services
+  358 | Transportation | Expires: 6/17/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b6ba764c-efe5-4b24-be9f-0a805d2e0010
 
   [Minot]
   REQUEST FOR QUOTES: COMPREHENSIVE HVAC PREVENTATIVE MAINTENANCE CONTRACT
@@ -161,6 +171,8 @@ ALL LISTINGS BY SITE
 
 [ Scott County ]
   https://www.scottcountymn.gov/Bids.aspx
+    2026 Building Demos
+      https://www.scottcountymn.gov/bids.aspx?bidID=159
     Scott County LEC Safety Railing Project
       https://www.scottcountymn.gov/bids.aspx?bidID=158
 
@@ -210,6 +222,8 @@ ALL LISTINGS BY SITE
     MIDB Sensory Rooms
     University Wide Agreement for Temporary Staffing Services
     Housing Development for the St. Paul Campus
+    Steam Sterilizer/Autoclave
+ ** 10 Church Street Repurposing
     University of Minnesota Contractor Safety Program (2026)
 
 [ Lino Lakes RFPs ]
@@ -221,20 +235,21 @@ ALL LISTINGS BY SITE
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
     Fuel Supply – Metro Mobility
-    Regional Mobility Hubs
     Hopkins Rail Support Facility Pocket Track Construction
  ** Small Communities Planning Program Engineering Services
     Reissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
+    Regional Mobility Hubs
+    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Metropolitan WRRF Screenings Wash Press Prequalification
     Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
-    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Green Line Extension Pre-Opening & Launch Event Support
  ** Blue Line Lake Street / Midtown Station Renovation Construction
-    NEWMTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
-    Advertising Services
+    MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
     NEWCommunity Service Officer & Sworn Officer Uniforms and Equipment
-    NEWLight Rail Train (LRT) Operator Training Simulator
+    Advertising Services
+    Light Rail Train (LRT) Operator Training Simulator
+    NEWMaster Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
     Snow Removal 390 Robert Street
     NEWRegional Model Roadway Network Speed Update
 
@@ -299,6 +314,18 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+ ** 2026 Statewide On-Call Traffic Engineering Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b6ba764c-efe5-4b24-be9f-0a805d2e0010
+    RFP WCSD Nutrition 2026 Elementary Service Units
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ee4f2f0-9743-43d5-9e38-263674ef5d02
+    Food Items for CDC Warehouse
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4203ae31-adde-4b95-aa2b-5c1e95eddbc7
+    Cleaning Services for the Highway 30, 2nd Floor Building in Ames, Iowa
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=c92d8293-a6db-43f5-a763-673285c15cbe
+    Fire Protection Systems Repair, Maintenance, and Testing
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f66b2753-6e28-44a7-a78c-b764fd1bcc00
+    2026 Traffic Operations & ITS Design On-Call
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7708b412-7653-4c67-9c31-d7ca69715688
     Migratory Game Bird Stamp
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cebc21f1-80f3-4a7b-b662-5e6ecf0f314c
     Group Errors & Omissions Insurance - Iowa Real Estate Commission
@@ -317,18 +344,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=511095a2-b9c8-4086-9346-6687519a88d7
     Iowa Hunting & Trapping Regulations Booklet
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ae110625-95c6-4d75-a214-e404ef23e2c3
-    Custom Aluminum Work Boats Agency Specific Contract
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f08bfd92-e2f0-414e-99ad-23d68887b10c
-    DOC NCF Misc Door Replacements
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cf53970b-ced6-4f62-b8aa-24de2a10f862
-    Tracking, Monitoring and Outreach
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ed5dbf3f-9358-44ff-9db8-2bce86e1ee4e
-    DOC Mount Pleasant Correctional Facility Spill Containment for Diesel Tanks
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ed83833-67c8-46b8-aa45-2dd246dc8d28
-    Random Moment Sampling System and Title IV-E Claim Support
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=1dfa8331-188c-4507-9e8c-f7ff584e4cb8
-    Sand (Aggregate for Ice Control) for FY27
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=83a57985-a65c-4d16-84a9-fc123ff2baf7
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -449,16 +464,12 @@ ALL LISTINGS BY SITE
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
     Inspection, Cleaning, and Repair of Structural Fire Fighting Protective Ensembles (FFPE)
       https://www.cityofventura.ca.gov/bids.aspx?bidID=391
-    One (1) New, Unused 2026 or Newer, Mid-Size All Electric SUV, Chevrolet Equinox EV or Equivalent
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=390
     Inspection, Cleaning, and Repair of Structural Fire Fighting Protective Ensembles (FFPE)
       https://www.cityofventura.ca.gov/bids.aspx?bidID=391
     Citywide Traffic Striping Maintenance
       https://www.cityofventura.ca.gov/bids.aspx?bidID=388
     Turnkey Encampment Cleanup Services
       https://www.cityofventura.ca.gov/bids.aspx?bidID=389
-    One (1) New, Unused 2026 or Newer, Mid-Size All Electric SUV, Chevrolet Equinox EV or Equivalent
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=390
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
     Pest Control for Sewer Collection System
@@ -563,10 +574,6 @@ ALL LISTINGS BY SITE
       https://www.leaguecitytx.gov/bids.aspx?bidID=867
     SWWRF - Building Construction Package
       https://www.leaguecitytx.gov/bids.aspx?bidID=859
-    SWWRF - Electrical Construction Package
-      https://www.leaguecitytx.gov/bids.aspx?bidID=861
-    SWWRF - Treatment Plant Construction Package
-      https://www.leaguecitytx.gov/bids.aspx?bidID=860
 
 [ Dallas (Bonfire) ]
   https://dallascityhall.bonfirehub.com/portal/?tab=openOpportunities
@@ -613,5 +620,5 @@ ALL LISTINGS BY SITE
 
 ======================================================================
   Checked 62 sites | 191 total listings
-  10 flagged as architecture/design related
+  12 flagged as architecture/design related
 ======================================================================
