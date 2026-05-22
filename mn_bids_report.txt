@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-21 15:22
+  Generated: 2026-05-22 14:36
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (12 total)
+FLAGGED AS LIKELY RELEVANT (17 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -25,9 +25,29 @@ FLAGGED AS LIKELY RELEVANT (12 total)
   Design-Build | Minnesota State Comm... | Fergus Fal... | 06/02/2026 02:00 PM CDT | Request For Proposal
   --> https://qcpi.questcdn.com/cdn/posting/?id=10181059
 
+  [MN State (QuestCDN)]
+  MOOR-25-Fire Alarm System Replacement - #1 HEAPR /...
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  --> https://qcpi.questcdn.com/cdn/posting/?id=10215411
+
+  [MN State (QuestCDN)]
+  MOOR-25-Fire Alarm System Replacement - #2 Housing
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  --> https://qcpi.questcdn.com/cdn/posting/?id=10215419
+
+  [MN State (QuestCDN)]
+  MOOR-25-Fire Alarm System Replacement - #3 Comstoc...
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  --> https://qcpi.questcdn.com/cdn/posting/?id=10217478
+
+  [MN State (QuestCDN)]
+  MOOR-25-Fire Alarm System Replacement - #4 Wellnes...
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  --> https://qcpi.questcdn.com/cdn/posting/?id=10217484
+
   [MBID (UMN / Public Agencies)]
   Large Lakes Observatory
-  26-04 Addendum 1 | State Designer Selection Board (SDSB) | Purchasing | 6/1/2026 12:00:00 PM (CT)
+  26-04 Addendum 2 | State Designer Selection Board (SDSB) | Purchasing | 6/1/2026 12:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [MBID (UMN / Public Agencies)]
@@ -44,6 +64,11 @@ FLAGGED AS LIKELY RELEVANT (12 total)
   Blue Line Lake Street / Midtown Station Renovation Construction
   26P033 | IFB | Transit | Due: 6/11/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+
+  [Iowa DAS (State Bids)]
+  HVAC Repair Services for Iowa PBS Transmitter and Translator Sites
+  005-RFB-1929-2026 | Administrative Services, Dept | Expires: 6/19/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3fa241b4-29a5-4ae3-a1bc-b587348684f2
 
   [Iowa DAS (State Bids)]
   2026 Statewide On-Call Traffic Engineering Services
@@ -166,6 +191,8 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=870
  ** RFP for County Road 19A Realignment and Corridor Improvements
       https://www.washingtoncountymn.gov/bids.aspx?bidID=869
+    RFP for CSAH 96 (Dellwood Road) Improvement Project
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=872
     RFP for Library Strategic Facility Plan
       https://www.washingtoncountymn.gov/bids.aspx?bidID=863
 
@@ -189,8 +216,7 @@ ALL LISTINGS BY SITE
 
 [ Eagan (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=all&provider=7193&group=7193
-    26-09 Sanitary & Storm Structure Lining
-      https://qcpi.questcdn.com/cdn/posting/?id=10187395
+  No open bids found (site may require login or be empty)
 
 [ Moorhead (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465
@@ -207,6 +233,16 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10205104
     Minnesota State University Moorhead Pneumatic Cont...
       https://qcpi.questcdn.com/cdn/posting/?id=10205151
+    MANK-26 Outdoor Track Improvements REBID
+      https://qcpi.questcdn.com/cdn/posting/?id=10217502
+ ** MOOR-25-Fire Alarm System Replacement - #1 HEAPR /...
+      https://qcpi.questcdn.com/cdn/posting/?id=10215411
+ ** MOOR-25-Fire Alarm System Replacement - #2 Housing
+      https://qcpi.questcdn.com/cdn/posting/?id=10215419
+ ** MOOR-25-Fire Alarm System Replacement - #3 Comstoc...
+      https://qcpi.questcdn.com/cdn/posting/?id=10217478
+ ** MOOR-25-Fire Alarm System Replacement - #4 Wellnes...
+      https://qcpi.questcdn.com/cdn/posting/?id=10217484
 
 [ MN OSP (State Solicitations) ]
   https://osp.admin.mn.gov/PT-auto
@@ -234,22 +270,23 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    Fuel Supply – Metro Mobility
     Hopkins Rail Support Facility Pocket Track Construction
  ** Small Communities Planning Program Engineering Services
     Reissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
     Regional Mobility Hubs
+    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Metropolitan WRRF Screenings Wash Press Prequalification
-    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     Green Line Extension Pre-Opening & Launch Event Support
+    NEWGold Line Extension (Contracting - with Small Business Goal)
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
-    NEWCommunity Service Officer & Sworn Officer Uniforms and Equipment
+    Community Service Officer & Sworn Officer Uniforms and Equipment
     Advertising Services
     Light Rail Train (LRT) Operator Training Simulator
     NEWMaster Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
+    Fuel Supply – Metro Mobility
     Snow Removal 390 Robert Street
     NEWRegional Model Roadway Network Speed Update
 
@@ -314,6 +351,18 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Iowa PBS Broadcast Tower Maintenance
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=bef85332-4403-45ba-a576-25f9bd5a0256
+    Water Operator Contractor
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a66665ca-c72d-4b8a-bab8-4cbdd104fc14
+    Janitorial Services at the Marshalltown Child Support Services (CSS) Office
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4bebc209-014c-478a-82d3-57c17fd7c828
+ ** HVAC Repair Services for Iowa PBS Transmitter and Translator Sites
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3fa241b4-29a5-4ae3-a1bc-b587348684f2
+    Laundry Bags for State Agencies
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4a739743-90e0-4002-af65-ca3ec99a6b14
+    Selection of A/E Design Firm – Waterloo RC Addition/Alteration
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7aee5375-e1ad-4c1e-b56f-c2e7dfa7ac3a
  ** 2026 Statewide On-Call Traffic Engineering Services
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b6ba764c-efe5-4b24-be9f-0a805d2e0010
     RFP WCSD Nutrition 2026 Elementary Service Units
@@ -332,36 +381,24 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=33cc1dab-20df-419f-942e-d3a21743f110
     RFB - Resource Center Building Abatement – Area 1
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a59d6343-1e12-43b5-a681-062114a9a106
-    HHS WRC Campus Utility Decentralization Phase 5
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=bdb04fc5-8386-4814-80d3-4682d2fe1541
-    RFP - Madison County Mold Remediation
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b954185b-72bb-4075-986c-d214af033a03
-    Water Treatment Chemicals and Services for Capitol Complex
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6cb101f0-4c54-43c3-a6d7-55cda2f413ea
-    Tipton Building Re-Roof
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=44746450-02e5-40f3-875c-40ea3999546c
-    Paper & Print Shop Products for DAS Print Shop
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=511095a2-b9c8-4086-9346-6687519a88d7
-    Iowa Hunting & Trapping Regulations Booklet
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ae110625-95c6-4d75-a214-e404ef23e2c3
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
-    Dubuque Fire Station No. 5 Emergency Stair Replacement
-      https://www.cityofdubuque.org/bids.aspx?bidID=1864
-    Dubuque Fire Station No. 5, 6 Concrete Sidewalk, Driveway, Truck Bay Improvements
-      https://www.cityofdubuque.org/bids.aspx?bidID=1865
+    Asbury, Carter, and Chaney Traffic Signal Improvement Project
+      https://www.cityofdubuque.org/bids.aspx?bidID=1868
+    North Schmitt Island Collection System Project - Contract #2
+      https://www.cityofdubuque.org/bids.aspx?bidID=1869
     Minor Rehabilitation of Single Family Home at 990 Althauser
       https://www.cityofdubuque.org/bids.aspx?bidID=1867
     Greyhound Park Water Main Looping Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1866
-    2026 Terminal St Pump Sta Rehab Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1859
+    Lead Service Line Replacement - Phase 2
+      https://www.cityofdubuque.org/bids.aspx?bidID=1870
 
 [ Dallas County ]
   https://www.dallascountyiowa.gov/Bids.aspx
-    Notice to Bidders RFQ - Dallas County-Adel EMS Station
-      https://www.dallascountyiowa.gov/bids.aspx?bidID=23
+    Bid Postings
+      https://www.dallascountyiowa.gov/
 
 [ Bismarck ]
   https://www.bismarcknd.gov/bids.aspx
@@ -477,17 +514,15 @@ ALL LISTINGS BY SITE
 
 [ Eureka ]
   https://www.eurekaca.gov/Bids.aspx
-    Consulting Services for Water and Wastewater Rate Study RFP
-      https://www.eurekaca.gov/bids.aspx?bidID=28
+    Bid Postings
+      https://www.eurekaca.gov/
+    Rfp/Bid Information
+      https://www.eurekaca.gov/744/Upcoming-Projects
 
 [ Humboldt County ]
   https://humboldtgov.org/Bids.aspx
-    CALIFORNIA REDWOOD COAST - HUMBOLDT COUNTY AIRPORT RELOCATE TAXIWAY A & TAXIWAY A LIGHTING
-      https://humboldtgov.org/bids.aspx?bidID=660
     Environmental Remediation and Restoration Initiative
       https://humboldtgov.org/bids.aspx?bidID=548
-    CALIFORNIA REDWOOD COAST - HUMBOLDT COUNTY AIRPORT RELOCATE TAXIWAY A & TAXIWAY A LIGHTING
-      https://humboldtgov.org/bids.aspx?bidID=660
     Edgelines on Indian Reservation Road Systems
       https://humboldtgov.org/bids.aspx?bidID=663
     HUMBOLDT COUNTY ANIMAL SHELTER ADA MODIFICATION
@@ -568,12 +603,12 @@ ALL LISTINGS BY SITE
       https://www.leaguecitytx.gov/bids.aspx?bidID=865
     Countryside Water Well Assessment and Repairs
       https://www.leaguecitytx.gov/bids.aspx?bidID=864
+    Disaster Logistics
+      https://www.leaguecitytx.gov/bids.aspx?bidID=868
     Fire Apparatus Preventive Maintenance and Repairs
       https://www.leaguecitytx.gov/bids.aspx?bidID=866
     FM 270 Public Boat Ramp Renovations PK1804
       https://www.leaguecitytx.gov/bids.aspx?bidID=867
-    SWWRF - Building Construction Package
-      https://www.leaguecitytx.gov/bids.aspx?bidID=859
 
 [ Dallas (Bonfire) ]
   https://dallascityhall.bonfirehub.com/portal/?tab=openOpportunities
@@ -619,6 +654,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 191 total listings
-  12 flagged as architecture/design related
+  Checked 62 sites | 196 total listings
+  17 flagged as architecture/design related
 ======================================================================
