@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-22 14:36
+  Generated: 2026-05-25 14:51
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (17 total)
+FLAGGED AS LIKELY RELEVANT (16 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -65,16 +65,6 @@ FLAGGED AS LIKELY RELEVANT (17 total)
   26P033 | IFB | Transit | Due: 6/11/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
 
-  [Iowa DAS (State Bids)]
-  HVAC Repair Services for Iowa PBS Transmitter and Translator Sites
-  005-RFB-1929-2026 | Administrative Services, Dept | Expires: 6/19/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3fa241b4-29a5-4ae3-a1bc-b587348684f2
-
-  [Iowa DAS (State Bids)]
-  2026 Statewide On-Call Traffic Engineering Services
-  358 | Transportation | Expires: 6/17/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b6ba764c-efe5-4b24-be9f-0a805d2e0010
-
   [Minot]
   REQUEST FOR QUOTES: COMPREHENSIVE HVAC PREVENTATIVE MAINTENANCE CONTRACT
   REQUEST FOR QUOTES     CITY OF MINOT, ND 58701     The City of Minot is soliciting quotes for:     "Comprehensive Annual
@@ -84,6 +74,11 @@ FLAGGED AS LIKELY RELEVANT (17 total)
   Public Works Contracts
   City-funded capital improvement program (CIP) projects are handled by the Public Works Department.    View all open bids
   --> https://www.cityofventura.ca.gov/bids.aspx?bidID=331
+
+  [Cedar Park]
+  City Hall Buildings 1 and & Roof Replacement and Waterproofing Consulting
+  Bid No.RFQ-2026-0016-030 | Status: Closes: Open 5/29/2026 2:00 PM
+  --> https://www.cedarparktexas.gov/bids.aspx?bidID=140
 
   [Cedar Park]
   RFQ - Recreation Center Expansion Master Planning and Design Services
@@ -193,8 +188,6 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=869
     RFP for CSAH 96 (Dellwood Road) Improvement Project
       https://www.washingtoncountymn.gov/bids.aspx?bidID=872
-    RFP for Library Strategic Facility Plan
-      https://www.washingtoncountymn.gov/bids.aspx?bidID=863
 
 [ Scott County ]
   https://www.scottcountymn.gov/Bids.aspx
@@ -275,20 +268,19 @@ ALL LISTINGS BY SITE
     Reissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
     Regional Mobility Hubs
-    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Metropolitan WRRF Screenings Wash Press Prequalification
+    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     Green Line Extension Pre-Opening & Launch Event Support
-    NEWGold Line Extension (Contracting - with Small Business Goal)
  ** Blue Line Lake Street / Midtown Station Renovation Construction
+    NEWGold Line Extension (Contracting - with Small Business Goal)
     MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
-    Community Service Officer & Sworn Officer Uniforms and Equipment
     Advertising Services
+    Community Service Officer & Sworn Officer Uniforms and Equipment
     Light Rail Train (LRT) Operator Training Simulator
     NEWMaster Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
-    Fuel Supply – Metro Mobility
     Snow Removal 390 Robert Street
-    NEWRegional Model Roadway Network Speed Update
+    Regional Model Roadway Network Speed Update
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
@@ -305,7 +297,7 @@ ALL LISTINGS BY SITE
 
 [ Saint Paul Public Schools ]
   https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD
-  No open bids found (site may require login or be empty)
+  ERROR: HTTPSConnectionPool(host='erfp.integratise.com', port=443): Max retries exceeded with url: /getall/a
 
 [ Roseville ISD 623 ]
   https://www.isd623.org/services/business-services
@@ -351,36 +343,7 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
-    Iowa PBS Broadcast Tower Maintenance
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=bef85332-4403-45ba-a576-25f9bd5a0256
-    Water Operator Contractor
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a66665ca-c72d-4b8a-bab8-4cbdd104fc14
-    Janitorial Services at the Marshalltown Child Support Services (CSS) Office
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4bebc209-014c-478a-82d3-57c17fd7c828
- ** HVAC Repair Services for Iowa PBS Transmitter and Translator Sites
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3fa241b4-29a5-4ae3-a1bc-b587348684f2
-    Laundry Bags for State Agencies
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4a739743-90e0-4002-af65-ca3ec99a6b14
-    Selection of A/E Design Firm – Waterloo RC Addition/Alteration
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7aee5375-e1ad-4c1e-b56f-c2e7dfa7ac3a
- ** 2026 Statewide On-Call Traffic Engineering Services
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b6ba764c-efe5-4b24-be9f-0a805d2e0010
-    RFP WCSD Nutrition 2026 Elementary Service Units
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ee4f2f0-9743-43d5-9e38-263674ef5d02
-    Food Items for CDC Warehouse
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4203ae31-adde-4b95-aa2b-5c1e95eddbc7
-    Cleaning Services for the Highway 30, 2nd Floor Building in Ames, Iowa
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=c92d8293-a6db-43f5-a763-673285c15cbe
-    Fire Protection Systems Repair, Maintenance, and Testing
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f66b2753-6e28-44a7-a78c-b764fd1bcc00
-    2026 Traffic Operations & ITS Design On-Call
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7708b412-7653-4c67-9c31-d7ca69715688
-    Migratory Game Bird Stamp
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=cebc21f1-80f3-4a7b-b662-5e6ecf0f314c
-    Group Errors & Omissions Insurance - Iowa Real Estate Commission
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=33cc1dab-20df-419f-942e-d3a21743f110
-    RFB - Resource Center Building Abatement – Area 1
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a59d6343-1e12-43b5-a681-062114a9a106
+  No open bids found (site may require login or be empty)
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -388,8 +351,6 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1868
     North Schmitt Island Collection System Project - Contract #2
       https://www.cityofdubuque.org/bids.aspx?bidID=1869
-    Minor Rehabilitation of Single Family Home at 990 Althauser
-      https://www.cityofdubuque.org/bids.aspx?bidID=1867
     Greyhound Park Water Main Looping Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1866
     Lead Service Line Replacement - Phase 2
@@ -413,8 +374,6 @@ ALL LISTINGS BY SITE
       https://www.minotnd.gov/bids.aspx?bidID=653
     BID NOTICE: 2026 SANITARY SEWER CIPP
       https://www.minotnd.gov/bids.aspx?bidID=655
-    BID NOTICE: MOSQUITO SURVEILLANCE & GROUND DISPERSAL SPRAY SERVICES
-      https://www.minotnd.gov/bids.aspx?bidID=652
     BID NOTICE: TAXIWAY B REALIGNMENT AND RECONSTRUCTION AND RUNWAY 8/26 REHABILITATION (WEST)
       https://www.minotnd.gov/bids.aspx?bidID=657
     NOTICE OF SALE - PUBLIC AUCTION: RETAIL LIQUOR, BEER, & WINE LICENSE
@@ -432,8 +391,6 @@ ALL LISTINGS BY SITE
   https://das.nebraska.gov/materiel/bid-opportunities.html
     Refuse Services
       https://das.nebraska.gov/materiel/purchasing/124328 O5/124328 O5.html
-    Chargemaster Review Services
-      https://das.nebraska.gov/materiel/purchasing/124273 O3/124273 O3.html
     Grant Writing Implementation Providers
       https://das.nebraska.gov/materiel/purchasing/NDERFI260510/NDERFI260510.html
     Nebraska National Defense Strategic Growth Facilitation Services
@@ -442,6 +399,8 @@ ALL LISTINGS BY SITE
       https://das.nebraska.gov/materiel/purchasing/NDERFP260303/NDERFP260303.html
     Trauma or General Surgeons and Trauma Coordinator or Manager Registered Nurses
       https://das.nebraska.gov/materiel/purchasing/109205/109205.html
+    Chargemaster Review Services
+      https://das.nebraska.gov/materiel/purchasing/124273 O3/124273 O3.html
     Nebraska Tobacco Quitline Services
       https://das.nebraska.gov/materiel/purchasing/124316 O3/124316 O3.html
     Sixpence Evaluation
@@ -578,8 +537,6 @@ ALL LISTINGS BY SITE
 
 [ Texas City ]
   https://www.texascitytx.gov/Bids.aspx
-    Mental Health Services: Counseling and Support Services for Youth and Families
-      https://www.texascitytx.gov/bids.aspx?bidID=91
     MOSES LAKE STORMWATER PUMP STATION
       https://www.texascitytx.gov/bids.aspx?bidID=90
 
@@ -594,6 +551,8 @@ ALL LISTINGS BY SITE
 
 [ Cedar Park ]
   https://www.cedarparktexas.gov/Bids.aspx
+ ** City Hall Buildings 1 and & Roof Replacement and Waterproofing Consulting
+      https://www.cedarparktexas.gov/bids.aspx?bidID=140
  ** RFQ - Recreation Center Expansion Master Planning and Design Services
       https://www.cedarparktexas.gov/bids.aspx?bidID=139
 
@@ -622,10 +581,6 @@ ALL LISTINGS BY SITE
   https://rockfordil.gov/Bids.aspx
     HEAD START AND EARLY HEAD START CHILD CARE MEALS
       https://rockfordil.gov/bids.aspx?bidID=291
-    CITY WIDE EXCAVATION AND HAULING PKG 1
-      https://rockfordil.gov/bids.aspx?bidID=289
-    CITY WIDE STREET REPAIRS GROUP NO. 5 - 2026 (PARKING LOTS)
-      https://rockfordil.gov/bids.aspx?bidID=288
     CITY YARDS WASH BAY DRAIN REPLACEMENT REPAIR AND RESTORATION
       https://rockfordil.gov/bids.aspx?bidID=290
     RAILS TO TRAILS ROCK RIVER SHORELINE REPAIR
@@ -654,6 +609,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 196 total listings
-  17 flagged as architecture/design related
+  Checked 62 sites | 175 total listings
+  16 flagged as architecture/design related
 ======================================================================
