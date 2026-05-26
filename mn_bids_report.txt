@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-25 14:51
+  Generated: 2026-05-26 15:22
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (16 total)
+FLAGGED AS LIKELY RELEVANT (18 total)
 ----------------------------------------------------------------------
   [Faribault]
   Contract 2026-07 Viaduct Park Phase 2 Site Improvements
@@ -56,14 +56,24 @@ FLAGGED AS LIKELY RELEVANT (16 total)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
-  Small Communities Planning Program Engineering Services
-  25P296 | RFP | CD | Due: 5/28/2026
-  --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-
-  [Metropolitan Council]
   Blue Line Lake Street / Midtown Station Renovation Construction
   26P033 | IFB | Transit | Due: 6/11/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+
+  [Metropolitan Council]
+  Small Communities Planning Program Engineering Services
+  25P296 | RFP | CD | Due: 6/11/2026
+  --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+
+  [Iowa DAS (State Bids)]
+  HVAC Repair Services for Iowa PBS Transmitter and Translator Sites
+  005-RFB-1929-2026 | Administrative Services, Dept | Expires: 6/19/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3fa241b4-29a5-4ae3-a1bc-b587348684f2
+
+  [Iowa DAS (State Bids)]
+  2026 Statewide On-Call Traffic Engineering Services
+  358 | Transportation | Expires: 6/17/2026
+  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b6ba764c-efe5-4b24-be9f-0a805d2e0010
 
   [Minot]
   REQUEST FOR QUOTES: COMPREHENSIVE HVAC PREVENTATIVE MAINTENANCE CONTRACT
@@ -228,6 +238,8 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10205151
     MANK-26 Outdoor Track Improvements REBID
       https://qcpi.questcdn.com/cdn/posting/?id=10217502
+    MCTC - School within the College Capital project -...
+      https://qcpi.questcdn.com/cdn/posting/?id=10223967
  ** MOOR-25-Fire Alarm System Replacement - #1 HEAPR /...
       https://qcpi.questcdn.com/cdn/posting/?id=10215411
  ** MOOR-25-Fire Alarm System Replacement - #2 Housing
@@ -264,16 +276,16 @@ ALL LISTINGS BY SITE
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
     Hopkins Rail Support Facility Pocket Track Construction
- ** Small Communities Planning Program Engineering Services
     Reissued Invitation for Prequalification (IFP) Meter 228A and Interceptor 7015-C
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
     Regional Mobility Hubs
-    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
-    Metropolitan WRRF Screenings Wash Press Prequalification
     Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
+    Metropolitan WRRF Screenings Wash Press Prequalification
+    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Green Line Extension Pre-Opening & Launch Event Support
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     NEWGold Line Extension (Contracting - with Small Business Goal)
+ ** Small Communities Planning Program Engineering Services
     MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
     Advertising Services
     Community Service Officer & Sworn Officer Uniforms and Equipment
@@ -284,6 +296,7 @@ ALL LISTINGS BY SITE
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
+    TH 47 Preliminary and Final Design
     Managed Lane (E-ZPass) System Planning Study
     MnDOT Aerial Roofing and Pavement Assessment
     Timber Local Bridge Load Rating and Evaluation
@@ -297,7 +310,7 @@ ALL LISTINGS BY SITE
 
 [ Saint Paul Public Schools ]
   https://erfp.integratise.com/getall/agency_specific_open.asp?c=Saint%20Paul%20Public%20Schools%20ISD
-  ERROR: HTTPSConnectionPool(host='erfp.integratise.com', port=443): Max retries exceeded with url: /getall/a
+  No open bids found (site may require login or be empty)
 
 [ Roseville ISD 623 ]
   https://www.isd623.org/services/business-services
@@ -343,7 +356,36 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
-  No open bids found (site may require login or be empty)
+    Department of Corrections Officer Uniform Outerwear
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=56954f61-1b05-4b98-a07a-872736e07a1a
+    Real Estate Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3d917e12-6ab9-4fd0-9631-d1fb055b6a9e
+    Iowa PBS Broadcast Tower Maintenance
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=bef85332-4403-45ba-a576-25f9bd5a0256
+    Water Operator Contractor
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a66665ca-c72d-4b8a-bab8-4cbdd104fc14
+    Janitorial Services at the Marshalltown Child Support Services (CSS) Office
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4bebc209-014c-478a-82d3-57c17fd7c828
+    Repair Roof Building 235
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=9b147d88-8343-4874-9b8b-9c868b9cd8b6
+ ** HVAC Repair Services for Iowa PBS Transmitter and Translator Sites
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3fa241b4-29a5-4ae3-a1bc-b587348684f2
+    Laundry Bags for State Agencies
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4a739743-90e0-4002-af65-ca3ec99a6b14
+    Glock 45 COA Gen 6 9MM handguns and Streamlight Weapon Light
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=db18e6e0-f798-48cd-b785-d608c109224f
+    Selection of A/E Design Firm – Waterloo RC Addition/Alteration
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7aee5375-e1ad-4c1e-b56f-c2e7dfa7ac3a
+ ** 2026 Statewide On-Call Traffic Engineering Services
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b6ba764c-efe5-4b24-be9f-0a805d2e0010
+    RFP WCSD Nutrition 2026 Elementary Service Units
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2ee4f2f0-9743-43d5-9e38-263674ef5d02
+    Food Items for CDC Warehouse
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4203ae31-adde-4b95-aa2b-5c1e95eddbc7
+    Cleaning Services for the Highway 30, 2nd Floor Building in Ames, Iowa
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=c92d8293-a6db-43f5-a763-673285c15cbe
+    Fire Protection Systems Repair, Maintenance, and Testing
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f66b2753-6e28-44a7-a78c-b764fd1bcc00
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -365,6 +407,8 @@ ALL LISTINGS BY SITE
   https://www.bismarcknd.gov/bids.aspx
     Ad for Bid - Runway 3/21 & Taxiway D Rehab Phase 2
       https://www.bismarcknd.gov/bids.aspx?bidID=1353
+    RFP for Operations and Management of Vehicle Parking Facilities
+      https://www.bismarcknd.gov/bids.aspx?bidID=1354
     Bismarck Curb Management Study Request for Proposals
       https://www.bismarcknd.gov/bids.aspx?bidID=1355
 
@@ -609,6 +653,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 175 total listings
-  16 flagged as architecture/design related
+  Checked 62 sites | 193 total listings
+  18 flagged as architecture/design related
 ======================================================================
