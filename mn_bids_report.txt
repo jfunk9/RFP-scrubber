@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-05-28 15:51
+  Generated: 2026-05-29 15:25
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (17 total)
@@ -185,6 +185,8 @@ ALL LISTINGS BY SITE
   https://www.scottcountymn.gov/Bids.aspx
     2026 Building Demos
       https://www.scottcountymn.gov/bids.aspx?bidID=159
+    RFP for Statement of Qualifications for SWMO Master Professional Services Agreement (2027-2031)
+      https://www.scottcountymn.gov/bids.aspx?bidID=160
 
 [ Anoka County (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all
@@ -257,24 +259,28 @@ ALL LISTINGS BY SITE
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Green Line Extension Pre-Opening & Launch Event Support
  ** Blue Line Lake Street / Midtown Station Renovation Construction
-    NEWGold Line Extension (Contracting - with Small Business Goal)
+    Gold Line Extension (Contracting - with Small Business Goal)
  ** Small Communities Planning Program Engineering Services
     MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
     Advertising Services
     Community Service Officer & Sworn Officer Uniforms and Equipment
     Light Rail Train (LRT) Operator Training Simulator
-    NEWMaster Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
+    NEWForest Lake 7029 Rehabilitation
+    Master Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
+    NEW2 CFR 200 Central Services Cost Allocation Plan Consultant
+    NEWComplete Streets Local Implementation Guide
     Regional Model Roadway Network Speed Update
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
+    Mobile Advertisements for Speed Safety Cameras in Work Zones
  ** TH 13 & Nicollet Design Build Verification Team - REPOSTED
     TH 47 Preliminary and Final Design
     Managed Lane (E-ZPass) System Planning Study
     MnDOT Aerial Roofing and Pavement Assessment
     Timber Local Bridge Load Rating and Evaluation
     2103-43 TH 29 Alexandria
-    Final Bridge Design: TH 13 Corridor in Savage
+    None at this time.
 
 [ Hennepin County (ProcureWare) ]
   https://hennepin.procureware.com/Bids
@@ -330,6 +336,8 @@ ALL LISTINGS BY SITE
   https://bidopportunities.iowa.gov/
     RFB 943
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2c657d6d-a9a5-449f-a8fe-11f40d248b1a
+    Glenwood Redevelopment Corporation Resource Center Building Abatement – Area 2
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=e32b6984-47f1-48dd-b525-d2da8b26892f
     Complex Demolition, Springbrook Education Center, Guthrie County
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=67c5457b-d4cd-4ee4-bc57-13545d1c8098
     Paint Creek Streambank Improvements - Phase 2, Yellow River State Forest, Allamakee County
@@ -354,8 +362,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=3d917e12-6ab9-4fd0-9631-d1fb055b6a9e
     Iowa PBS Broadcast Tower Maintenance
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=bef85332-4403-45ba-a576-25f9bd5a0256
-    Water Operator Contractor
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a66665ca-c72d-4b8a-bab8-4cbdd104fc14
     Janitorial Services at the Marshalltown Child Support Services (CSS) Office
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4bebc209-014c-478a-82d3-57c17fd7c828
 
@@ -371,6 +377,8 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1872
  ** Carnegie-Stout Public Library HVAC Maintenance Request for Bid
       https://www.cityofdubuque.org/bids.aspx?bidID=1873
+    City of Dubuque Parks Dept. 250/2500 class, 9000 GVW standard cab 4WD truck bid with plow package
+      https://www.cityofdubuque.org/bids.aspx?bidID=1874
     Greyhound Park Water Main Looping Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1866
     Lead Service Line Replacement - Phase 2
@@ -394,10 +402,6 @@ ALL LISTINGS BY SITE
   https://www.minotnd.gov/Bids.aspx
     BID NOTICE: 2026 SANITARY SEWER CIPP
       https://www.minotnd.gov/bids.aspx?bidID=655
-    BID NOTICE: TAXIWAY B REALIGNMENT AND RECONSTRUCTION AND RUNWAY 8/26 REHABILITATION (WEST)
-      https://www.minotnd.gov/bids.aspx?bidID=657
-    NOTICE OF SALE - PUBLIC AUCTION: RETAIL LIQUOR, BEER, & WINE LICENSE
-      https://www.minotnd.gov/bids.aspx?bidID=644
     RFP: ACTUARY SERVICES
       https://www.minotnd.gov/bids.aspx?bidID=654
 
@@ -470,20 +474,20 @@ ALL LISTINGS BY SITE
       https://www.cityofventura.ca.gov/bids.aspx?bidID=331
     Citywide Traffic Striping Maintenance
       https://www.cityofventura.ca.gov/bids.aspx?bidID=388
-    Turnkey Encampment Cleanup Services
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=389
     Pest Control for Sewer Collection System
       https://www.cityofventura.ca.gov/bids.aspx?bidID=392
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
     Inspection, Cleaning, and Repair of Structural Fire Fighting Protective Ensembles (FFPE)
       https://www.cityofventura.ca.gov/bids.aspx?bidID=391
+    Two (2) Chevrolet Silverado 2500 or Equivalent
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=393
     Inspection, Cleaning, and Repair of Structural Fire Fighting Protective Ensembles (FFPE)
       https://www.cityofventura.ca.gov/bids.aspx?bidID=391
     Citywide Traffic Striping Maintenance
       https://www.cityofventura.ca.gov/bids.aspx?bidID=388
-    Turnkey Encampment Cleanup Services
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=389
+    Two (2) Chevrolet Silverado 2500 or Equivalent
+      https://www.cityofventura.ca.gov/bids.aspx?bidID=393
     Direct Toilet Install Program
       https://www.cityofventura.ca.gov/bids.aspx?bidID=387
     Pest Control for Sewer Collection System
@@ -631,6 +635,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 182 total listings
+  Checked 62 sites | 186 total listings
   17 flagged as architecture/design related
 ======================================================================
