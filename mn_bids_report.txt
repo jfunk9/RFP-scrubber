@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-06-01 17:36
+  Generated: 2026-06-02 16:22
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (16 total)
@@ -187,10 +187,6 @@ ALL LISTINGS BY SITE
 
 [ Anoka County (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=6091&provider=6091&projType=all
-    SAP 002-030-015 SIGNAL PAINTING
-      https://qcpi.questcdn.com/cdn/posting/?id=10191169
-    SP 002-614-051 CSAH 14 Rehab and Overlay
-      https://qcpi.questcdn.com/cdn/posting/?id=9910702
     SAP 002-602-014 CSAH 2 RECONSTRUCTION
       https://qcpi.questcdn.com/cdn/posting/?id=10197478
 
@@ -200,8 +196,7 @@ ALL LISTINGS BY SITE
 
 [ Moorhead (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?group=7465&provider=7465
-    Center Ave Reconstruction - 8th to 10th
-      https://qcpi.questcdn.com/cdn/posting/?id=10171322
+  No open bids found (site may require login or be empty)
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
@@ -240,6 +235,7 @@ ALL LISTINGS BY SITE
     Steam Sterilizer/Autoclave
  ** 10 Church Street Repurposing
     Crookston Tunnel System Rehab
+    Digital Production Printing Equipment
     University of Minnesota Contractor Safety Program (2026)
 
 [ Lino Lakes RFPs ]
@@ -381,6 +377,8 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1873
     City of Dubuque Parks Dept. 250/2500 class, 9000 GVW standard cab 4WD truck bid with plow package
       https://www.cityofdubuque.org/bids.aspx?bidID=1874
+    Road Deicer Salt: Winter Season 2026-2027
+      https://www.cityofdubuque.org/bids.aspx?bidID=1877
     Greyhound Park Water Main Looping Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1866
     Lead Service Line Replacement - Phase 2
@@ -397,12 +395,18 @@ ALL LISTINGS BY SITE
       https://www.bismarcknd.gov/bids.aspx?bidID=1353
     RFP for Operations and Management of Vehicle Parking Facilities
       https://www.bismarcknd.gov/bids.aspx?bidID=1354
+    Facility Improvement No. 2026 - 2
+      https://www.bismarcknd.gov/bids.aspx?bidID=1359
     Street Improvement District No. 600
       https://www.bismarcknd.gov/bids.aspx?bidID=1356
     Street Improvement District No. 602
       https://www.bismarcknd.gov/bids.aspx?bidID=1357
+    RFP for PERMIT, LICENSE, & ASSET MANAGEMENT SYSTEM
+      https://www.bismarcknd.gov/bids.aspx?bidID=1324
     Bismarck Curb Management Study Request for Proposals
       https://www.bismarcknd.gov/bids.aspx?bidID=1355
+    Facility Improvement No. 2026 - 2
+      https://www.bismarcknd.gov/bids.aspx?bidID=1359
 
 [ Minot ]
   https://www.minotnd.gov/Bids.aspx
@@ -538,8 +542,6 @@ ALL LISTINGS BY SITE
   https://www.jacksonvillebeach.org/Bids.aspx
     LS-13 Rehabilitation and Site Upgrades
       https://www.jacksonvillebeach.org/bids.aspx?bidID=105
-    New Well #16 (Part A) and 12” Raw Water Main Extension (Part B)
-      https://www.jacksonvillebeach.org/bids.aspx?bidID=103
     Latham Plaza Parking Lot Public-Private Partnership (P3)
       https://www.jacksonvillebeach.org/bids.aspx?bidID=104
 
@@ -567,8 +569,8 @@ ALL LISTINGS BY SITE
 
 [ Texas City ]
   https://www.texascitytx.gov/Bids.aspx
-    MOSES LAKE STORMWATER PUMP STATION
-      https://www.texascitytx.gov/bids.aspx?bidID=90
+    Bid Postings
+      https://www.texascitytx.gov/
 
 [ Galveston ]
   https://www.galvestontx.gov/bids.aspx
@@ -583,6 +585,8 @@ ALL LISTINGS BY SITE
 
 [ Cedar Park ]
   https://www.cedarparktexas.gov/Bids.aspx
+    RFP - Traffic Signal Construction
+      https://www.cedarparktexas.gov/bids.aspx?bidID=141
  ** RFQ - Recreation Center Expansion Master Planning and Design Services
       https://www.cedarparktexas.gov/bids.aspx?bidID=139
 
@@ -607,8 +611,6 @@ ALL LISTINGS BY SITE
 
 [ Rockford ]
   https://rockfordil.gov/Bids.aspx
-    HEAD START AND EARLY HEAD START CHILD CARE MEALS
-      https://rockfordil.gov/bids.aspx?bidID=291
     CITY YARDS WASH BAY DRAIN REPLACEMENT REPAIR AND RESTORATION
       https://rockfordil.gov/bids.aspx?bidID=290
     RAILS TO TRAILS ROCK RIVER SHORELINE REPAIR
@@ -639,6 +641,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 192 total listings
+  Checked 62 sites | 193 total listings
   16 flagged as architecture/design related
 ======================================================================
