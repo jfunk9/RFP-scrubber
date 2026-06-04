@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-06-03 16:46
+  Generated: 2026-06-04 14:57
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (16 total)
+FLAGGED AS LIKELY RELEVANT (17 total)
 ----------------------------------------------------------------------
   [Washington County]
   Historic Courthouse Elevator Replacement Project
@@ -32,7 +32,7 @@ FLAGGED AS LIKELY RELEVANT (16 total)
 
   [MBID (UMN / Public Agencies)]
   10 Church Street Repurposing
-  01-061-25-3788 Addendum 1 | Architect (Design) | Purchasing | 6/18/2026 02:00:00 PM (CT)
+  01-061-25-3788 Addendum 2 | Architect (Design) | Purchasing | 6/18/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
@@ -69,6 +69,11 @@ FLAGGED AS LIKELY RELEVANT (16 total)
   Municipal Services Center Roof Replacement Project
   NOTICE TO BIDDERS    CITY OF DUBUQUE PUBLIC IMPROVEMENT PROJECT    MUNICIPAL SERVICES CENTER ROOF REPLACEMENT    120.1  
   --> https://www.cityofdubuque.org/bids.aspx?bidID=1878
+
+  [Dubuque]
+  Eagle Point WTP Boiler Replacement Project
+  The City is seeking a consultant to develop a complete design for the Eagle Point WTP Boiler Replacement Project. The Ci
+  --> https://www.cityofdubuque.org/bids.aspx?bidID=1879
 
   [Ventura]
   Public Works Contracts
@@ -115,8 +120,8 @@ ALL LISTINGS BY SITE
 
 [ Hibbing ]
   https://hibbingmn.gov/Bids.aspx
-    Hibbing Memorial Arena Ammonia Room Repairs
-      https://hibbingmn.gov/bids.aspx?bidID=31
+    Request for Proposals (RFP): Employee Benefits Brokerage & Consulting Services
+      https://hibbingmn.gov/bids.aspx?bidID=32
 
 [ Faribault ]
   https://www.ci.faribault.mn.us/Bids.aspx
@@ -241,10 +246,9 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    Regional Mobility Hubs
-    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Metropolitan WRRF Screenings Wash Press Prequalification
+    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     Hopkins Rail Support Facility Pocket Track Construction
     Green Line Extension Pre-Opening & Launch Event Support
  ** Blue Line Lake Street / Midtown Station Renovation Construction
@@ -332,6 +336,8 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=066eb653-028b-43bc-8147-a01b4ce28809
     Janitorial Services @ FO6
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=dba6111a-14d2-4b92-adca-ef7d5ec76e80
+    Food Items for CDC Warehouse
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d4804ecd-b83b-4edb-826e-f4d3d89ca97f
     Cleaning Services for Marshalltown DL Service Center
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=beacb083-2e71-4cb3-9dd2-0e4444095f9f
     DOC Anamosa Sallyport Tunnel & LUB Tunnel Wall Repair
@@ -354,29 +360,41 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=e497a948-4d94-4293-82a8-238a29723be2
     Sewer Improvements, Lake Anita State Park, Cass County
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f7f9dbde-083f-4f93-b13f-4f12349841b7
-    Road Maintenance, Dickinson County Wildlife Areas and State Parks, Dickinson County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=98408547-0e5a-4f55-949e-64e80ba536cd
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
     Relocate Taxiway A - Phase 4 Construction
       https://www.cityofdubuque.org/bids.aspx?bidID=1871
+    Grass Mowing Services for Nuisance Abatement Request for Proposal
+      https://www.cityofdubuque.org/bids.aspx?bidID=1876
     Asbury, Carter, and Chaney Traffic Signal Improvement Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1868
  ** Municipal Services Center Roof Replacement Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1878
     North Schmitt Island Collection System Project - Contract #2
       https://www.cityofdubuque.org/bids.aspx?bidID=1869
+    Request for Bid- Two (2) Current Production Model Year Minimum 5300 GVW 4WD Extended Cab 150/1500
+      https://www.cityofdubuque.org/bids.aspx?bidID=1881
     Southwest Arterial / US 52 ITS Corridor Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1872
  ** Carnegie-Stout Public Library HVAC Maintenance Request for Bid
       https://www.cityofdubuque.org/bids.aspx?bidID=1873
     City of Dubuque Parks Dept. 250/2500 class, 9000 GVW standard cab 4WD truck bid with plow package
       https://www.cityofdubuque.org/bids.aspx?bidID=1874
+    Request for Bid- Two (2) Current Production Model Year Minimum 5300 GVW 4WD Extended Cab 150/1500
+      https://www.cityofdubuque.org/bids.aspx?bidID=1881
+    RFEI - Affordable Housing Development and Property Management
+      https://www.cityofdubuque.org/bids.aspx?bidID=1882
  ** Municipal Services Center Roof Replacement Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1878
+    Request for Bid- Two (2) Current Production Model Year Minimum 5300 GVW 4WD Extended Cab 150/1500
+      https://www.cityofdubuque.org/bids.aspx?bidID=1881
     Road Deicer Salt: Winter Season 2026-2027
       https://www.cityofdubuque.org/bids.aspx?bidID=1877
+ ** Eagle Point WTP Boiler Replacement Project
+      https://www.cityofdubuque.org/bids.aspx?bidID=1879
+    FY2027 HYDROFLUOROSILICIC ACID
+      https://www.cityofdubuque.org/bids.aspx?bidID=1880
     Greyhound Park Water Main Looping Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1866
     Lead Service Line Replacement - Phase 2
@@ -588,6 +606,8 @@ ALL LISTINGS BY SITE
       https://www.leaguecitytx.gov/bids.aspx?bidID=866
     FM 270 Public Boat Ramp Renovations PK1804
       https://www.leaguecitytx.gov/bids.aspx?bidID=867
+    Landscaping Improvements 500 West Walker St
+      https://www.leaguecitytx.gov/bids.aspx?bidID=869
 
 [ Dallas (Bonfire) ]
   https://dallascityhall.bonfirehub.com/portal/?tab=openOpportunities
@@ -629,6 +649,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 187 total listings
-  16 flagged as architecture/design related
+  Checked 62 sites | 194 total listings
+  17 flagged as architecture/design related
 ======================================================================
