@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-06-04 14:57
+  Generated: 2026-06-05 14:48
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (17 total)
@@ -33,6 +33,11 @@ FLAGGED AS LIKELY RELEVANT (17 total)
   [MBID (UMN / Public Agencies)]
   10 Church Street Repurposing
   01-061-25-3788 Addendum 2 | Architect (Design) | Purchasing | 6/18/2026 02:00:00 PM (CT)
+  --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
+
+  [MBID (UMN / Public Agencies)]
+  Coffman Memorial Union Partial Roof Replacement
+  01-064-26-3889 | Construction | Purchasing | 6/25/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
@@ -84,11 +89,6 @@ FLAGGED AS LIKELY RELEVANT (17 total)
   Request for Qualifications for On-call Architectural Design Services
   Bid No.RFQ No.: 2026-500-ADA | Status: Closes: Open 6/29/2026 5:00 PM
   --> https://humboldtgov.org/bids.aspx?bidID=665
-
-  [Cedar Park]
-  RFQ - Recreation Center Expansion Master Planning and Design Services
-  Bid No.RFQ-2026-0014-013 | Status: Closes: Open 6/4/2026 2:00 PM
-  --> https://www.cedarparktexas.gov/bids.aspx?bidID=139
 
 
 ALL LISTINGS BY SITE
@@ -205,8 +205,6 @@ ALL LISTINGS BY SITE
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
-    MANK-26 Outdoor Track Improvements REBID
-      https://qcpi.questcdn.com/cdn/posting/?id=10217502
     MCTC - School within the College Capital project -...
       https://qcpi.questcdn.com/cdn/posting/?id=10223967
  ** MOOR-25-Fire Alarm System Replacement - #1 HEAPR /...
@@ -226,7 +224,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    MIDB Sensory Rooms
     University Wide Agreement for Temporary Staffing Services
     Boynton Air Handler SUP 002 Redesign
     Housing Development for the St. Paul Campus
@@ -235,7 +232,9 @@ ALL LISTINGS BY SITE
  ** 10 Church Street Repurposing
     Crookston Tunnel System Rehab
     Digital Production Printing Equipment
+ ** Coffman Memorial Union Partial Roof Replacement
     UWide Agreement for Collections Agency Services
+    Arboretum Betty's Apple House Exhibit Project
     University of Minnesota Contractor Safety Program (2026)
 
 [ Lino Lakes RFPs ]
@@ -246,24 +245,24 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
-    Metropolitan WRRF Screenings Wash Press Prequalification
-    Fully Outfitted Plow Dump Truck & Fully Outfitted Crane Truck
     Hopkins Rail Support Facility Pocket Track Construction
     Green Line Extension Pre-Opening & Launch Event Support
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     Gold Line Extension (Contracting - with Small Business Goal)
  ** Small Communities Planning Program Engineering Services
     MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
-    Advertising Services
     Community Service Officer & Sworn Officer Uniforms and Equipment
+    Advertising Services
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
-    Light Rail Train (LRT) Operator Training Simulator
     NEWForest Lake 7029 Rehabilitation
     Master Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
     NEW2 CFR 200 Central Services Cost Allocation Plan Consultant
+    NEWDominick Dr Crossing Communications Conduit Installation
     NEWComplete Streets Local Implementation Guide
-    Regional Model Roadway Network Speed Update
+    NEWEnvironmental Assessment and Abatement, Master Contract
+    NEW390 Robert Street Design and Construction Administrative Services (Contracting - with Small Business Goal)
+    NEWMETRO G Line BRT
+    Light Rail Train (LRT) Operator Training Simulator
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
@@ -273,7 +272,7 @@ ALL LISTINGS BY SITE
     TH 47 Preliminary and Final Design
     Managed Lane (E-ZPass) System Planning Study
     MnDOT Aerial Roofing and Pavement Assessment
-    Timber Local Bridge Load Rating and Evaluation
+    Multi-Award Sign Replacement Projects
     D1 Virginia HQ â SIT Services
     Hewitt Reconstruct and ADA Improvements
     Independent Technical Review (ITR) for State Projects (SPs) 4705-51, 5905-31, and 6401-41
@@ -330,14 +329,22 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    DOC Newton Correctional Facility IPI Homes For Iowa Facility Project – Phase II - Fencing
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d277a0ab-87c3-4b67-936b-54687cd7a429
+    Multisystemic Therapy (MST)
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=62e7e0da-2591-4003-b76a-9aaee12e59b8
     Spencer RC RTU Replacement
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7022ae05-ca45-41a9-96a9-749f753bbccb
     Janitorial Services @ FO1
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=066eb653-028b-43bc-8147-a01b4ce28809
+    2461.00 Stream Mitigation Credits- Story County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a7f775da-382f-427c-a585-ca44229a616d
     Janitorial Services @ FO6
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=dba6111a-14d2-4b92-adca-ef7d5ec76e80
     Food Items for CDC Warehouse
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d4804ecd-b83b-4edb-826e-f4d3d89ca97f
+    0.762 Acres Emergent Wetland (PEM)-Story County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=704d94d2-e629-4e2e-a1fb-f82b97db6768
     Cleaning Services for Marshalltown DL Service Center
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=beacb083-2e71-4cb3-9dd2-0e4444095f9f
     DOC Anamosa Sallyport Tunnel & LUB Tunnel Wall Repair
@@ -352,14 +359,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=9c33e443-dccd-4f3a-a751-ea154e8db6b0
     RFB 943
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2c657d6d-a9a5-449f-a8fe-11f40d248b1a
-    Glenwood Redevelopment Corporation Resource Center Building Abatement – Area 2
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=e32b6984-47f1-48dd-b525-d2da8b26892f
-    Complex Demolition, Springbrook Education Center, Guthrie County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=67c5457b-d4cd-4ee4-bc57-13545d1c8098
-    Paint Creek Streambank Improvements - Phase 2, Yellow River State Forest, Allamakee County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=e497a948-4d94-4293-82a8-238a29723be2
-    Sewer Improvements, Lake Anita State Park, Cass County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f7f9dbde-083f-4f93-b13f-4f12349841b7
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -367,12 +366,8 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1871
     Grass Mowing Services for Nuisance Abatement Request for Proposal
       https://www.cityofdubuque.org/bids.aspx?bidID=1876
-    Asbury, Carter, and Chaney Traffic Signal Improvement Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1868
  ** Municipal Services Center Roof Replacement Project
       https://www.cityofdubuque.org/bids.aspx?bidID=1878
-    North Schmitt Island Collection System Project - Contract #2
-      https://www.cityofdubuque.org/bids.aspx?bidID=1869
     Request for Bid- Two (2) Current Production Model Year Minimum 5300 GVW 4WD Extended Cab 150/1500
       https://www.cityofdubuque.org/bids.aspx?bidID=1881
     Southwest Arterial / US 52 ITS Corridor Project
@@ -395,8 +390,6 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1879
     FY2027 HYDROFLUOROSILICIC ACID
       https://www.cityofdubuque.org/bids.aspx?bidID=1880
-    Greyhound Park Water Main Looping Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1866
     Lead Service Line Replacement - Phase 2
       https://www.cityofdubuque.org/bids.aspx?bidID=1870
 
@@ -496,14 +489,10 @@ ALL LISTINGS BY SITE
   https://www.cityofventura.ca.gov/Bids.aspx
  ** Public Works Contracts
       https://www.cityofventura.ca.gov/bids.aspx?bidID=331
-    Pest Control for Sewer Collection System
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=392
     Two (2) Chevrolet Silverado 2500 or Equivalent
       https://www.cityofventura.ca.gov/bids.aspx?bidID=393
     Two (2) Chevrolet Silverado 2500 or Equivalent
       https://www.cityofventura.ca.gov/bids.aspx?bidID=393
-    Pest Control for Sewer Collection System
-      https://www.cityofventura.ca.gov/bids.aspx?bidID=392
 
 [ Eureka ]
   https://www.eurekaca.gov/Bids.aspx
@@ -593,8 +582,6 @@ ALL LISTINGS BY SITE
   https://www.cedarparktexas.gov/Bids.aspx
     RFP - Traffic Signal Construction
       https://www.cedarparktexas.gov/bids.aspx?bidID=141
- ** RFQ - Recreation Center Expansion Master Planning and Design Services
-      https://www.cedarparktexas.gov/bids.aspx?bidID=139
 
 [ League City ]
   https://www.leaguecitytx.gov/bids.aspx
@@ -619,8 +606,6 @@ ALL LISTINGS BY SITE
 
 [ Rockford ]
   https://rockfordil.gov/Bids.aspx
-    CITY YARDS WASH BAY DRAIN REPLACEMENT REPAIR AND RESTORATION
-      https://rockfordil.gov/bids.aspx?bidID=290
     RAILS TO TRAILS ROCK RIVER SHORELINE REPAIR
       https://rockfordil.gov/bids.aspx?bidID=292
     DEMOLITION WASTE MATERIAL DUMP SITE
@@ -649,6 +634,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 194 total listings
+  Checked 62 sites | 187 total listings
   17 flagged as architecture/design related
 ======================================================================
