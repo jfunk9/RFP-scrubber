@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-06-05 14:48
+  Generated: 2026-06-08 15:49
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (17 total)
+FLAGGED AS LIKELY RELEVANT (16 total)
 ----------------------------------------------------------------------
   [Washington County]
   Historic Courthouse Elevator Replacement Project
@@ -54,11 +54,6 @@ FLAGGED AS LIKELY RELEVANT (17 total)
   TH 13 & Nicollet Design Build Verification Team - REPOSTED
   Brief Description:ÂMnDOT requests responses for a Contractor to provide design build verification for State Project (SP)
   --> https://www.dot.state.mn.us/consult/notices.html
-
-  [Iowa DAS (State Bids)]
-  DPS D1 1333 Ohio Roof Replacement
-  RFB952100-01 | Administrative Services, Dept | Expires: 6/16/2026
-  --> https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6c870105-11ef-4c2b-9ee8-c157bd003493
 
   [Dubuque]
   Municipal Services Center Roof Replacement Project
@@ -162,8 +157,8 @@ ALL LISTINGS BY SITE
   https://www.washingtoncountymn.gov/Bids.aspx
     Artificial Intelligence (AI) Policy
       https://www.washingtoncountymn.gov/bids.aspx?bidID=864
-    RFP for 2050 Comprehensive Plan
-      https://www.washingtoncountymn.gov/bids.aspx?bidID=865
+    RFP for Provision of Library Materials with Services
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=876
     Bid for CSAH 12 & Mahtomedi School Campus Trail Project
       https://www.washingtoncountymn.gov/bids.aspx?bidID=873
     Bid for CSAH 14 Trail Improvements
@@ -224,14 +219,15 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    University Wide Agreement for Temporary Staffing Services
     Boynton Air Handler SUP 002 Redesign
     Housing Development for the St. Paul Campus
     UMN OIT - Fortinet Equipment and Licensing RFB
     Steam Sterilizer/Autoclave
  ** 10 Church Street Repurposing
     Crookston Tunnel System Rehab
+    Door Project Materials for UMD Facilities Management
     Digital Production Printing Equipment
+    Eddy Hall Renovation
  ** Coffman Memorial Union Partial Roof Replacement
     UWide Agreement for Collections Agency Services
     Arboretum Betty's Apple House Exhibit Project
@@ -254,11 +250,11 @@ ALL LISTINGS BY SITE
     Community Service Officer & Sworn Officer Uniforms and Equipment
     Advertising Services
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
-    NEWForest Lake 7029 Rehabilitation
+    Forest Lake 7029 Rehabilitation
     Master Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
-    NEW2 CFR 200 Central Services Cost Allocation Plan Consultant
+    2 CFR 200 Central Services Cost Allocation Plan Consultant
     NEWDominick Dr Crossing Communications Conduit Installation
-    NEWComplete Streets Local Implementation Guide
+    Complete Streets Local Implementation Guide
     NEWEnvironmental Assessment and Abatement, Master Contract
     NEW390 Robert Street Design and Construction Administrative Services (Contracting - with Small Business Goal)
     NEWMETRO G Line BRT
@@ -329,8 +325,16 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    HHS CHMHI Tuckpointing Phase 2.2
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5f210382-5056-4e31-86cd-90a1a630c1e8
+    Tile Repair on Drainage Ditch in Polk County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=11b211f9-4e6e-4720-a596-b17691943e22
+    Milk & Dairy Products for Des Moines Residential Correctional Facility
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d794cc42-bf5e-4a03-8cd8-bd3163430194
     DOC Newton Correctional Facility IPI Homes For Iowa Facility Project – Phase II - Fencing
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d277a0ab-87c3-4b67-936b-54687cd7a429
+    DCI Ankeny: Instrument Lab Expansion
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=232b0f34-18f3-4b4d-805f-7f4614709108
     Multisystemic Therapy (MST)
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=62e7e0da-2591-4003-b76a-9aaee12e59b8
     Spencer RC RTU Replacement
@@ -351,14 +355,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=18ff9b1e-e901-4bd0-97d7-7b3fcdbd5229
     As-Needed Landscaping Services in the Des Moines Metro Area
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f07d9ef3-463d-440d-9961-9e97fc5054c2
-    DOC Anamosa Taut Wire Intrusion Detection System Repairs
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b476bc5c-481b-469e-bf12-bc485b94db8f
- ** DPS D1 1333 Ohio Roof Replacement
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=6c870105-11ef-4c2b-9ee8-c157bd003493
-    Sheet Pile WCS Replacement, Dunbar Slough WMA, Greene County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=9c33e443-dccd-4f3a-a751-ea154e8db6b0
-    RFB 943
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2c657d6d-a9a5-449f-a8fe-11f40d248b1a
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -421,6 +417,10 @@ ALL LISTINGS BY SITE
   https://www.minotnd.gov/Bids.aspx
     BID NOTICE: PARKVIEW MOBILE HOME PARK STRUCTURE DEMOLITION AND SITE RESTORATION
       https://www.minotnd.gov/bids.aspx?bidID=658
+    RFQ: EASTWOOD PARK BRIDGE REHABILITATION
+      https://www.minotnd.gov/bids.aspx?bidID=660
+    RFQ: STORM SEWER DISTRICT 125 - HACIENDA HILLS OUTFALL IMPROVEMENTS
+      https://www.minotnd.gov/bids.aspx?bidID=659
 
 [ Aberdeen ]
   https://www.aberdeen.sd.us/Bids.aspx
@@ -560,7 +560,8 @@ ALL LISTINGS BY SITE
 
 [ Bexar County ]
   https://www.bexar.org/Bids.aspx
-  No open bids found (site may require login or be empty)
+    Bid Postings
+      https://www.bexar.org/
 
 [ Texas City ]
   https://www.texascitytx.gov/Bids.aspx
@@ -585,8 +586,6 @@ ALL LISTINGS BY SITE
 
 [ League City ]
   https://www.leaguecitytx.gov/bids.aspx
-    26-038 Low Emissions Diesel Excavator
-      https://www.leaguecitytx.gov/bids.aspx?bidID=865
     Disaster Logistics
       https://www.leaguecitytx.gov/bids.aspx?bidID=868
     Fire Apparatus Preventive Maintenance and Repairs
@@ -634,6 +633,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 187 total listings
-  17 flagged as architecture/design related
+  Checked 62 sites | 190 total listings
+  16 flagged as architecture/design related
 ======================================================================
