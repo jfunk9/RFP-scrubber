@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-06-08 15:49
+  Generated: 2026-06-09 14:48
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (16 total)
@@ -100,8 +100,6 @@ ALL LISTINGS BY SITE
       https://www.goldenvalleymn.gov/bids.aspx?bidID=5
     RFP: Public Improvement Project #26-02 Golden Valley Road and Theodore Wirth Pkwy Intersection Area
       https://www.goldenvalleymn.gov/bids.aspx?bidID=135
-    RFP: Public Safety Staffing Analysis
-      https://www.goldenvalleymn.gov/bids.aspx?bidID=134
 
 [ Elk River ]
   https://www.elkrivermn.gov/bids.aspx
@@ -169,8 +167,6 @@ ALL LISTINGS BY SITE
       https://www.washingtoncountymn.gov/bids.aspx?bidID=868
  ** Historic Courthouse Elevator Replacement Project
       https://www.washingtoncountymn.gov/bids.aspx?bidID=871
-    RFP for Building Controls
-      https://www.washingtoncountymn.gov/bids.aspx?bidID=870
     RFP for CSAH 96 (Dellwood Road) Improvement Project
       https://www.washingtoncountymn.gov/bids.aspx?bidID=872
     RFP for Pigging Services
@@ -219,8 +215,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    Boynton Air Handler SUP 002 Redesign
-    Housing Development for the St. Paul Campus
     UMN OIT - Fortinet Equipment and Licensing RFB
     Steam Sterilizer/Autoclave
  ** 10 Church Street Repurposing
@@ -325,10 +319,12 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Skunk River Riprap Projects, Sugema Wildlife Unit, Keokuk County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ef50f065-64b0-4e98-b477-1a9965ec17f2
+    Road Maintenance REBID, Cedar Rock State Park, Buchanan County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f6455ec5-af08-4ce6-8fa1-5afd63348b92
     HHS CHMHI Tuckpointing Phase 2.2
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=5f210382-5056-4e31-86cd-90a1a630c1e8
-    Tile Repair on Drainage Ditch in Polk County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=11b211f9-4e6e-4720-a596-b17691943e22
     Milk & Dairy Products for Des Moines Residential Correctional Facility
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d794cc42-bf5e-4a03-8cd8-bd3163430194
     DOC Newton Correctional Facility IPI Homes For Iowa Facility Project – Phase II - Fencing
@@ -353,8 +349,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=beacb083-2e71-4cb3-9dd2-0e4444095f9f
     DOC Anamosa Sallyport Tunnel & LUB Tunnel Wall Repair
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=18ff9b1e-e901-4bd0-97d7-7b3fcdbd5229
-    As-Needed Landscaping Services in the Des Moines Metro Area
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f07d9ef3-463d-440d-9961-9e97fc5054c2
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -396,8 +390,6 @@ ALL LISTINGS BY SITE
 
 [ Bismarck ]
   https://www.bismarcknd.gov/bids.aspx
-    Ad for Bid - Runway 3/21 & Taxiway D Rehab Phase 2
-      https://www.bismarcknd.gov/bids.aspx?bidID=1353
     RFP for Operations and Management of Vehicle Parking Facilities
       https://www.bismarcknd.gov/bids.aspx?bidID=1354
     Facility Improvement No. 2026 - 2
@@ -428,50 +420,7 @@ ALL LISTINGS BY SITE
 
 [ Nebraska DAS (State Bids) ]
   https://das.nebraska.gov/materiel/bid-opportunities.html
-    Refuse Services
-      https://das.nebraska.gov/materiel/purchasing/124328 O5/124328 O5.html
-    Grant Writing Implementation Providers
-      https://das.nebraska.gov/materiel/purchasing/NDERFI260510/NDERFI260510.html
-    Nebraska National Defense Strategic Growth Facilitation Services
-      https://das.nebraska.gov/materiel/purchasing/125590 O5/125590 O5.html
-    Grants Management System
-      https://das.nebraska.gov/materiel/purchasing/NDERFP260303/NDERFP260303.html
-    Trauma or General Surgeons and Trauma Coordinator or Manager Registered Nurses
-      https://das.nebraska.gov/materiel/purchasing/109205/109205.html
-    Chargemaster Review Services
-      https://das.nebraska.gov/materiel/purchasing/124273 O3/124273 O3.html
-    Nebraska Tobacco Quitline Services
-      https://das.nebraska.gov/materiel/purchasing/124316 O3/124316 O3.html
-    Sixpence Evaluation
-      https://das.nebraska.gov/materiel/purchasing/NDERFP260202/NDERFP260202.html
-    Nebraska Technology Initiative
-      https://das.nebraska.gov/materiel/purchasing/NDERFP260105/NDERFP260105.html
-    Emergency Services IP Network (ESInet) and Next Generation Core  Services (NGCS) to Enable Statewide Delivery of Next Generation 911 (NG911)
-      https://das.nebraska.gov/materiel/purchasing/RFP 202691101/RFP 202691101.html
-    CTE Standards Revision
-      https://das.nebraska.gov/materiel/purchasing/NDERFP260106/NDERFP260106.html
-    Nebraska Literacy Project
-      https://das.nebraska.gov/materiel/purchasing/NDERFP250213/NDERFP250213.html
-    Printing of Annual and  Duplicate Park Permits for the State of Nebraska and Non-Nebraska Licensed  Vehicles
-      https://das.nebraska.gov/materiel/purchasing/124023 OR/124023 OR.html
-    2026 Nebraska VR Summer Transition Program
-      https://das.nebraska.gov/materiel/purchasing/Nebraska VR 2026/Nebraska VR RFP 2026.html
-    Grant Writing Implementation Providers
-      https://das.nebraska.gov/materiel/purchasing/NDERFI250707/NDERFI250707.html
-    Assist the Housing & Recreational Vehicle Director of the Commission identify qualified candidates for appointment as a   modular housing, manufactured housing, and/or recreational vehicle plan reviewer/inspector
-      https://das.nebraska.gov/materiel/purchasing/RFQ 25-1/RFQ 25-1.html
-    Professional Learning and Material Implementation Providers  for inclusion on the NDE  Comprehensive Literacy State Development (CLSD) Grant
-      https://das.nebraska.gov/materiel/purchasing/NDERFI250409/NDERFI250409.html
-    Contractor to establish the Workers'  Compensation Court's medical services fee schedule
-      https://das.nebraska.gov/materiel/purchasing/RFP WCC0009/RFP WCC0009.html
-    2025 Nebraska VR Summer Transition Programs
-      https://das.nebraska.gov/materiel/purchasing/RFP Nebraska VR/Nebraska VR RFP.html
-    Gathering information to assess timelines and interest   in an NDCS Non-Custody Staffing Analysis and Behavioral Health Staffing Analysis
-      https://das.nebraska.gov/materiel/purchasing/RFI NDCS 012024/RFI NDCS 012024.html
-    Contractor to provide analysis of equine urine and blood samples for identification of substances and residues that may be seized or otherwise acquired
-      https://das.nebraska.gov/materiel/purchasing/6915Z1/6915Z1.html
-    Contractor to provide, at a competitive and reasonable cost, professional consulting services for natural gas rate cases and other matters related to the regulation of natural gas public utilities
-      https://das.nebraska.gov/materiel/purchasing/PSC-GAS-2024-1/PSC-GAS-2024-1.html
+  ERROR: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 
 [ San Pablo ]
   https://www.sanpabloca.gov/Bids.aspx
@@ -605,8 +554,6 @@ ALL LISTINGS BY SITE
 
 [ Rockford ]
   https://rockfordil.gov/Bids.aspx
-    RAILS TO TRAILS ROCK RIVER SHORELINE REPAIR
-      https://rockfordil.gov/bids.aspx?bidID=292
     DEMOLITION WASTE MATERIAL DUMP SITE
       https://rockfordil.gov/bids.aspx?bidID=293
 
@@ -633,6 +580,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 190 total listings
+  Checked 62 sites | 162 total listings
   16 flagged as architecture/design related
 ======================================================================
