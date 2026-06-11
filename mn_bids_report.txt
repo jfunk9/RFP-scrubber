@@ -1,9 +1,9 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-06-10 15:32
+  Generated: 2026-06-11 15:58
 ======================================================================
 
-FLAGGED AS LIKELY RELEVANT (16 total)
+FLAGGED AS LIKELY RELEVANT (17 total)
 ----------------------------------------------------------------------
   [Washington County]
   Historic Courthouse Elevator Replacement Project
@@ -41,13 +41,13 @@ FLAGGED AS LIKELY RELEVANT (16 total)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
-  Blue Line Lake Street / Midtown Station Renovation Construction
-  26P033 | IFB | Transit | Due: 6/11/2026
+  Small Communities Planning Program Engineering Services
+  25P296 | RFP | CD | Due: 6/11/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
 
   [Metropolitan Council]
-  Small Communities Planning Program Engineering Services
-  25P296 | RFP | CD | Due: 6/11/2026
+  Blue Line Lake Street / Midtown Station Renovation Construction
+  26P033 | IFB | Transit | Due: 7/2/2026
   --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
 
   [MnDOT P/T Consultant Notices]
@@ -84,6 +84,11 @@ FLAGGED AS LIKELY RELEVANT (16 total)
   Request for Qualifications for On-call Architectural Design Services
   Bid No.RFQ No.: 2026-500-ADA | Status: Closes: Open 6/29/2026 5:00 PM
   --> https://humboldtgov.org/bids.aspx?bidID=665
+
+  [Rockford]
+  REBID CORONADO PERFORMING ARTS CENTER ELEVATOR REPLACEMENTS
+  Bid No.BID NO. 626-PW-051 | Status: Closes: Open 7/7/2026 11:00 AM
+  --> https://rockfordil.gov/bids.aspx?bidID=295
 
 
 ALL LISTINGS BY SITE
@@ -153,6 +158,8 @@ ALL LISTINGS BY SITE
   https://www.washingtoncountymn.gov/Bids.aspx
     Artificial Intelligence (AI) Policy
       https://www.washingtoncountymn.gov/bids.aspx?bidID=864
+    RFP for Consulting for Improvement of Job Evaluation System
+      https://www.washingtoncountymn.gov/bids.aspx?bidID=877
     RFP for Provision of Library Materials with Services
       https://www.washingtoncountymn.gov/bids.aspx?bidID=876
     Bid for CSAH 12 & Mahtomedi School Campus Trail Project
@@ -206,8 +213,6 @@ ALL LISTINGS BY SITE
 
 [ MBID (UMN / Public Agencies) ]
   https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
-    UMN OIT - Fortinet Equipment and Licensing RFB
-    Steam Sterilizer/Autoclave
  ** 10 Church Street Repurposing
     Crookston Tunnel System Rehab
     Door Project Materials for UMD Facilities Management
@@ -216,17 +221,18 @@ ALL LISTINGS BY SITE
  ** Coffman Memorial Union Partial Roof Replacement
     UWide Agreement for Collections Agency Services
     Arboretum Betty's Apple House Exhibit Project
+    De-Ionized Water (DI) and Reverse Osmosis (RO) Tank Exchange Services
     University of Minnesota Contractor Safety Program (2026)
 
 [ Lino Lakes RFPs ]
   https://linolakes.us/556/Request-for-Proposals
     Request for Proposals
-      https://linolakes.us/
     Request for Proposals
+      https://linolakes.us/
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
- ** Blue Line Lake Street / Midtown Station Renovation Construction
+    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
     Gold Line Extension (Contracting - with Small Business Goal)
  ** Small Communities Planning Program Engineering Services
     MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
@@ -237,20 +243,22 @@ ALL LISTINGS BY SITE
     Master Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
     2 CFR 200 Central Services Cost Allocation Plan Consultant
     NEWDominick Dr Crossing Communications Conduit Installation
+ ** Blue Line Lake Street / Midtown Station Renovation Construction
     Complete Streets Local Implementation Guide
-    NEWEnvironmental Assessment and Abatement, Master Contract
+    Environmental Assessment and Abatement, Master Contract
     NEW390 Robert Street Design and Construction Administrative Services (Contracting - with Small Business Goal)
+    NEWMinneapolis Sandstone Tunnel Inspection (Contracting - with Small Business Goal)
     NEWMETRO G Line BRT
     Light Rail Train (LRT) Operator Training Simulator
 
 [ MnDOT P/T Consultant Notices ]
   https://www.dot.state.mn.us/consult/notices.html
+    Small Business One to One Technical Assistance
+    Re-Envisioning the Minnesota Local Road Safety Plan Process
     Safety Management System Assessment of Aviation Manuals
     Logo Sign Franchise Program
-    Mobile Advertisements for Speed Safety Cameras in Work Zones
  ** TH 13 & Nicollet Design Build Verification Team - REPOSTED
     TH 47 Preliminary and Final Design
-    Managed Lane (E-ZPass) System Planning Study
     MnDOT Aerial Roofing and Pavement Assessment
     Multi-Award Sign Replacement Projects
     D1 Virginia HQ â SIT Services
@@ -309,6 +317,16 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Full Service Vending Management for the Department of Corrections
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=e867395a-2e40-4246-9626-1ad383ddf45e
+    Camp Dodge A-01 Water Line Replacement
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=65275985-69eb-467e-9894-0f1f99bb3763
+    Phone Surveying and Data Collection for Laborshed Studies
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=c1e5849d-28e2-40e8-aafd-8a34769c72cd
+    Altoona MG: Overhead Door/Opening #7 Repair
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=c387e95c-ebef-4a63-b358-e454f4e0b891
+    Modernize Lighting Des Moines Air Base
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ee7b8765-bfab-499d-8edb-eaf91a750fb6
     Skunk River Riprap Projects, Sugema Wildlife Unit, Keokuk County
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=ef50f065-64b0-4e98-b477-1a9965ec17f2
     Road Maintenance REBID, Cedar Rock State Park, Buchanan County
@@ -329,16 +347,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=066eb653-028b-43bc-8147-a01b4ce28809
     2461.00 Stream Mitigation Credits- Story County
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a7f775da-382f-427c-a585-ca44229a616d
-    Janitorial Services @ FO6
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=dba6111a-14d2-4b92-adca-ef7d5ec76e80
-    Food Items for CDC Warehouse
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d4804ecd-b83b-4edb-826e-f4d3d89ca97f
-    0.762 Acres Emergent Wetland (PEM)-Story County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=704d94d2-e629-4e2e-a1fb-f82b97db6768
-    Cleaning Services for Marshalltown DL Service Center
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=beacb083-2e71-4cb3-9dd2-0e4444095f9f
-    DOC Anamosa Sallyport Tunnel & LUB Tunnel Wall Repair
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=18ff9b1e-e901-4bd0-97d7-7b3fcdbd5229
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -358,8 +366,6 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1874
     Request for Bid- Two (2) Current Production Model Year Minimum 5300 GVW 4WD Extended Cab 150/1500
       https://www.cityofdubuque.org/bids.aspx?bidID=1881
-    RFEI - Affordable Housing Development and Property Management
-      https://www.cityofdubuque.org/bids.aspx?bidID=1882
     MODIFIED: Road Deicer Salt: Winter Season 2026-2027
       https://www.cityofdubuque.org/bids.aspx?bidID=1877
  ** Municipal Services Center Roof Replacement Project
@@ -418,6 +424,12 @@ ALL LISTINGS BY SITE
       https://das.nebraska.gov/materiel/purchasing/125590 O5/125590 O5.html
     Grants Management System
       https://das.nebraska.gov/materiel/purchasing/NDERFP260303/NDERFP260303.html
+    Generator Purchase, Removal and Installation
+      https://das.nebraska.gov/materiel/purchasing/122828 OR/122828 OR.html
+    Medicaid Drug Rebate System (MDR)
+      https://das.nebraska.gov/materiel/purchasing/124528 ON/124528 ON.html
+    DNA  Database Buccal Collection Kits
+      https://das.nebraska.gov/materiel/purchasing/125399 OR/125399 OR.html
     Trauma or General Surgeons and Trauma Coordinator or Manager Registered Nurses
       https://das.nebraska.gov/materiel/purchasing/109205/109205.html
     Nebraska Tobacco Quitline Services
@@ -559,6 +571,8 @@ ALL LISTINGS BY SITE
 
 [ Cedar Park ]
   https://www.cedarparktexas.gov/Bids.aspx
+    Request for competitive sealed proposals (RFP) for 2026 traffic signal construction
+      https://www.cedarparktexas.gov/bids.aspx?bidID=142
     RFP - Traffic Signal Construction
       https://www.cedarparktexas.gov/bids.aspx?bidID=141
 
@@ -572,6 +586,10 @@ ALL LISTINGS BY SITE
       https://www.leaguecitytx.gov/bids.aspx?bidID=867
     Landscaping Improvements 500 West Walker St
       https://www.leaguecitytx.gov/bids.aspx?bidID=869
+    Meadowbend, Walker St, 3rd St Annual Water Improvements WT1802F
+      https://www.leaguecitytx.gov/bids.aspx?bidID=871
+    Oaks of Clear Creek Northern Portion DR2101B
+      https://www.leaguecitytx.gov/bids.aspx?bidID=870
 
 [ Dallas (Bonfire) ]
   https://dallascityhall.bonfirehub.com/portal/?tab=openOpportunities
@@ -585,6 +603,8 @@ ALL LISTINGS BY SITE
   https://rockfordil.gov/Bids.aspx
     CITY WIDE STREET REPAIRS GROUP NO. 6 - 2026 (ALLEYS)
       https://rockfordil.gov/bids.aspx?bidID=294
+ ** REBID CORONADO PERFORMING ARTS CENTER ELEVATOR REPLACEMENTS
+      https://rockfordil.gov/bids.aspx?bidID=295
     DEMOLITION WASTE MATERIAL DUMP SITE
       https://rockfordil.gov/bids.aspx?bidID=293
 
@@ -611,6 +631,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 177 total listings
-  16 flagged as architecture/design related
+  Checked 62 sites | 185 total listings
+  17 flagged as architecture/design related
 ======================================================================
