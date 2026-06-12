@@ -1,6 +1,6 @@
 ======================================================================
   MN ARCHITECTURE & DESIGN BID REPORT
-  Generated: 2026-06-11 15:58
+  Generated: 2026-06-12 14:56
 ======================================================================
 
 FLAGGED AS LIKELY RELEVANT (17 total)
@@ -12,22 +12,22 @@ FLAGGED AS LIKELY RELEVANT (17 total)
 
   [MN State (QuestCDN)]
   MOOR-25-Fire Alarm System Replacement - #1 HEAPR /...
-  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/25/2026 02:00 PM CDT | Construction Project
   --> https://qcpi.questcdn.com/cdn/posting/?id=10215411
 
   [MN State (QuestCDN)]
   MOOR-25-Fire Alarm System Replacement - #2 Housing
-  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/25/2026 02:00 PM CDT | Construction Project
   --> https://qcpi.questcdn.com/cdn/posting/?id=10215419
 
   [MN State (QuestCDN)]
   MOOR-25-Fire Alarm System Replacement - #3 Comstoc...
-  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/25/2026 02:00 PM CDT | Construction Project
   --> https://qcpi.questcdn.com/cdn/posting/?id=10217478
 
   [MN State (QuestCDN)]
   MOOR-25-Fire Alarm System Replacement - #4 Wellnes...
-  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/18/2026 02:00 PM CDT | Construction Project
+  Electrical,Fire Protection, De... | Minnesota State Univ... | Moorhead | 06/25/2026 02:00 PM CDT | Construction Project
   --> https://qcpi.questcdn.com/cdn/posting/?id=10217484
 
   [MBID (UMN / Public Agencies)]
@@ -37,13 +37,13 @@ FLAGGED AS LIKELY RELEVANT (17 total)
 
   [MBID (UMN / Public Agencies)]
   Coffman Memorial Union Partial Roof Replacement
-  01-064-26-3889 | Construction | Purchasing | 6/25/2026 02:00:00 PM (CT)
+  01-064-26-3889 Addendum 1 | Construction | Purchasing | 6/25/2026 02:00:00 PM (CT)
   --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
-  [Metropolitan Council]
-  Small Communities Planning Program Engineering Services
-  25P296 | RFP | CD | Due: 6/11/2026
-  --> https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
+  [MBID (UMN / Public Agencies)]
+  Ferguson Electronic Music Studio Acoustic Upgrades
+  01-215-23-2318 | Architect (Design) | Purchasing | 7/6/2026 02:00:00 PM (CT)
+  --> https://mbid.ionwave.net/SourcingEvents.aspx?SourceType=1
 
   [Metropolitan Council]
   Blue Line Lake Street / Midtown Station Renovation Construction
@@ -123,9 +123,9 @@ ALL LISTINGS BY SITE
 
 [ Faribault ]
   https://www.ci.faribault.mn.us/Bids.aspx
-    2026-11 Viaduct Park Garage Carpentry Bid Proposal - Updated 05.29.26
+    2026-11 Viaduct Park Garage Carpentry Bid Proposal - Updated 06.12.26
       https://www.ci.faribault.mn.us/bids.aspx?bidID=26
-    2026-11 Viaduct Park Garage Concrete-Masonry Bid Proposal - Updated 05.29.26
+    2026-11 Viaduct Park Garage Concrete-Masonry Bid Proposal - Updated 06.12.26
       https://www.ci.faribault.mn.us/bids.aspx?bidID=27
     2026-11 Viaduct Park Garage Electrical Bid Proposal - Updated 05.29.26
       https://www.ci.faribault.mn.us/bids.aspx?bidID=28
@@ -196,6 +196,8 @@ ALL LISTINGS BY SITE
 
 [ MN State (QuestCDN) ]
   https://qcpi.questcdn.com/cdn/posting/?projType=&group=70464&provider=70464
+    WINS-Utility Tunnels -  Emergency Distribution Sys...
+      https://qcpi.questcdn.com/cdn/posting/?id=10228048
  ** MOOR-25-Fire Alarm System Replacement - #1 HEAPR /...
       https://qcpi.questcdn.com/cdn/posting/?id=10215411
  ** MOOR-25-Fire Alarm System Replacement - #2 Housing
@@ -204,8 +206,6 @@ ALL LISTINGS BY SITE
       https://qcpi.questcdn.com/cdn/posting/?id=10217478
  ** MOOR-25-Fire Alarm System Replacement - #4 Wellnes...
       https://qcpi.questcdn.com/cdn/posting/?id=10217484
-    WINS-Utility Tunnels -  Emergency Distribution Sys...
-      https://qcpi.questcdn.com/cdn/posting/?id=10228048
 
 [ MN OSP (State Solicitations) ]
   https://osp.admin.mn.gov/PT-auto
@@ -222,6 +222,8 @@ ALL LISTINGS BY SITE
     UWide Agreement for Collections Agency Services
     Arboretum Betty's Apple House Exhibit Project
     De-Ionized Water (DI) and Reverse Osmosis (RO) Tank Exchange Services
+ ** Ferguson Electronic Music Studio Acoustic Upgrades
+    Radiation Safety Dosimetry Services
     University of Minnesota Contractor Safety Program (2026)
 
 [ Lino Lakes RFPs ]
@@ -232,17 +234,14 @@ ALL LISTINGS BY SITE
 
 [ Metropolitan Council ]
   https://metrocouncil.org/About-Us/What-We-Do/DoingBusiness/Contracting-Opportunities.aspx
-    St. Croix Valley WRRF Upgrades (Contracting - with Small Business Goal)
-    Gold Line Extension (Contracting - with Small Business Goal)
- ** Small Communities Planning Program Engineering Services
     MTS Electronic Equipment Maintenance (Contracting - with Small Business Goal)
-    Community Service Officer & Sworn Officer Uniforms and Equipment
     Advertising Services
+    Community Service Officer & Sworn Officer Uniforms and Equipment
     RSF Security Improvements - Rebid (Contracting - with Small Business Goal)
     Forest Lake 7029 Rehabilitation
     Master Contract for Safety and Environmental Assessment Services (Contracting - with Small Business Goal)
     2 CFR 200 Central Services Cost Allocation Plan Consultant
-    NEWDominick Dr Crossing Communications Conduit Installation
+    Dominick Dr Crossing Communications Conduit Installation
  ** Blue Line Lake Street / Midtown Station Renovation Construction
     Complete Streets Local Implementation Guide
     Environmental Assessment and Abatement, Master Contract
@@ -260,6 +259,7 @@ ALL LISTINGS BY SITE
  ** TH 13 & Nicollet Design Build Verification Team - REPOSTED
     TH 47 Preliminary and Final Design
     MnDOT Aerial Roofing and Pavement Assessment
+    Communications and Engagement for Highway 62
     Multi-Award Sign Replacement Projects
     D1 Virginia HQ â SIT Services
     Hewitt Reconstruct and ADA Improvements
@@ -317,8 +317,16 @@ ALL LISTINGS BY SITE
 
 [ Iowa DAS (State Bids) ]
   https://bidopportunities.iowa.gov/
+    Smallwares Bid
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=99b3cbd7-b782-4f7b-852f-2dfc79d694b4
+    Holding Cabinets & Warmers
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=4f4e35b3-de4a-4eb5-8540-7432b6a8547f
+    Water Rescue Equipment and Supplies, Personal Water Protective Gear and Flotation Devices
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=c4d8de97-bc0a-4776-a442-b937ca771167
     Full Service Vending Management for the Department of Corrections
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=e867395a-2e40-4246-9626-1ad383ddf45e
+    Harmon Tunnel Highwall (Bluff) Scaling, Pammel State Park, Madison County
+      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=2451be95-deaa-4036-b1bc-e40e23bb4367
     Camp Dodge A-01 Water Line Replacement
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=65275985-69eb-467e-9894-0f1f99bb3763
     Phone Surveying and Data Collection for Laborshed Studies
@@ -339,14 +347,6 @@ ALL LISTINGS BY SITE
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=d277a0ab-87c3-4b67-936b-54687cd7a429
     DCI Ankeny: Instrument Lab Expansion
       https://bidopportunities.iowa.gov/Home/BidInfo?bidId=232b0f34-18f3-4b4d-805f-7f4614709108
-    Multisystemic Therapy (MST)
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=62e7e0da-2591-4003-b76a-9aaee12e59b8
-    Spencer RC RTU Replacement
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=7022ae05-ca45-41a9-96a9-749f753bbccb
-    Janitorial Services @ FO1
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=066eb653-028b-43bc-8147-a01b4ce28809
-    2461.00 Stream Mitigation Credits- Story County
-      https://bidopportunities.iowa.gov/Home/BidInfo?bidId=a7f775da-382f-427c-a585-ca44229a616d
 
 [ Dubuque ]
   https://www.cityofdubuque.org/Bids.aspx
@@ -358,8 +358,6 @@ ALL LISTINGS BY SITE
       https://www.cityofdubuque.org/bids.aspx?bidID=1878
     Request for Bid- Two (2) Current Production Model Year Minimum 5300 GVW 4WD Extended Cab 150/1500
       https://www.cityofdubuque.org/bids.aspx?bidID=1881
-    Southwest Arterial / US 52 ITS Corridor Project
-      https://www.cityofdubuque.org/bids.aspx?bidID=1872
  ** Carnegie-Stout Public Library HVAC Maintenance Request for Bid
       https://www.cityofdubuque.org/bids.aspx?bidID=1873
     City of Dubuque Parks Dept. 250/2500 class, 9000 GVW standard cab 4WD truck bid with plow package
@@ -424,6 +422,8 @@ ALL LISTINGS BY SITE
       https://das.nebraska.gov/materiel/purchasing/125590 O5/125590 O5.html
     Grants Management System
       https://das.nebraska.gov/materiel/purchasing/NDERFP260303/NDERFP260303.html
+    Licensee Assistance Program (LAP)
+      https://das.nebraska.gov/materiel/purchasing/125583 O3/125583 O3.html
     Generator Purchase, Removal and Installation
       https://das.nebraska.gov/materiel/purchasing/122828 OR/122828 OR.html
     Medicaid Drug Rebate System (MDR)
@@ -495,6 +495,10 @@ ALL LISTINGS BY SITE
 
 [ Humboldt County ]
   https://humboldtgov.org/Bids.aspx
+    26-015 Meat Products
+      https://humboldtgov.org/bids.aspx?bidID=669
+    26-016 Dairy Products
+      https://humboldtgov.org/bids.aspx?bidID=670
     Environmental Remediation and Restoration Initiative
       https://humboldtgov.org/bids.aspx?bidID=548
     HSIP Hammond & Mid Town Crossings
@@ -631,6 +635,6 @@ ALL LISTINGS BY SITE
   ERROR: No SAM_GOV_API_KEY set — register at sam.gov/profile for a free API key
 
 ======================================================================
-  Checked 62 sites | 185 total listings
+  Checked 62 sites | 187 total listings
   17 flagged as architecture/design related
 ======================================================================
