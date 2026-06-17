@@ -263,6 +263,31 @@ SITES = [
     ("NE", "Nebraska DAS (State Bids)", "https://das.nebraska.gov/materiel/bid-opportunities.html",  "nebraska_das"),
 
     # ═══════════════════════════════════════════════════════════════════════════
+    # COLORADO
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("CO", "Park County",       "https://www.parkcountyco.gov/bids.aspx",         "civicengage"),
+    ("CO", "Montrose County",   "https://www.montrosecounty.net/Bids.aspx",       "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # MICHIGAN
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("MI", "Walker",            "https://www.walkermi.gov/Bids.aspx",             "civicengage"),
+    ("MI", "Tuscarora Township","https://www.tuscaroratwp.com/bids.aspx",         "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # MONTANA
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("MT", "Billings",          "https://ci.billings.mt.us/bids.aspx",            "civicengage"),
+    ("MT", "Butte-Silver Bow",  "https://co.silverbow.mt.us/bids.aspx",           "civicengage"),
+    ("MT", "Stillwater County", "https://www.stillwatercountymt.gov/bids.aspx",   "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # WYOMING
+    # ═══════════════════════════════════════════════════════════════════════════
+    ("WY", "Rawlins",           "https://www.rawlinswy.gov/bids.aspx",            "civicengage"),
+    ("WY", "Torrington",        "https://torringtonwy.gov/Bids.aspx",             "civicengage"),
+
+    # ═══════════════════════════════════════════════════════════════════════════
     # ARIZONA
     # ═══════════════════════════════════════════════════════════════════════════
     ("AZ", "Coconino County",   "https://www.coconino.az.gov/Bids.aspx",          "civicengage"),
