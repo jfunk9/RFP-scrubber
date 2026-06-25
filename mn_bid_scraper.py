@@ -1604,6 +1604,10 @@ def build_html_dashboard(all_results, flagged, timestamp):
     transition: filter 0.1s, border-color 0.1s; user-select: none;
   }}
   .kwchip:hover {{ filter: brightness(1.25); border-color: currentColor; }}
+  .kwchip.active {{
+    border-color: currentColor; font-weight: 700;
+    box-shadow: 0 0 0 2px currentColor inset; filter: brightness(1.35);
+  }}
   .kwchip-strong  {{ background: rgba(34,197,94,0.13);  color: var(--green); }}
   .kwchip-context {{ background: var(--surface2); color: var(--text-dim); opacity: 0.75; }}
   .kwchip-exclude {{ background: rgba(239,68,68,0.13); color: var(--error); }}
@@ -1916,14 +1920,31 @@ document.getElementById("search").addEventListener("input", render);
 siteFilter.addEventListener("change", render);
 document.getElementById("flaggedOnly").addEventListener("change", render);
 
-// ── Filter Logic panel: build chips + smart click ──
+// ── Filter Logic panel: build chips + smart click (toggle) ──
 function buildKwPanel() {{
   const flaggedOnly = document.getElementById("flaggedOnly");
   const search = document.getElementById("search");
+  let activeChip = null;
 
-  function chipClick(term, kind) {{
+  function clearActive() {{
+    if (activeChip) {{ activeChip.classList.remove("active"); activeChip = null; }}
+  }}
+
+  function chipClick(chip, term, kind) {{
+    // Click the already-active chip -> toggle OFF: clear filter, all terms active again.
+    if (chip === activeChip) {{
+      clearActive();
+      search.value = "";
+      flaggedOnly.checked = false;
+      render();
+      return;
+    }}
+    // Otherwise activate this chip (move highlight) and apply its smart filter.
     // strong/context -> show FLAGGED bids containing the term (what it surfaced)
     // exclude        -> show ALL listings containing the term (what it would kill)
+    clearActive();
+    activeChip = chip;
+    chip.classList.add("active");
     search.value = term;
     flaggedOnly.checked = (kind !== "exclude");
     render();
@@ -1951,8 +1972,13 @@ function buildKwPanel() {{
     group("Exclude", "checked FIRST &mdash; any match kills the bid &rarr; click shows all listings it hits", KW_EXCLUDE, "exclude");
 
   body.querySelectorAll(".kwchip").forEach(c =>
-    c.addEventListener("click", () => chipClick(c.dataset.term, c.dataset.kind))
+    c.addEventListener("click", () => chipClick(c, c.dataset.term, c.dataset.kind))
   );
+
+  // Typing in the search box manually breaks the chip selection, so de-highlight.
+  search.addEventListener("input", () => {{
+    if (activeChip && search.value !== activeChip.dataset.term) clearActive();
+  }});
 
   document.getElementById("kwpanelHead").addEventListener("click", () =>
     document.getElementById("kwpanel").classList.toggle("open")
