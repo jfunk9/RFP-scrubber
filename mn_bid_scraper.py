@@ -1690,7 +1690,7 @@ def build_html_dashboard(all_results, flagged, timestamp):
   .tag-flag {{ background: rgba(245,158,11,0.15); color: var(--flag); }}
   .detail {{ color: var(--text-dim); font-size: 12px; margin-top: 2px; }}
   mark {{
-    background: rgba(245,158,11,0.32); color: var(--text);
+    background: rgba(34,197,94,0.30); color: var(--text);
     border-radius: 3px; padding: 0 2px; font-weight: 600;
   }}
   .manual-check {{
