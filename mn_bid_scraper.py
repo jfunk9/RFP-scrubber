@@ -1802,16 +1802,23 @@ function esc(s) {{
   return d.innerHTML;
 }}
 
-// Escape text, then wrap case-insensitive matches of the search term in <mark>.
+// Escape text, then wrap case-insensitive matches of any term in `terms` with <mark>.
 // Escaping happens first so <mark> tags are the only markup we ever inject (no XSS).
-function hl(s, q) {{
-  const escaped = esc(s);
-  if (!q) return escaped;
-  const escQ = esc(q);
-  const rxSpecial = /[.*+?^()|\[\]\\$]/g;          // regex metachars to neutralize
-  const safe = escQ.replace(rxSpecial, ch => "\\\\" + ch);
-  return escaped.replace(new RegExp(safe, "gi"), m => "<mark>" + m + "</mark>");
+// One combined alternation regex => no nested <mark> when terms overlap.
+function rxEscape(t) {{
+  return esc(t).replace(/[.*+?^()|\[\]\\$]/g, ch => "\\\\" + ch);
 }}
+function hlTerms(s, terms) {{
+  const escaped = esc(s);
+  if (!terms || !terms.length) return escaped;
+  // Longest-first so e.g. "design services" wins over "design" and we don't split a match.
+  const sorted = terms.filter(Boolean).slice().sort((a, b) => b.length - a.length);
+  const pattern = sorted.map(rxEscape).join("|");
+  if (!pattern) return escaped;
+  return escaped.replace(new RegExp("(" + pattern + ")", "gi"), m => "<mark>" + m + "</mark>");
+}}
+// Back-compat single-term helper (used where only the search term matters).
+function hl(s, q) {{ return hlTerms(s, q ? [q] : []); }}
 
 function render() {{
   const q = document.getElementById("search").value.toLowerCase();
@@ -1882,11 +1889,15 @@ function render() {{
                   r.title === "(no open bids)" ? "empty-row" :
                   r.flagged ? "flagged" : "";
       const tag = r.flagged ? ' <span class="tag tag-flag">A/E</span>' : "";
+      // Always green-highlight the strong keywords that made a row flag (shows WHY),
+      // plus the active search term. Non-flagged rows only highlight the search term.
+      const terms = (r.flagged ? KW_STRONG.slice() : []);
+      if (q) terms.push(q);
       const titleCell = r.url && !r.error && r.title !== "(no open bids)"
-        ? `<a href="${{r.url}}" target="_blank" rel="noopener">${{hl(r.title, q)}}</a>${{tag}}`
-        : hl(r.title, q) + tag;
-      const detailHtml = r.detail ? `<div class="detail">${{hl(r.detail, q)}}</div>` : "";
-      return `<tr class="${{cls}}"><td>${{hl(r.site, q)}}</td><td>${{titleCell}}</td><td>${{detailHtml || "&mdash;"}}</td></tr>`;
+        ? `<a href="${{r.url}}" target="_blank" rel="noopener">${{hlTerms(r.title, terms)}}</a>${{tag}}`
+        : hlTerms(r.title, terms) + tag;
+      const detailHtml = r.detail ? `<div class="detail">${{hlTerms(r.detail, terms)}}</div>` : "";
+      return `<tr class="${{cls}}"><td>${{hlTerms(r.site, terms)}}</td><td>${{titleCell}}</td><td>${{detailHtml || "&mdash;"}}</td></tr>`;
     }}).join("");
 
     const section = document.createElement("div");
@@ -2010,7 +2021,17 @@ render();
 # ── Report generation ──────────────────────────────────────────────────────────
 
 def run():
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+    # Timestamp in US Central time, 12-hour. zoneinfo handles CST/CDT (DST) automatically.
+    try:
+        from zoneinfo import ZoneInfo
+        now_central = datetime.now(dt_mod.timezone.utc).astimezone(ZoneInfo("America/Chicago"))
+    except Exception:
+        # Fallback if tz data unavailable: fixed UTC-6 (CST)
+        now_central = datetime.now(dt_mod.timezone.utc) + dt_mod.timedelta(hours=-6)
+    tz_abbr = now_central.strftime("%Z") or "CT"
+    # 12-hour clock, no leading zero on the hour (e.g. "2026-06-25 2:08 PM CDT").
+    hour12 = now_central.strftime("%I").lstrip("0") or "12"
+    timestamp = now_central.strftime(f"%Y-%m-%d {hour12}:%M %p ") + tz_abbr
     print(f"\n{'='*60}")
     print(f"  A/E Bid Scraper — Multi-State")
     print(f"  {timestamp}")
