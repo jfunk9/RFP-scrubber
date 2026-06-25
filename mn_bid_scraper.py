@@ -1489,6 +1489,12 @@ def build_html_dashboard(all_results, flagged, timestamp):
         state_flagged[state] = state_flagged.get(state, 0) + cnt
     state_flagged_js = json_mod.dumps(state_flagged)
 
+    # Keyword logic, injected so the dashboard panel always mirrors the live filter.
+    # AE_KEYWORDS_CONTEXT is defined but NOT scored by is_architecture_related() yet.
+    kw_strong_js  = json_mod.dumps(AE_KEYWORDS_STRONG)
+    kw_context_js = json_mod.dumps(AE_KEYWORDS_CONTEXT)
+    kw_exclude_js = json_mod.dumps(EXCLUDE_KEYWORDS)
+
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1560,6 +1566,50 @@ def build_html_dashboard(all_results, flagged, timestamp):
   }}
   .controls button:hover {{ color: var(--text); border-color: var(--accent); }}
   .count-info {{ padding: 0 32px 8px; font-size: 12px; color: var(--text-dim); }}
+
+  /* ── Filter Logic panel ── */
+  .kwpanel {{
+    margin: 0 32px 12px; border: 1px solid var(--border);
+    border-radius: 8px; background: var(--surface); overflow: hidden;
+  }}
+  .kwpanel-head {{
+    display: flex; align-items: center; gap: 10px; padding: 12px 18px;
+    cursor: pointer; user-select: none;
+  }}
+  .kwpanel-head:hover {{ background: var(--surface2); }}
+  .kwpanel-chevron {{
+    font-size: 13px; color: var(--text-dim);
+    transition: transform 0.2s; width: 16px; text-align: center;
+  }}
+  .kwpanel.open .kwpanel-chevron {{ transform: rotate(90deg); }}
+  .kwpanel-title {{ font-weight: 600; font-size: 14px; flex: 1; }}
+  .kwpanel-hint {{ font-size: 11px; color: var(--text-dim); }}
+  .kwpanel-body {{ display: none; padding: 4px 18px 18px; }}
+  .kwpanel.open .kwpanel-body {{ display: block; }}
+  .kwgroup {{ margin-top: 14px; }}
+  .kwgroup-label {{
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.5px; margin-bottom: 8px; display: flex;
+    align-items: center; gap: 8px;
+  }}
+  .kwgroup-label .cnt {{
+    font-size: 10px; font-weight: 700; padding: 1px 8px; border-radius: 10px;
+    background: var(--surface2); color: var(--text-dim);
+  }}
+  .kwgroup-sub {{ font-size: 11px; color: var(--text-dim); font-weight: 400; text-transform: none; letter-spacing: 0; }}
+  .kwchips {{ display: flex; flex-wrap: wrap; gap: 6px; }}
+  .kwchip {{
+    display: inline-block; padding: 3px 10px; border-radius: 12px;
+    font-size: 12px; cursor: pointer; border: 1px solid transparent;
+    transition: filter 0.1s, border-color 0.1s; user-select: none;
+  }}
+  .kwchip:hover {{ filter: brightness(1.25); border-color: currentColor; }}
+  .kwchip-strong  {{ background: rgba(34,197,94,0.13);  color: var(--green); }}
+  .kwchip-context {{ background: var(--surface2); color: var(--text-dim); opacity: 0.75; }}
+  .kwchip-exclude {{ background: rgba(239,68,68,0.13); color: var(--error); }}
+  .kwgroup-strong  .kwgroup-label {{ color: var(--green); }}
+  .kwgroup-context .kwgroup-label {{ color: var(--text-dim); }}
+  .kwgroup-exclude .kwgroup-label {{ color: var(--error); }}
 
   /* ── Accordion sections ── */
   .accordion {{ margin: 0 16px 16px; }}
@@ -1674,6 +1724,15 @@ def build_html_dashboard(all_results, flagged, timestamp):
   </div>
 </div>
 
+<div class="kwpanel" id="kwpanel">
+  <div class="kwpanel-head" id="kwpanelHead">
+    <span class="kwpanel-chevron">&#9654;</span>
+    <span class="kwpanel-title">Filter Logic &mdash; keywords driving A/E flagging</span>
+    <span class="kwpanel-hint">click a keyword to see what it catches</span>
+  </div>
+  <div class="kwpanel-body" id="kwpanelBody"></div>
+</div>
+
 <div class="controls">
   <input type="text" id="search" placeholder="Filter by keyword..." />
   <select id="stateFilter">
@@ -1699,6 +1758,9 @@ const DATA = {data_js};
 const STATE_ORDER = {state_order_js};
 const STATE_NAMES = {state_names_js};
 const STATE_FLAGGED = {state_flagged_js};
+const KW_STRONG = {kw_strong_js};
+const KW_CONTEXT = {kw_context_js};
+const KW_EXCLUDE = {kw_exclude_js};
 
 // ── Populate dropdowns ──
 const stateFilter = document.getElementById("stateFilter");
@@ -1853,6 +1915,50 @@ document.getElementById("collapseAll").addEventListener("click", () => {{
 document.getElementById("search").addEventListener("input", render);
 siteFilter.addEventListener("change", render);
 document.getElementById("flaggedOnly").addEventListener("change", render);
+
+// ── Filter Logic panel: build chips + smart click ──
+function buildKwPanel() {{
+  const flaggedOnly = document.getElementById("flaggedOnly");
+  const search = document.getElementById("search");
+
+  function chipClick(term, kind) {{
+    // strong/context -> show FLAGGED bids containing the term (what it surfaced)
+    // exclude        -> show ALL listings containing the term (what it would kill)
+    search.value = term;
+    flaggedOnly.checked = (kind !== "exclude");
+    render();
+    document.getElementById("accordion").scrollIntoView({{behavior: "smooth", block: "start"}});
+  }}
+
+  function group(title, sub, terms, kind) {{
+    const chips = terms.map(t =>
+      `<span class="kwchip kwchip-${{kind}}" data-term="${{esc(t)}}" data-kind="${{kind}}">${{esc(t)}}</span>`
+    ).join("");
+    return `
+      <div class="kwgroup kwgroup-${{kind}}">
+        <div class="kwgroup-label">
+          ${{title}} <span class="cnt">${{terms.length}}</span>
+          <span class="kwgroup-sub">${{sub}}</span>
+        </div>
+        <div class="kwchips">${{chips}}</div>
+      </div>`;
+  }}
+
+  const body = document.getElementById("kwpanelBody");
+  body.innerHTML =
+    group("Strong", "a bid is flagged if it matches ANY of these &rarr; click shows what it surfaced", KW_STRONG, "strong") +
+    group("Context", "defined but NOT scored yet (reserved) &rarr; click shows flagged matches", KW_CONTEXT, "context") +
+    group("Exclude", "checked FIRST &mdash; any match kills the bid &rarr; click shows all listings it hits", KW_EXCLUDE, "exclude");
+
+  body.querySelectorAll(".kwchip").forEach(c =>
+    c.addEventListener("click", () => chipClick(c.dataset.term, c.dataset.kind))
+  );
+
+  document.getElementById("kwpanelHead").addEventListener("click", () =>
+    document.getElementById("kwpanel").classList.toggle("open")
+  );
+}}
+buildKwPanel();
 
 render();
 </script>
