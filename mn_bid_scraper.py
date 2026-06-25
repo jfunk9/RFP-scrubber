@@ -1689,6 +1689,10 @@ def build_html_dashboard(all_results, flagged, timestamp):
   }}
   .tag-flag {{ background: rgba(245,158,11,0.15); color: var(--flag); }}
   .detail {{ color: var(--text-dim); font-size: 12px; margin-top: 2px; }}
+  mark {{
+    background: rgba(245,158,11,0.32); color: var(--text);
+    border-radius: 3px; padding: 0 2px; font-weight: 600;
+  }}
   .manual-check {{
     padding: 12px 32px; background: var(--surface);
     border-top: 1px solid var(--border); font-size: 12px; color: var(--text-dim);
@@ -1798,6 +1802,17 @@ function esc(s) {{
   return d.innerHTML;
 }}
 
+// Escape text, then wrap case-insensitive matches of the search term in <mark>.
+// Escaping happens first so <mark> tags are the only markup we ever inject (no XSS).
+function hl(s, q) {{
+  const escaped = esc(s);
+  if (!q) return escaped;
+  const escQ = esc(q);
+  const rxSpecial = /[.*+?^()|\[\]\\$]/g;          // regex metachars to neutralize
+  const safe = escQ.replace(rxSpecial, ch => "\\\\" + ch);
+  return escaped.replace(new RegExp(safe, "gi"), m => "<mark>" + m + "</mark>");
+}}
+
 function render() {{
   const q = document.getElementById("search").value.toLowerCase();
   const stateVal = stateFilter.value;
@@ -1868,10 +1883,10 @@ function render() {{
                   r.flagged ? "flagged" : "";
       const tag = r.flagged ? ' <span class="tag tag-flag">A/E</span>' : "";
       const titleCell = r.url && !r.error && r.title !== "(no open bids)"
-        ? `<a href="${{r.url}}" target="_blank" rel="noopener">${{esc(r.title)}}</a>${{tag}}`
-        : esc(r.title) + tag;
-      const detailHtml = r.detail ? `<div class="detail">${{esc(r.detail)}}</div>` : "";
-      return `<tr class="${{cls}}"><td>${{esc(r.site)}}</td><td>${{titleCell}}</td><td>${{detailHtml || "&mdash;"}}</td></tr>`;
+        ? `<a href="${{r.url}}" target="_blank" rel="noopener">${{hl(r.title, q)}}</a>${{tag}}`
+        : hl(r.title, q) + tag;
+      const detailHtml = r.detail ? `<div class="detail">${{hl(r.detail, q)}}</div>` : "";
+      return `<tr class="${{cls}}"><td>${{hl(r.site, q)}}</td><td>${{titleCell}}</td><td>${{detailHtml || "&mdash;"}}</td></tr>`;
     }}).join("");
 
     const section = document.createElement("div");
