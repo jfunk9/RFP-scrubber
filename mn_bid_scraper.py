@@ -169,8 +169,11 @@ EXCLUDE_KEYWORDS = [
 
 # ── Output paths ──────────────────────────────────────────────────────────────
 
-# GitHub repo folder — the HTML dashboard goes here for GitHub Pages
-GITHUB_REPO_DIR = r"W:\AI\GitHub\RFP scrubber"
+# GitHub repo folder — the HTML dashboard goes here for GitHub Pages.
+# Fixed 2026-07-23 (audit): was "RFP scrubber" (space) but the real folder is
+# "RFP-scrubber" (hyphen), so LOCAL runs wrote index.html into a dead empty
+# folder and never updated the repo. CI overrides this to os.getcwd() anyway.
+GITHUB_REPO_DIR = r"W:\AI\GitHub\RFP-scrubber"
 
 # Text report — saved next to this script
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mn_bids_report.txt")
@@ -2130,6 +2133,22 @@ def run():
     # ── Save HTML dashboard to GitHub repo ───────────────────────────────────
     html_dashboard = build_html_dashboard(all_results, flagged, timestamp)
     html_path = os.path.join(GITHUB_REPO_DIR, "index.html")
+
+    # Keep-previous guard (audit fix 2026-07-23, parity with job_scraper): a TOTAL
+    # collapse — every site errored — is a network/runner failure, not a quiet
+    # market. Don't overwrite yesterday's good dashboard with an all-ERROR wall;
+    # keep the previous index.html so the published page stays useful. (Per-site
+    # errors with SOME sites returning are still published — those are real signal.)
+    _n_sites = len(all_results)
+    _sites_err = sum(1 for r in all_results if r[4] is not None)
+    if _n_sites >= 3 and _sites_err == _n_sites and os.path.isfile(html_path):
+        print(f"\n[!] PUBLISH ABORTED: all {_n_sites} sites errored "
+              f"(network/runner failure, not a quiet market). Keeping previous dashboard.")
+        # SystemExit(2) (not sys — unimported): propagates past the __main__
+        # except-Exception, fails the Actions scrape step so deploy (needs: scrape)
+        # is skipped and the previous published page stays. CI skips the input().
+        raise SystemExit(2)
+
     try:
         os.makedirs(GITHUB_REPO_DIR, exist_ok=True)
         with open(html_path, "w", encoding="utf-8") as f:
