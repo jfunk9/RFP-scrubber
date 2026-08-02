@@ -1503,6 +1503,8 @@ def build_html_dashboard(all_results, flagged, timestamp):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="copyright" content="© 2026 Jason Englund. All rights reserved.">
+<!-- © 2026 Jason Englund · produced under the Jason Englund design canon v5 · [[creative-direction]] -->
 <title>A/E Bid Dashboard — Multi-State</title>
 <style>
   :root {{
@@ -1510,8 +1512,8 @@ def build_html_dashboard(all_results, flagged, timestamp):
     --surface: #1e293b;
     --surface2: #334155;
     --border: #475569;
-    --text: #e2e8f0;
-    --text-dim: #94a3b8;
+    --text: #E2E5E9;
+    --text-dim: #A9B1BC;
     --accent: #3b82f6;
     --flag: #f59e0b;
     --flag-bg: rgba(245, 158, 11, 0.08);
@@ -1701,6 +1703,13 @@ def build_html_dashboard(all_results, flagged, timestamp):
     border-top: 1px solid var(--border); font-size: 12px; color: var(--text-dim);
   }}
   .manual-check a {{ margin: 0 8px; }}
+/* canon v5.2 - shipped face + ramp + grade. Overpass Variable (OFL-1.1), wght 100..900. Interstate cannot be embedded (desktop licence). */
+@font-face{{font-family:"Overpass Variable";font-style:normal;font-display:swap;font-weight:100 900;src:url("fonts/overpass-var-latin.woff2") format("woff2-variations")}}
+:root{{--sans:"Overpass Variable","Interstate","Segoe UI","Helvetica Neue",Arial,sans-serif}}
+body{{font-family:var(--sans);font-weight:470;letter-spacing:-0.006em;-webkit-text-stroke:0}}
+@supports not (font-variation-settings: normal){{body{{font-weight:400;-webkit-text-stroke:0.08px currentColor;paint-order:stroke fill}}@media (min-resolution:1.5dppx){{body{{-webkit-text-stroke:0.12px currentColor}}}}}}
+code,pre,kbd,[class*=mono]{{font-family:"Consolas","SF Mono",monospace;letter-spacing:0;font-weight:400}}
+.label,.lab,.cap,.meta,.foot,.tag,.chip,.pill,th,small{{-webkit-text-stroke:0}}
 </style>
 </head>
 <body>
