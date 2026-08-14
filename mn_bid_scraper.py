@@ -1512,8 +1512,8 @@ def build_html_dashboard(all_results, flagged, timestamp):
     --surface: #1e293b;
     --surface2: #334155;
     --border: #475569;
-    --text: #E2E5E9;
-    --text-dim: #A9B1BC;
+    --text: #F0F2F4; /* canon v6, 2026-08-02: +5% L */
+    --text-dim: #B7BEC7; /* canon v6, 2026-08-02: +5% L */
     --accent: #3b82f6;
     --flag: #f59e0b;
     --flag-bg: rgba(245, 158, 11, 0.08);
@@ -1525,6 +1525,7 @@ def build_html_dashboard(all_results, flagged, timestamp):
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: var(--bg);
     color: var(--text);
+    font-size: 17px; /* canon v6, 2026-08-02: a tad larger */
     line-height: 1.5;
   }}
   .header {{
@@ -2150,9 +2151,20 @@ def run():
     # errors with SOME sites returning are still published — those are real signal.)
     _n_sites = len(all_results)
     _sites_err = sum(1 for r in all_results if r[4] is not None)
-    if _n_sites >= 3 and _sites_err == _n_sites and os.path.isfile(html_path):
-        print(f"\n[!] PUBLISH ABORTED: all {_n_sites} sites errored "
-              f"(network/runner failure, not a quiet market). Keeping previous dashboard.")
+    _total_rows = sum(len(r[3]) for r in all_results)
+    # AUDIT 2026-08-13 #4 (aligned 2026-08-14): the guard above required EVERY
+    # site to error -- 49 dead sites and 1 alive counted as success, and selector
+    # rot (HTTP 200, zero rows, error None) counted as success too. Now the same
+    # majority rule the sister job_scraper carries (>=half of >=4 sites erroring),
+    # plus zero-rows-total: 50 procurement portals genuinely all empty at once is
+    # not a market condition, it is a parser condition.
+    _majority_err = (_n_sites >= 4 and _sites_err >= max(3, _n_sites // 2))
+    _all_empty = (_n_sites >= 4 and _total_rows == 0)
+    if (_majority_err or _all_empty) and os.path.isfile(html_path):
+        print(f"\n[!] PUBLISH ABORTED: "
+              + (f"{_sites_err}/{_n_sites} sites errored" if _majority_err
+                 else f"0 rows across all {_n_sites} sites (selector rot, not a quiet market)")
+              + ". Keeping previous dashboard.")
         # SystemExit(2) (not sys — unimported): propagates past the __main__
         # except-Exception, fails the Actions scrape step so deploy (needs: scrape)
         # is skipped and the previous published page stays. CI skips the input().
