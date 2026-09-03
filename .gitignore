@@ -1,1 +1,5 @@
 __pycache__/
+# safety copies never belong in a repo whose history IS the backup (2026-08-14)
+*.bak
+*-bak
+_preview.html
